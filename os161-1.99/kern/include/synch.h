@@ -65,6 +65,7 @@ void V(struct semaphore *);
 
 /*
  * Simple lock for mutual exclusion.
+ * This lock does not support reentrant lock.
  *
  * When the lock is created, no thread should be holding it. Likewise,
  * when the lock is destroyed, no thread should be holding it.
@@ -75,7 +76,15 @@ void V(struct semaphore *);
 struct lock {
         char *lk_name;
         // add what you need here
-        // (don't forget to mark things volatile as needed)
+	struct wchan *lk_wchan;
+	struct spinlock lk_lock;
+	
+	/* Unlike the semaphone, we need to store the holder info in our lock structure
+	 * 2 different threads definitely have different thread structures, 
+	 * which makes the pointer to thread structure a good enough thread id
+	 */
+	volatile struct thread *lk_holder; 
+	// (don't forget to mark things volatile as needed)
 };
 
 struct lock *lock_create(const char *name);
