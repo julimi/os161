@@ -123,6 +123,8 @@ void lock_destroy(struct lock *);
 struct cv {
         char *cv_name;
         // add what you need here
+	// CV is virtually a wait channel
+	struct wchan *cv_wchan;
         // (don't forget to mark things volatile as needed)
 };
 
