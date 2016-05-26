@@ -1,4 +1,4 @@
-cscope 15 $HOME/cs350-os161/os161-1.99/kern/thread               0000025280
+cscope 15 $HOME/cs350-os161/os161-1.99/kern/thread               0000027024
 	@clock.c
 
 30 
@@ -1083,29 +1083,25 @@ lock
 NULL
 ;
 
-168  
+167 
 lock
-;
-
-169 
-	}
-}
-
-172 
-	$lock_de¡roy
-(
-lock
- *lock)
-
-174 
-	`KASSERT
-(
-lock
- !ð
-NULL
+->
+lk_wchª
+ = 
+	`wchª_ü—‹
+Öock->
+lk_Çme
 );
 
-178 
+168 ià(
+lock
+->
+lk_wchª
+ =ð
+NULL
+) {
+
+169 
 	`kä“
 (
 lock
@@ -1113,97 +1109,337 @@ lock
 lk_Çme
 );
 
-179 
+170 
 	`kä“
 (
 lock
 );
+
+171  
+NULL
+;
+
+174 
+	`¥šlock_š™
+(&
+lock
+->
+lk_lock
+);
+
+176 
+lock
+->
+lk_hÞd”
+ = 
+NULL
+;
+
+179  
+lock
+;
 
 180 
 	}
 }
 
 183 
+	$lock_de¡roy
+(
+lock
+ *lock)
+
+185 
+	`KASSERT
+(
+lock
+ !ð
+NULL
+);
+
+189 
+	`¥šlock_þ—nup
+(&
+lock
+->
+lk_lock
+);
+
+190 
+	`wchª_de¡roy
+(
+lock
+->
+lk_wchª
+);
+
+191 
+lock
+->
+lk_hÞd”
+ = 
+NULL
+;
+
+192 
+	`kä“
+(
+lock
+->
+lk_Çme
+);
+
+193 
+	`kä“
+(
+lock
+);
+
+194 
+	}
+}
+
+202 
 	$lock_acquœe
 (
 lock
  *lock)
 
-187 ()
+204 
+	`KASSERT
+(
 lock
+ !ð
+NULL
+);
+
+205 
+	`KASSERT
+(
+cu¹h»ad
+->
+t_š_š‹¼u±
+ =ð
+çl£
+);
+
+207 
+	`¥šlock_acquœe
+(&
+lock
+->
+lk_lock
+);
+
+210 
+lock
+->
+lk_hÞd”
+ !ð
+NULL
+) {
+
+211 
+	`wchª_lock
+(
+lock
+->
+lk_wchª
+);
+
+212 
+	`¥šlock_»Ëa£
+(&
+lock
+->
+lk_lock
+);
+
+213 
+	`wchª_¦“p
+(
+lock
+->
+lk_wchª
+);
+
+215 
+	`¥šlock_acquœe
+(&
+lock
+->
+lk_lock
+);
+
+217 
+	`KASSERT
+(
+lock
+->
+lk_hÞd”
+ =ð
+NULL
+);
+
+218 
+lock
+->
+lk_hÞd”
+ = 
+cu¹h»ad
 ;
 
-188 
+220 
+	`¥šlock_»Ëa£
+(&
+lock
+->
+lk_lock
+);
+
+222 
 	}
 }
 
-191 
+225 
 	$lock_»Ëa£
 (
 lock
  *lock)
 
-195 ()
+227 
+	`KASSERT
+(
 lock
+ !ð
+NULL
+);
+
+228 
+	`KASSERT
+(
+	`lock_do_i_hÞd
+(
+lock
+));
+
+230 
+	`¥šlock_acquœe
+(&
+lock
+->
+lk_lock
+);
+
+232 
+lock
+->
+lk_hÞd”
+ = 
+NULL
 ;
 
-196 
+234 
+	`KASSERT
+(
+lock
+->
+lk_hÞd”
+ =ð
+NULL
+);
+
+235 
+	`wchª_wakeÚe
+(
+lock
+->
+lk_wchª
+);
+
+237 
+	`¥šlock_»Ëa£
+(&
+lock
+->
+lk_lock
+);
+
+239 
 	}
 }
 
-198 
+241 
 boÞ
 
 
-199 
+242 
 	$lock_do_i_hÞd
 (
 lock
  *lock)
 
-203 ()
+244 
+	`KASSERT
+(
 lock
+ !ð
+NULL
+);
+
+246 ià(
+lock
+->
+lk_hÞd”
+ =ð
+NULL
+ ||†ock->lk_hÞd” !ð
+cu¹h»ad
+) {
+
+247  
+çl£
 ;
 
-205  
+249  
 Œue
 ;
 
-206 
+254 
 	}
 }
 
-213 
+261 
 cv
  *
 
-214 
+262 
 	$cv_ü—‹
 (cÚ¡ *
 Çme
 )
 
-216 
+264 
 cv
  *cv;
 
-218 
+266 
 cv
  = 
 	`km®loc
 ((cv));
 
-219 ià(
+267 ià(
 cv
  =ð
 NULL
 ) {
 
-220  
+268  
 NULL
 ;
 
-223 
+271 
 cv
 ->
 cv_Çme
@@ -1213,7 +1449,7 @@ cv_Çme
 Çme
 );
 
-224 ià(
+272 ià(
 cv
 ->
 cv_Çme
@@ -1221,39 +1457,35 @@ cv_Çme
 NULL
 ) {
 
-225 
+273 
 	`kä“
 (
 cv
 );
 
-226  
+274  
 NULL
 ;
 
-231  
+278 
 cv
-;
-
-232 
-	}
-}
-
-235 
-	$cv_de¡roy
-(
-cv
- *cv)
-
-237 
-	`KASSERT
-(
-cv
- !ð
-NULL
+->
+cv_wchª
+ = 
+	`wchª_ü—‹
+(cv->
+cv_Çme
 );
 
-241 
+279 ià(
+cv
+->
+cv_wchª
+ =ð
+NULL
+) {
+
+280 
 	`kä“
 (
 cv
@@ -1261,17 +1493,65 @@ cv
 cv_Çme
 );
 
-242 
+281 
 	`kä“
 (
 cv
 );
 
-243 
+282  
+NULL
+;
+
+285  
+cv
+;
+
+286 
 	}
 }
 
-246 
+289 
+	$cv_de¡roy
+(
+cv
+ *cv)
+
+291 
+	`KASSERT
+(
+cv
+ !ð
+NULL
+);
+
+294 
+	`wchª_de¡roy
+(
+cv
+->
+cv_wchª
+);
+
+295 
+	`kä“
+(
+cv
+->
+cv_Çme
+);
+
+296 
+	`kä“
+(
+cv
+);
+
+297 
+	}
+}
+
+303 
 	$cv_wa™
 (
 cv
@@ -1279,19 +1559,63 @@ cv
 lock
  *lock)
 
-249 ()
+305 
+	`KASSERT
+(
 cv
-;
+ !ð
+NULL
+);
 
-250 ()
+306 
+	`KASSERT
+(
+	`lock_do_i_hÞd
+(
 lock
-;
+));
 
-251 
+308 
+	`wchª_lock
+(
+cv
+->
+cv_wchª
+);
+
+309 
+	`lock_»Ëa£
+(
+lock
+);
+
+310 
+	`wchª_¦“p
+(
+cv
+->
+cv_wchª
+);
+
+312 
+	`lock_acquœe
+(
+lock
+);
+
+314 
+	`KASSERT
+(
+	`lock_do_i_hÞd
+(
+lock
+));
+
+317 
 	}
 }
 
-254 
+320 
 	$cv_sigÇl
 (
 cv
@@ -1299,19 +1623,35 @@ cv
 lock
  *lock)
 
-257 ()
+322 
+	`KASSERT
+(
 cv
-;
+ !ð
+NULL
+);
 
-258 ()
+323 
+	`KASSERT
+(
+	`lock_do_i_hÞd
+(
 lock
-;
+));
 
-259 
+325 
+	`wchª_wakeÚe
+(
+cv
+->
+cv_wchª
+);
+
+328 
 	}
 }
 
-262 
+331 
 	$cv_brßdÿ¡
 (
 cv
@@ -1319,15 +1659,31 @@ cv
 lock
  *lock)
 
-265 ()
+333 
+	`KASSERT
+(
 cv
-;
+ !ð
+NULL
+);
 
-266 ()
+334 
+	`KASSERT
+(
+	`lock_do_i_hÞd
+(
 lock
-;
+));
 
-267 
+336 
+	`wchª_wak—Î
+(
+cv
+->
+cv_wchª
+);
+
+339 
 	}
 }
 

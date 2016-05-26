@@ -65,7 +65,6 @@ void V(struct semaphore *);
 
 /*
  * Simple lock for mutual exclusion.
- * This lock does not support reentrant lock.
  *
  * When the lock is created, no thread should be holding it. Likewise,
  * when the lock is destroyed, no thread should be holding it.
@@ -83,7 +82,10 @@ struct lock {
 	 * 2 different threads definitely have different thread structures, 
 	 * which makes the pointer to thread structure a good enough thread id
 	 */
-	volatile struct thread *lk_holder; 
+	volatile struct thread *lk_holder;
+	
+	// for make sure a thread won't accidentally loose a lock
+	//volatile int lk_count; 
 	// (don't forget to mark things volatile as needed)
 };
 
