@@ -21,8 +21,10 @@
 /*
  * replace this with declarations of any synchronization and other variables you need here
  */
+// create a Lock in the intersection
 static struct lock *intersectionLock;
 
+// create 12 CVs for each possibilities
 static struct cv *nw;
 static struct cv *ns;
 static struct cv *ne;
@@ -139,25 +141,21 @@ intersection_before_entry(Direction origin, Direction destination)
 {
   /* replace this default implementation with your own implementation */
 	KASSERT(intersectionLock != NULL);
-	
+	KASSERT(origin != destination);	
+
 	lock_acquire(intersectionLock);
 
-	int count;
 	// 0 - 2
 	if (origin == north) {
 		if (destination == west) {
-			count = wcount[0];
-			while (count != 0) {
+			while (wcount[0] != 0) {
 				cv_wait(nw, intersectionLock);
-				count = wcount[0];
 			}
 			wcount[8]++;
 			wcount[10]++;
 		} else if (destination == south) {
-			count = wcount[1];
-			while (count != 0) {
+			while (wcount[1] != 0) {
 				cv_wait(ns, intersectionLock);
-				count = wcount[1];
 			}
 			wcount[3]++;
 			wcount[4]++;
@@ -166,10 +164,8 @@ intersection_before_entry(Direction origin, Direction destination)
 			wcount[10]++;
 			wcount[11]++;
 		} else {
-			count = wcount[2];
-			while (count != 0) {
+			while (wcount[2] != 0) {
 				cv_wait(ne, intersectionLock);
-				count = wcount[2];
 			}
 			wcount[4]++;
 			wcount[5]++;
@@ -183,18 +179,14 @@ intersection_before_entry(Direction origin, Direction destination)
 	// 3 - 5
 	else if (origin == west) {
 		if (destination == south) {
-			count = wcount[3];
-			while (count != 0) {
+			while (wcount[3] != 0) {
 				cv_wait(ws, intersectionLock);
-				count = wcount[3];
 			}
 			wcount[1]++;
 			wcount[11]++;
 		} else if (destination == east) {
-			count = wcount[4];
-			while (count != 0) {
+			while (wcount[4] != 0) {
 				cv_wait(we, intersectionLock);
-				count = wcount[4];
 			}
 			wcount[1]++;
 			wcount[2]++;
@@ -203,10 +195,8 @@ intersection_before_entry(Direction origin, Direction destination)
 			wcount[8]++;
 			wcount[11]++;
 		} else {
-			count = wcount[5];
-			while (count != 0) {
+			while (wcount[5] != 0) {
 				cv_wait(wn, intersectionLock);
-				count = wcount[5];
 			}
 			wcount[1]++;
 			wcount[2]++;
@@ -220,18 +210,14 @@ intersection_before_entry(Direction origin, Direction destination)
 	// 6 - 8
 	else if (origin == south) {
 		if (destination == east) {
-			count = wcount[6];
-			while (count != 0) {
+			while (wcount[6] != 0) {
 				cv_wait(se, intersectionLock);
-				count = wcount[6];
 			}
 			wcount[2]++;
 			wcount[4]++;
 		} else if (destination == north) {
-			count = wcount[7];
-			while (count != 0) {
+			while (wcount[7] != 0) {
 				cv_wait(sn, intersectionLock);
-				count = wcount[7];
 			}
 			wcount[2]++;
 			wcount[4]++;
@@ -240,10 +226,8 @@ intersection_before_entry(Direction origin, Direction destination)
 			wcount[10]++;
 			wcount[11]++;
 		} else {
-			count = wcount[8];
-			while (count != 0) {
+			while (wcount[8] != 0) {
 				cv_wait(sw, intersectionLock);
-				count = wcount[8];
 			}
 			wcount[0]++;
 			wcount[1]++;
@@ -257,18 +241,14 @@ intersection_before_entry(Direction origin, Direction destination)
 	// 9 - 11
 	else {
 		if (destination == north) {
-			count = wcount[9];
-			while (count != 0) {
+			while (wcount[9] != 0) {
 				cv_wait(en, intersectionLock);
-				count = wcount[9];
 			}
 			wcount[5]++;
 			wcount[7]++;
 		} else if (destination == west) {
-			count = wcount[10];
-			while (count != 0) {
+			while (wcount[10] != 0) {
 				cv_wait(ew, intersectionLock);
-				count = wcount[10];
 			}
 			wcount[0]++;
 			wcount[1]++;
@@ -277,10 +257,8 @@ intersection_before_entry(Direction origin, Direction destination)
 			wcount[7]++;
 			wcount[8]++;
 		} else {
-			count = wcount[11];
-			while (count != 0) {
+			while (wcount[11] != 0) {
 				cv_wait(es, intersectionLock);
-				count = wcount[11];
 			}
 			wcount[1]++;
 			wcount[2]++;
@@ -312,7 +290,8 @@ intersection_after_exit(Direction origin, Direction destination)
 {
   /* replace this default implementation with your own implementation */
 	KASSERT(intersectionLock != NULL);
-	
+	KASSERT(origin != destination);
+
 	lock_acquire(intersectionLock);
 
 	if (origin == north) {
