@@ -122,6 +122,11 @@ intersection_sync_cleanup(void)
 	cv_destroy(es);
 }
 
+/* For intersection_before_entry and intersection_after_exit,
+ * seperate the intersection into 4 blocks NW, SW, SE, NE
+ * if the block is taken up by one thread, increment counts of other threads which gonna use these blocks as well
+ * after the thread exit, decrement the counts 
+ */
 
 /*
  * The simulation driver will call this function each time a vehicle
@@ -153,6 +158,7 @@ intersection_before_entry(Direction origin, Direction destination)
 			}
 			wcount[8]++;
 			wcount[10]++;
+			wcount[11]++;
 		} else if (destination == south) {
 			while (wcount[1] != 0) {
 				cv_wait(ns, intersectionLock);
@@ -167,6 +173,7 @@ intersection_before_entry(Direction origin, Direction destination)
 			while (wcount[2] != 0) {
 				cv_wait(ne, intersectionLock);
 			}
+			wcount[3]++;
 			wcount[4]++;
 			wcount[5]++;
 			wcount[6]++;
@@ -183,6 +190,7 @@ intersection_before_entry(Direction origin, Direction destination)
 				cv_wait(ws, intersectionLock);
 			}
 			wcount[1]++;
+			wcount[2]++;
 			wcount[11]++;
 		} else if (destination == east) {
 			while (wcount[4] != 0) {
@@ -200,6 +208,7 @@ intersection_before_entry(Direction origin, Direction destination)
 			}
 			wcount[1]++;
 			wcount[2]++;
+			wcount[6]++;
 			wcount[7]++;
 			wcount[8]++;
 			wcount[9]++;
@@ -215,6 +224,7 @@ intersection_before_entry(Direction origin, Direction destination)
 			}
 			wcount[2]++;
 			wcount[4]++;
+			wcount[5]++;
 		} else if (destination == north) {
 			while (wcount[7] != 0) {
 				cv_wait(sn, intersectionLock);
@@ -234,6 +244,7 @@ intersection_before_entry(Direction origin, Direction destination)
 			wcount[2]++;
 			wcount[4]++;
 			wcount[5]++;
+			wcount[9]++;
 			wcount[10]++;
 			wcount[11]++;
 		}
@@ -246,6 +257,7 @@ intersection_before_entry(Direction origin, Direction destination)
 			}
 			wcount[5]++;
 			wcount[7]++;
+			wcount[8]++;
 		} else if (destination == west) {
 			while (wcount[10] != 0) {
 				cv_wait(ew, intersectionLock);
@@ -260,6 +272,7 @@ intersection_before_entry(Direction origin, Direction destination)
 			while (wcount[11] != 0) {
 				cv_wait(es, intersectionLock);
 			}
+			wcount[0]++;
 			wcount[1]++;
 			wcount[2]++;
 			wcount[3]++;
@@ -298,11 +311,15 @@ intersection_after_exit(Direction origin, Direction destination)
 		if (destination == west) {
 			wcount[8]--;
 			wcount[10]--;
+			wcount[11]--;
 			if (wcount[8] == 0) {
 				cv_signal(sw, intersectionLock);
 			}
 			if (wcount[10] == 0) {
 				cv_signal(ew, intersectionLock);
+			}
+			if (wcount[11] == 0) {
+				cv_signal(es, intersectionLock);
 			}
 		} else if (destination == south) {
 			wcount[3]--;
@@ -330,6 +347,7 @@ intersection_after_exit(Direction origin, Direction destination)
 				cv_signal(es, intersectionLock);
 			}
 		} else {
+			wcount[3]--;
 			wcount[4]--;
 			wcount[5]--;
 			wcount[6]--;
@@ -337,6 +355,9 @@ intersection_after_exit(Direction origin, Direction destination)
 			wcount[8]--;
 			wcount[10]--;
 			wcount[11]--;
+			if (wcount[3] == 0) {
+				cv_signal(ws, intersectionLock);
+			}
 			if (wcount[4] == 0) {
 				cv_signal(we, intersectionLock);
 			}
@@ -362,9 +383,13 @@ intersection_after_exit(Direction origin, Direction destination)
 	} else if (origin == west) {
 		if (destination == south) {
 			wcount[1]--;
+			wcount[2]--;
 			wcount[11]--;
 			if (wcount[1] == 0) {
 				cv_signal(ns, intersectionLock);
+			}
+			if (wcount[2] == 0) {
+				cv_signal(ne, intersectionLock);
 			}
 			if (wcount[11] == 0) {
 				cv_signal(es, intersectionLock);
@@ -397,6 +422,7 @@ intersection_after_exit(Direction origin, Direction destination)
 		} else {
 			wcount[1]--;
 			wcount[2]--;
+			wcount[6]--;
 			wcount[7]--;
 			wcount[8]--;
 			wcount[9]--;
@@ -407,6 +433,9 @@ intersection_after_exit(Direction origin, Direction destination)
 			}
 			if (wcount[2] == 0) {
 				cv_signal(ne, intersectionLock);
+			}
+			if (wcount[6] == 0) {
+				cv_signal(se, intersectionLock);
 			}
 			if (wcount[7] == 0) {
 				cv_signal(sn, intersectionLock);
@@ -429,11 +458,15 @@ intersection_after_exit(Direction origin, Direction destination)
 		if (destination == east) {
 			wcount[2]--;
 			wcount[4]--;
+			wcount[5]--;
 			if (wcount[2] == 0) {
 				cv_signal(ne, intersectionLock);
 			}
 			if (wcount[4] == 0) {
 				cv_signal(we, intersectionLock);
+			}
+			if (wcount[5] == 0) {
+				cv_signal(wn, intersectionLock);
 			}
 		} else if (destination == north) {
 			wcount[2]--;
@@ -466,6 +499,7 @@ intersection_after_exit(Direction origin, Direction destination)
 			wcount[2]--;
 			wcount[4]--;
 			wcount[5]--;
+			wcount[9]--;
 			wcount[10]--;
 			wcount[11]--;
 			if (wcount[0] == 0) {
@@ -483,6 +517,9 @@ intersection_after_exit(Direction origin, Direction destination)
 			if (wcount[5] == 0) {
 				cv_signal(wn, intersectionLock);
 			}
+			if (wcount[9] == 0) {
+				cv_signal(en, intersectionLock);
+			}
 			if (wcount[10] == 0) {
 				cv_signal(ew, intersectionLock);
 			}
@@ -494,11 +531,15 @@ intersection_after_exit(Direction origin, Direction destination)
 		if (destination == north) {
 			wcount[5]--;
 			wcount[7]--;
+			wcount[8]--;
 			if (wcount[5] == 0) {
 				cv_signal(wn, intersectionLock);
 			}
 			if (wcount[7] == 0) {
 				cv_signal(sn, intersectionLock);
+			}
+			if (wcount[8] == 0) {
+				cv_signal(sw, intersectionLock);
 			}
 		} else if (destination == west) {
 			wcount[0]--;
@@ -527,6 +568,7 @@ intersection_after_exit(Direction origin, Direction destination)
 			}
 			
 		} else {
+			wcount[0]--;
 			wcount[1]--;
 			wcount[2]--;
 			wcount[3]--;
@@ -534,6 +576,9 @@ intersection_after_exit(Direction origin, Direction destination)
 			wcount[5]--;
 			wcount[7]--;
 			wcount[8]--;
+			if (wcount[0] == 0) {
+				cv_signal(nw, intersectionLock);
+			}
 			if (wcount[1] == 0) {
 				cv_signal(ns, intersectionLock);
 			}
