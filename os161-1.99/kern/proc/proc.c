@@ -51,6 +51,14 @@
 #include <synch.h>
 #include <kern/fcntl.h>  
 
+#include "opt-A2.h"
+
+#if OPT_A2
+#include <limits.h>
+#include <pid.h>
+#include <kern/errno.h>
+#include <kern/wait.h>
+#endif /* OPT_A2 */
 /*
  * The process for the kernel; this holds all the kernel-only threads.
  */
@@ -68,7 +76,6 @@ static struct semaphore *proc_count_mutex;
 /* used to signal the kernel menu thread when there are no processes */
 struct semaphore *no_proc_sem;   
 #endif  // UW
-
 
 
 /*
@@ -135,7 +142,6 @@ proc_destroy(struct proc *proc)
 		VOP_DECREF(proc->p_cwd);
 		proc->p_cwd = NULL;
 	}
-
 
 #ifndef UW  // in the UW version, space destruction occurs in sys_exit, not here
 	if (proc->p_addrspace) {
@@ -207,7 +213,11 @@ proc_bootstrap(void)
   if (no_proc_sem == NULL) {
     panic("could not create no_proc_sem semaphore\n");
   }
-#endif // UW 
+#endif // UW
+
+#if OPT_A2
+  pid_bootstrap();
+#endif /* OPT_A2 */ 
 }
 
 /*
@@ -269,6 +279,11 @@ proc_create_runprogram(const char *name)
 	P(proc_count_mutex); 
 	proc_count++;
 	V(proc_count_mutex);
+
+#if OPT_A2
+	pid_check_pid(proc);
+#endif /* OPT_A2 */
+
 #endif // UW
 
 	return proc;

@@ -30,6 +30,8 @@
 #ifndef _KERN_LIMITS_H_
 #define _KERN_LIMITS_H_
 
+//#include "opt-A2.h"
+
 /*
  * Constants for libc's <limits.h> - system limits.
  *
@@ -71,6 +73,9 @@
 /* Max bytes for atomic pipe I/O -- see description in the pipe() man page */
 #define __PIPE_BUF      512
 
+//#if OPT_A2
+//#define __PROC_MAX	256
+//#endif /* OPT_A2 */ 
 
 /*
  * Not so important parts of the API.

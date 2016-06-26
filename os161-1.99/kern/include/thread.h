@@ -55,7 +55,6 @@ struct cpu;
 /* Macro to test if two addresses are on the same kernel stack */
 #define SAME_STACK(p1, p2)     (((p1) & STACK_MASK) == ((p2) & STACK_MASK))
 
-
 /* States a thread can be in. */
 typedef enum {
 	S_RUN,		/* running */

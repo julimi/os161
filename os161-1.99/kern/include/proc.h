@@ -39,6 +39,8 @@
 #include <spinlock.h>
 #include <thread.h> /* required for struct threadarray */
 
+#include "opt-A2.h"
+
 struct addrspace;
 struct vnode;
 #ifdef UW
@@ -69,6 +71,11 @@ struct proc {
 #endif
 
 	/* add more material here as needed */
+
+#if OPT_A2
+	pid_t pid;			/* pid in this process */
+#endif /* OPT_A2 */
+
 };
 
 /* This is the process structure for the kernel and for kernel-only threads. */
@@ -99,6 +106,5 @@ struct addrspace *curproc_getas(void);
 
 /* Change the address space of the current process, and return the old one. */
 struct addrspace *curproc_setas(struct addrspace *);
-
 
 #endif /* _PROC_H_ */

@@ -37,6 +37,8 @@
 /* Get the limit values, which are exported to userland with private names. */
 #include <kern/limits.h>
 
+//#include "opt-A2.h"
+
 /* Provide the real names */
 #define NAME_MAX        __NAME_MAX
 #define PATH_MAX        __PATH_MAX
@@ -49,4 +51,7 @@
 #define OPEN_MAX        __OPEN_MAX
 #define IOV_MAX         __IOV_MAX
 
+//#if OPT_A2
+//#define PROC_MAX	__PROC_MAX
+//#endif /* OPT_A2 */
 #endif /* _LIMITS_H_ */

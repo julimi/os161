@@ -10,6 +10,15 @@
 #include <addrspace.h>
 #include <copyinout.h>
 
+#include "opt-A2.h"
+#if OPT_A2
+#include <limits.h>
+#include <array.h>
+#include <mips/trapframe.h>
+#include <synch.h>
+#include <pid.h>
+#endif /* OPT_A2 */
+
   /* this implementation of sys__exit does not do anything with the exit code */
   /* this needs to be fixed to get exit() and waitpid() working properly */
 
@@ -20,6 +29,10 @@ void sys__exit(int exitcode) {
   /* for now, just include this to keep the compiler from complaining about
      an unused variable */
   (void)exitcode;
+
+#if OPT_A2
+  pid_exit(p, exitcode);
+#endif /* OPT_A2 */
 
   DEBUG(DB_SYSCALL,"Syscall: _exit(%d)\n",exitcode);
 
@@ -56,6 +69,11 @@ sys_getpid(pid_t *retval)
   /* for now, this is just a stub that always returns a PID of 1 */
   /* you need to fix this to make it work properly */
   *retval = 1;
+
+#if OPT_A2
+  *retval = curproc->pid;
+#endif /* OPT_A2 */
+
   return(0);
 }
 
@@ -78,10 +96,27 @@ sys_waitpid(pid_t pid,
 
      Fix this!
   */
-
+  
+#if OPT_A2
+  // check if option valid
+#endif /* OPT_A2 */
   if (options != 0) {
     return(EINVAL);
   }
+
+#if OPT_A2
+  // check if the status pointer is a valid pointer anyway
+  if (status == NULL) {
+    return(EFAULT);
+  }
+
+  // other constraint checking
+  bool b = pid_wait(curproc, pid, &exitstatus, &result);
+  if (b) {
+    return(result);
+  }
+#endif /* OPT_A2 */ 
+
   /* for now, just pretend the exitstatus is 0 */
   exitstatus = 0;
   result = copyout((void *)&exitstatus,status,sizeof(int));
@@ -92,3 +127,10 @@ sys_waitpid(pid_t pid,
   return(0);
 }
 
+#if OPT_A2
+int
+sys_fork(struct trapframe *tf, pid_t *retval)
+{
+	return pid_fork(tf, retval, curproc);
+}
+#endif /* OPT_A2 */

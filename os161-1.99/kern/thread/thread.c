@@ -53,7 +53,6 @@
 
 #include "opt-synchprobs.h"
 
-
 /* Magic number used as a guard value on kernel thread stacks. */
 #define THREAD_STACK_MAGIC 0xbaadf00d
 
