@@ -1,5 +1,5 @@
-cscope 15 $HOME/cs350-os161/os161-1.99               0001393600
-	@build/install/hostinclude/hostcompat.h
+cscope 15 $HOME/cs350-os161               0001422503
+	@os161-1.99/build/install/hostinclude/hostcompat.h
 
 31 
 	~<sys/ty≥s.h
@@ -23,7 +23,7 @@ __time
 n£cs
 );
 
-	@build/install/include/assert.h
+	@os161-1.99/build/install/include/assert.h
 
 30 #i‚de‡
 _ASSERT_H_
@@ -83,7 +83,7 @@ __LINE__
 
 	)
 
-	@build/install/include/err.h
+	@os161-1.99/build/install/include/err.h
 
 30 #i‚de‡
 _ERR_H_
@@ -163,7 +163,7 @@ fmt
 __va_li°
 );
 
-	@build/install/include/errno.h
+	@os161-1.99/build/install/include/errno.h
 
 30 #i‚de‡
 _ERRNO_H_
@@ -183,13 +183,13 @@ _ERRNO_H_
 î∫o
 ;
 
-	@build/install/include/fcntl.h
+	@os161-1.99/build/install/include/fcntl.h
 
 31 
 	~<uni°d.h
 >
 
-	@build/install/include/kern/endian.h
+	@os161-1.99/build/install/include/kern/endian.h
 
 30 #i‚de‡
 _KERN_ENDIAN_H_
@@ -223,7 +223,7 @@ _KERN_ENDIAN_H_
 	~<kîn/machöe/ídün.h
 >
 
-	@build/install/include/kern/errmsg.h
+	@os161-1.99/build/install/include/kern/errmsg.h
 
 30 #i‚de‡
 _KERN_ERRMSG_H_
@@ -245,7 +245,7 @@ _KERN_ERRMSG_H_
 sys_îæi°
 )/(const *);
 
-	@build/install/include/kern/errno.h
+	@os161-1.99/build/install/include/kern/errno.h
 
 30 #i‚de‡
 _KERN_ERRNO_H_
@@ -641,7 +641,7 @@ _KERN_ERRNO_H_
 
 	)
 
-	@build/install/include/kern/fcntl.h
+	@os161-1.99/build/install/include/kern/fcntl.h
 
 30 #i‚de‡
 _KERN_FCNTL_H_
@@ -845,7 +845,7 @@ pid_t
 	ml_pid
 ;
 
-	@build/install/include/kern/ioctl.h
+	@os161-1.99/build/install/include/kern/ioctl.h
 
 30 #i‚de‡
 _KERN_IOCTL_H_
@@ -857,7 +857,7 @@ _KERN_IOCTL_H_
 
 	)
 
-	@build/install/include/kern/iovec.h
+	@os161-1.99/build/install/include/kern/iovec.h
 
 30 #i‚de‡
 _KERN_IOVEC_H_
@@ -897,7 +897,7 @@ size_t
 	miov_Àn
 ;
 
-	@build/install/include/kern/limits.h
+	@os161-1.99/build/install/include/kern/limits.h
 
 30 #i‚de‡
 _KERN_LIMITS_H_
@@ -969,7 +969,7 @@ _KERN_LIMITS_H_
 
 	)
 
-	@build/install/include/kern/mips/endian.h
+	@os161-1.99/build/install/include/kern/mips/endian.h
 
 30 #i‚de‡
 _KERN_MIPS_ENDIAN_H_
@@ -989,7 +989,7 @@ _BIG_ENDIAN
 
 	)
 
-	@build/install/include/kern/mips/regdefs.h
+	@os161-1.99/build/install/include/kern/mips/regdefs.h
 
 36 #i‚de‡
 _KERN_MIPS_REGDEFS_H_
@@ -1257,7 +1257,7 @@ $31
 
 	)
 
-	@build/install/include/kern/mips/setjmp.h
+	@os161-1.99/build/install/include/kern/mips/setjmp.h
 
 30 #i‚de‡
 _MIPS_SETJMP_H_
@@ -1283,7 +1283,7 @@ uöt32_t
 __JB_REGS
 ];
 
-	@build/install/include/kern/mips/signal.h
+	@os161-1.99/build/install/include/kern/mips/signal.h
 
 31 #i‚de‡
 _KERN_MIPS_SIGNAL_H_
@@ -1299,7 +1299,7 @@ _KERN_MIPS_SIGNAL_H_
 	ssigc⁄ãxt
  {
 
-	@build/install/include/kern/mips/types.h
+	@os161-1.99/build/install/include/kern/mips/types.h
 
 30 #i‚de‡
 _KERN_MIPS_TYPES_H_
@@ -1381,7 +1381,7 @@ _KERN_MIPS_TYPES_H_
 
 	)
 
-	@build/install/include/kern/reboot.h
+	@os161-1.99/build/install/include/kern/reboot.h
 
 30 #i‚de‡
 _KERN_REBOOT_H_
@@ -1411,7 +1411,7 @@ _KERN_REBOOT_H_
 
 	)
 
-	@build/install/include/kern/resource.h
+	@os161-1.99/build/install/include/kern/resource.h
 
 30 #i‚de‡
 _KERN_RESOURCE_H_
@@ -1649,7 +1649,7 @@ __æim_t
 
 	)
 
-	@build/install/include/kern/seek.h
+	@os161-1.99/build/install/include/kern/seek.h
 
 30 #i‚de‡
 _KERN_SEEK_H_
@@ -1679,7 +1679,7 @@ _KERN_SEEK_H_
 
 	)
 
-	@build/install/include/kern/sfs.h
+	@os161-1.99/build/install/include/kern/sfs.h
 
 30 #i‚de‡
 _KERN_SFS_H_
@@ -1901,7 +1901,7 @@ uöt32_t
 SFS_NAMELEN
 ];
 
-	@build/install/include/kern/signal.h
+	@os161-1.99/build/install/include/kern/signal.h
 
 37 #i‚de‡
 _KERN_SIGNAL_H_
@@ -2211,7 +2211,7 @@ ss_size
 ss_Êags
 ;
 
-	@build/install/include/kern/socket.h
+	@os161-1.99/build/install/include/kern/socket.h
 
 30 #i‚de‡
 _KERN_SOCKET_H_
@@ -2427,7 +2427,7 @@ sockÀn_t
 	mcmsg_ty≥
 ;
 
-	@build/install/include/kern/stat.h
+	@os161-1.99/build/install/include/kern/stat.h
 
 30 #i‚de‡
 _KERN_STAT_H_
@@ -2545,7 +2545,7 @@ blksize_t
 	m°_blksize
 ;
 
-	@build/install/include/kern/stattypes.h
+	@os161-1.99/build/install/include/kern/stattypes.h
 
 30 #i‚de‡
 _KERN_STATTYPES_H_
@@ -2605,7 +2605,7 @@ _KERN_STATTYPES_H_
 
 	)
 
-	@build/install/include/kern/syscall.h
+	@os161-1.99/build/install/include/kern/syscall.h
 
 30 #i‚de‡
 _KERN_SYSCALL_H_
@@ -3133,7 +3133,7 @@ _KERN_SYSCALL_H_
 
 	)
 
-	@build/install/include/kern/time.h
+	@os161-1.99/build/install/include/kern/time.h
 
 30 #i‚de‡
 _KERN_TIME_H_
@@ -3211,7 +3211,7 @@ timevÆ
 	mô_vÆue
 ;
 
-	@build/install/include/kern/types.h
+	@os161-1.99/build/install/include/kern/types.h
 
 30 #i‚de‡
 _KERN_TYPES_H_
@@ -3353,7 +3353,7 @@ __buûtö_va_li°
 	t__va_li°
 ;
 
-	@build/install/include/kern/unistd.h
+	@os161-1.99/build/install/include/kern/unistd.h
 
 30 #i‚de‡
 _KERN_UNISTD_H_
@@ -3383,7 +3383,7 @@ _KERN_UNISTD_H_
 
 	)
 
-	@build/install/include/kern/wait.h
+	@os161-1.99/build/install/include/kern/wait.h
 
 30 #i‚de‡
 _KERN_WAIT_H_
@@ -3595,7 +3595,7 @@ __WSTOPPED
 
 	)
 
-	@build/install/include/limits.h
+	@os161-1.99/build/install/include/limits.h
 
 30 #i‚de‡
 _LIMITS_H_
@@ -3691,7 +3691,7 @@ __IOV_MAX
 
 	)
 
-	@build/install/include/setjmp.h
+	@os161-1.99/build/install/include/setjmp.h
 
 30 #i‚de‡
 _SETJMP_H_
@@ -3725,13 +3725,13 @@ jb
 code
 );
 
-	@build/install/include/signal.h
+	@os161-1.99/build/install/include/signal.h
 
 30 
 	~<kîn/sig«l.h
 >
 
-	@build/install/include/stdarg.h
+	@os161-1.99/build/install/include/stdarg.h
 
 30 #i‚de‡
 _STDARG_H_
@@ -3799,7 +3799,7 @@ t
 
 	)
 
-	@build/install/include/stdint.h
+	@os161-1.99/build/install/include/stdint.h
 
 30 #i‚de‡
 _STDINT_H_
@@ -3875,7 +3875,7 @@ __uöçå_t
 	tuöçå_t
 ;
 
-	@build/install/include/stdio.h
+	@os161-1.99/build/install/include/stdio.h
 
 30 #i‚de‡
 _STDIO_H_
@@ -3991,7 +3991,7 @@ __va_li°
 	`gëch¨
 ();
 
-	@build/install/include/stdlib.h
+	@os161-1.99/build/install/include/stdlib.h
 
 30 #i‚de‡
 _STDLIB_H_
@@ -4075,7 +4075,7 @@ size
 ±r
 );
 
-	@build/install/include/string.h
+	@os161-1.99/build/install/include/string.h
 
 30 #i‚de‡
 _STRING_H_
@@ -4171,7 +4171,7 @@ bzîo
 size_t
 );
 
-	@build/install/include/sys/endian.h
+	@os161-1.99/build/install/include/sys/endian.h
 
 30 #i‚de‡
 _SYS_ENDIAN_H_
@@ -4187,13 +4187,13 @@ _SYS_ENDIAN_H_
 	~<kîn/ídün.h
 >
 
-	@build/install/include/sys/ioctl.h
+	@os161-1.99/build/install/include/sys/ioctl.h
 
 31 
 	~<uni°d.h
 >
 
-	@build/install/include/sys/null.h
+	@os161-1.99/build/install/include/sys/null.h
 
 30 #i‚de‡
 _SYS_NULL_H_
@@ -4211,13 +4211,13 @@ _SYS_NULL_H_
 
 	)
 
-	@build/install/include/sys/reboot.h
+	@os161-1.99/build/install/include/sys/reboot.h
 
 31 
 	~<uni°d.h
 >
 
-	@build/install/include/sys/stat.h
+	@os161-1.99/build/install/include/sys/stat.h
 
 30 #i‚de‡
 _SYS_STAT_H_
@@ -4433,7 +4433,7 @@ dú«me
 ign‹e
 );
 
-	@build/install/include/sys/types.h
+	@os161-1.99/build/install/include/sys/types.h
 
 30 #i‚de‡
 _SYS_TYPES_H_
@@ -4591,19 +4591,19 @@ __CHAR_BIT
 
 	)
 
-	@build/install/include/sys/wait.h
+	@os161-1.99/build/install/include/sys/wait.h
 
 31 
 	~<uni°d.h
 >
 
-	@build/install/include/time.h
+	@os161-1.99/build/install/include/time.h
 
 31 
 	~<uni°d.h
 >
 
-	@build/install/include/types/size_t.h
+	@os161-1.99/build/install/include/types/size_t.h
 
 30 #i‚de‡
 _TYPES_SIZE_T_H_
@@ -4625,7 +4625,7 @@ __size_t
 	tsize_t
 ;
 
-	@build/install/include/unistd.h
+	@os161-1.99/build/install/include/unistd.h
 
 30 #i‚de‡
 _UNISTD_H_
@@ -4937,7 +4937,7 @@ time
 £c⁄ds
 );
 
-	@common/gcc-millicode/adddi3.c
+	@os161-1.99/common/gcc-millicode/adddi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -5013,7 +5013,7 @@ sum
 	}
 }
 
-	@common/gcc-millicode/anddi3.c
+	@os161-1.99/common/gcc-millicode/anddi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -5077,7 +5077,7 @@ bb
 	}
 }
 
-	@common/gcc-millicode/ashldi3.c
+	@os161-1.99/common/gcc-millicode/ashldi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -5183,7 +5183,7 @@ shi·
 	}
 }
 
-	@common/gcc-millicode/ashrdi3.c
+	@os161-1.99/common/gcc-millicode/ashrdi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -5309,7 +5309,7 @@ shi·
 	}
 }
 
-	@common/gcc-millicode/cmpdi2.c
+	@os161-1.99/common/gcc-millicode/cmpdi2.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -5371,7 +5371,7 @@ bb
 	}
 }
 
-	@common/gcc-millicode/divdi3.c
+	@os161-1.99/common/gcc-millicode/divdi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -5457,7 +5457,7 @@ uq
 	}
 }
 
-	@common/gcc-millicode/iordi3.c
+	@os161-1.99/common/gcc-millicode/iordi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -5521,7 +5521,7 @@ bb
 	}
 }
 
-	@common/gcc-millicode/longlong.h
+	@os161-1.99/common/gcc-millicode/longlong.h
 
 56 #i‡
 deföed
@@ -5767,7 +5767,7 @@ __Êﬂtunsdidf
 __qdivªm
  (, ,
 
-	@common/gcc-millicode/lshldi3.c
+	@os161-1.99/common/gcc-millicode/lshldi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -5873,7 +5873,7 @@ shi·
 	}
 }
 
-	@common/gcc-millicode/lshrdi3.c
+	@os161-1.99/common/gcc-millicode/lshrdi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -5979,7 +5979,7 @@ shi·
 	}
 }
 
-	@common/gcc-millicode/moddi3.c
+	@os161-1.99/common/gcc-millicode/moddi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -6061,7 +6061,7 @@ ur
 	}
 }
 
-	@common/gcc-millicode/muldi3.c
+	@os161-1.99/common/gcc-millicode/muldi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -6661,7 +6661,7 @@ L
 	}
 }
 
-	@common/gcc-millicode/negdi2.c
+	@os161-1.99/common/gcc-millicode/negdi2.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -6721,7 +6721,7 @@ L
 	}
 }
 
-	@common/gcc-millicode/notdi2.c
+	@os161-1.99/common/gcc-millicode/notdi2.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -6769,7 +6769,7 @@ ui
 	}
 }
 
-	@common/gcc-millicode/qdivrem.c
+	@os161-1.99/common/gcc-millicode/qdivrem.c
 
 43 
 	~"l⁄gl⁄g.h
@@ -7747,7 +7747,7 @@ sh
 	}
 }
 
-	@common/gcc-millicode/subdi3.c
+	@os161-1.99/common/gcc-millicode/subdi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -7823,7 +7823,7 @@ diff
 	}
 }
 
-	@common/gcc-millicode/ucmpdi2.c
+	@os161-1.99/common/gcc-millicode/ucmpdi2.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -7885,7 +7885,7 @@ bb
 	}
 }
 
-	@common/gcc-millicode/udivdi3.c
+	@os161-1.99/common/gcc-millicode/udivdi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -7913,7 +7913,7 @@ NULL
 	}
 }
 
-	@common/gcc-millicode/umoddi3.c
+	@os161-1.99/common/gcc-millicode/umoddi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -7949,7 +7949,7 @@ r
 	}
 }
 
-	@common/gcc-millicode/xordi3.c
+	@os161-1.99/common/gcc-millicode/xordi3.c
 
 38 
 	~"l⁄gl⁄g.h
@@ -8013,7 +8013,7 @@ bb
 	}
 }
 
-	@common/libc/printf/__printf.c
+	@os161-1.99/common/libc/printf/__printf.c
 
 40 #ifde‡
 _KERNEL
@@ -9193,7 +9193,7 @@ ch¨cou¡
 	}
 }
 
-	@common/libc/printf/snprintf.c
+	@os161-1.99/common/libc/printf/snprintf.c
 
 35 #ifde‡
 _KERNEL
@@ -9443,7 +9443,7 @@ ch¨s
 	}
 }
 
-	@common/libc/stdlib/atoi.c
+	@os161-1.99/common/libc/stdlib/atoi.c
 
 35 #ifde‡
 _KERNEL
@@ -9573,7 +9573,7 @@ vÆ
 	}
 }
 
-	@common/libc/string/bzero.c
+	@os161-1.99/common/libc/string/bzero.c
 
 35 #ifde‡
 _KERNEL
@@ -9661,7 +9661,7 @@ i
 	}
 }
 
-	@common/libc/string/memcpy.c
+	@os161-1.99/common/libc/string/memcpy.c
 
 35 #ifde‡
 _KERNEL
@@ -9777,7 +9777,7 @@ d°
 	}
 }
 
-	@common/libc/string/memmove.c
+	@os161-1.99/common/libc/string/memmove.c
 
 35 #ifde‡
 _KERNEL
@@ -9911,7 +9911,7 @@ d°
 	}
 }
 
-	@common/libc/string/strcat.c
+	@os161-1.99/common/libc/string/strcat.c
 
 35 #ifde‡
 _KERNEL
@@ -9969,7 +9969,7 @@ de°
 	}
 }
 
-	@common/libc/string/strchr.c
+	@os161-1.99/common/libc/string/strchr.c
 
 35 #ifde‡
 _KERNEL
@@ -10037,7 +10037,7 @@ NULL
 	}
 }
 
-	@common/libc/string/strcmp.c
+	@os161-1.99/common/libc/string/strcmp.c
 
 35 #ifde‡
 _KERNEL
@@ -10097,7 +10097,7 @@ b
 	}
 }
 
-	@common/libc/string/strcpy.c
+	@os161-1.99/common/libc/string/strcpy.c
 
 35 #ifde‡
 _KERNEL
@@ -10157,7 +10157,7 @@ de°
 	}
 }
 
-	@common/libc/string/strlen.c
+	@os161-1.99/common/libc/string/strlen.c
 
 35 #ifde‡
 _KERNEL
@@ -10209,7 +10209,7 @@ size_t
 	}
 }
 
-	@common/libc/string/strrchr.c
+	@os161-1.99/common/libc/string/strrchr.c
 
 35 #ifde‡
 _KERNEL
@@ -10281,7 +10281,7 @@ NULL
 	}
 }
 
-	@common/libc/string/strtok_r.c
+	@os161-1.99/common/libc/string/strtok_r.c
 
 35 #ifde‡
 _KERNEL
@@ -10419,7 +10419,7 @@ hód
 	}
 }
 
-	@kern/arch/mips/include/current.h
+	@os161-1.99/kern/arch/mips/include/current.h
 
 30 #i‚de‡
 _MIPS_CURRENT_H_
@@ -10463,7 +10463,7 @@ cur˝u
 
 	)
 
-	@kern/arch/mips/include/elf.h
+	@os161-1.99/kern/arch/mips/include/elf.h
 
 30 #i‚de‡
 _MIPS_ELF_H_
@@ -10561,7 +10561,7 @@ EM_MIPS
 
 	)
 
-	@kern/arch/mips/include/kern/endian.h
+	@os161-1.99/kern/arch/mips/include/kern/endian.h
 
 30 #i‚de‡
 _KERN_MIPS_ENDIAN_H_
@@ -10581,7 +10581,7 @@ _BIG_ENDIAN
 
 	)
 
-	@kern/arch/mips/include/kern/regdefs.h
+	@os161-1.99/kern/arch/mips/include/kern/regdefs.h
 
 36 #i‚de‡
 _KERN_MIPS_REGDEFS_H_
@@ -10849,7 +10849,7 @@ $31
 
 	)
 
-	@kern/arch/mips/include/kern/setjmp.h
+	@os161-1.99/kern/arch/mips/include/kern/setjmp.h
 
 30 #i‚de‡
 _MIPS_SETJMP_H_
@@ -10875,7 +10875,7 @@ uöt32_t
 __JB_REGS
 ];
 
-	@kern/arch/mips/include/kern/signal.h
+	@os161-1.99/kern/arch/mips/include/kern/signal.h
 
 31 #i‚de‡
 _KERN_MIPS_SIGNAL_H_
@@ -10891,7 +10891,7 @@ _KERN_MIPS_SIGNAL_H_
 	ssigc⁄ãxt
  {
 
-	@kern/arch/mips/include/kern/types.h
+	@os161-1.99/kern/arch/mips/include/kern/types.h
 
 30 #i‚de‡
 _KERN_MIPS_TYPES_H_
@@ -10973,7 +10973,7 @@ _KERN_MIPS_TYPES_H_
 
 	)
 
-	@kern/arch/mips/include/specialreg.h
+	@os161-1.99/kern/arch/mips/include/specialreg.h
 
 30 #i‚de‡
 _MIPS_SPECIALREG_H_
@@ -11219,7 +11219,7 @@ $15
 
 	)
 
-	@kern/arch/mips/include/spinlock.h
+	@os161-1.99/kern/arch/mips/include/spinlock.h
 
 30 #i‚de‡
 _MIPS_SPINLOCK_H_
@@ -11375,7 +11375,7 @@ x
 	}
 }
 
-	@kern/arch/mips/include/thread.h
+	@os161-1.99/kern/arch/mips/include/thread.h
 
 30 #i‚de‡
 _MIPS_THREAD_H_
@@ -11411,7 +11411,7 @@ jmp_buf
 tm_c›yjmp
 ;
 
-	@kern/arch/mips/include/tlb.h
+	@os161-1.99/kern/arch/mips/include/tlb.h
 
 30 #i‚de‡
 _MIPS_TLB_H_
@@ -11517,7 +11517,7 @@ uöt32_t
 
 	)
 
-	@kern/arch/mips/include/trapframe.h
+	@os161-1.99/kern/arch/mips/include/trapframe.h
 
 30 #i‚de‡
 _MIPS_TRAPFRAME_H_
@@ -11853,7 +11853,7 @@ vaddr_t
 ˝uthªads
 [];
 
-	@kern/arch/mips/include/types.h
+	@os161-1.99/kern/arch/mips/include/types.h
 
 30 #i‚de‡
 _MIPS_TYPES_H_
@@ -11877,7 +11877,7 @@ __u32
 	tvaddr_t
 ;
 
-	@kern/arch/mips/include/vm.h
+	@os161-1.99/kern/arch/mips/include/vm.h
 
 30 #i‚de‡
 _MIPS_VM_H_
@@ -11995,7 +11995,7 @@ vaddr_t
 
 	)
 
-	@kern/arch/mips/locore/trap.c
+	@os161-1.99/kern/arch/mips/locore/trap.c
 
 30 
 	~<ty≥s.h
@@ -12903,7 +12903,7 @@ tf
 	}
 }
 
-	@kern/arch/mips/syscall/syscall.c
+	@os161-1.99/kern/arch/mips/syscall/syscall.c
 
 30 
 	~<ty≥s.h
@@ -13353,7 +13353,7 @@ tf
 	}
 }
 
-	@kern/arch/mips/thread/cpu.c
+	@os161-1.99/kern/arch/mips/thread/cpu.c
 
 34 
 	~<ty≥s.h
@@ -13677,7 +13677,7 @@ __asm
 	}
 }
 
-	@kern/arch/mips/thread/switchframe.c
+	@os161-1.99/kern/arch/mips/thread/switchframe.c
 
 30 
 	~<ty≥s.h
@@ -13813,7 +13813,7 @@ sf
 	}
 }
 
-	@kern/arch/mips/thread/switchframe.h
+	@os161-1.99/kern/arch/mips/thread/switchframe.h
 
 30 #i‚de‡
 _MIPS_SWITCHFRAME_H_
@@ -13889,7 +13889,7 @@ uöt32_t
 	msf_ø
 ;
 
-	@kern/arch/mips/thread/thread_machdep.c
+	@os161-1.99/kern/arch/mips/thread/thread_machdep.c
 
 34 
 	~<ty≥s.h
@@ -13949,7 +13949,7 @@ NULL
 	}
 }
 
-	@kern/arch/mips/vm/dumbvm.c
+	@os161-1.99/kern/arch/mips/vm/dumbvm.c
 
 30 
 	~<ty≥s.h
@@ -15267,7 +15267,7 @@ PAGE_SIZE
 	}
 }
 
-	@kern/arch/mips/vm/ram.c
+	@os161-1.99/kern/arch/mips/vm/ram.c
 
 30 
 	~<ty≥s.h
@@ -15445,7 +15445,7 @@ fú°∑ddr
 	}
 }
 
-	@kern/arch/sys161/dev/lamebus_machdep.c
+	@os161-1.99/kern/arch/sys161/dev/lamebus_machdep.c
 
 30 
 	~<ty≥s.h
@@ -15929,7 +15929,7 @@ HZ
 	}
 }
 
-	@kern/arch/sys161/include/bus.h
+	@os161-1.99/kern/arch/sys161/include/bus.h
 
 30 #i‚de‡
 _SYS161_BUS_H_
@@ -16027,7 +16027,7 @@ MIPS_KSEG1
 
 	)
 
-	@kern/arch/sys161/include/maxcpus.h
+	@os161-1.99/kern/arch/sys161/include/maxcpus.h
 
 30 #i‚de‡
 _SYS161_MAXCPUS_H_
@@ -16045,7 +16045,7 @@ _SYS161_MAXCPUS_H_
 
 	)
 
-	@kern/compile/ASST0/autoconf.c
+	@os161-1.99/kern/compile/ASST0/autoconf.c
 
 2 
 	~<ty≥s.h
@@ -17543,7 +17543,7 @@ busunô
 	}
 }
 
-	@kern/compile/ASST0/autoconf.h
+	@os161-1.99/kern/compile/ASST0/autoconf.h
 
 2 #i‚de‡
 _AUTOCONF_H_
@@ -17833,7 +17833,7 @@ unô
 p£udoc⁄fig
 ();
 
-	@kern/compile/ASST0/opt-A0.h
+	@os161-1.99/kern/compile/ASST0/opt-A0.h
 
 2 #i‚de‡
 _OPT_A0_H_
@@ -17851,7 +17851,7 @@ _OPT_A0_H_
 
 	)
 
-	@kern/compile/ASST0/opt-A1.h
+	@os161-1.99/kern/compile/ASST0/opt-A1.h
 
 2 #i‚de‡
 _OPT_A1_H_
@@ -17869,7 +17869,7 @@ _OPT_A1_H_
 
 	)
 
-	@kern/compile/ASST0/opt-A2.h
+	@os161-1.99/kern/compile/ASST0/opt-A2.h
 
 2 #i‚de‡
 _OPT_A2_H_
@@ -17887,7 +17887,7 @@ _OPT_A2_H_
 
 	)
 
-	@kern/compile/ASST0/opt-A3.h
+	@os161-1.99/kern/compile/ASST0/opt-A3.h
 
 2 #i‚de‡
 _OPT_A3_H_
@@ -17905,7 +17905,7 @@ _OPT_A3_H_
 
 	)
 
-	@kern/compile/ASST0/opt-A4.h
+	@os161-1.99/kern/compile/ASST0/opt-A4.h
 
 2 #i‚de‡
 _OPT_A4_H_
@@ -17923,7 +17923,7 @@ _OPT_A4_H_
 
 	)
 
-	@kern/compile/ASST0/opt-A5.h
+	@os161-1.99/kern/compile/ASST0/opt-A5.h
 
 2 #i‚de‡
 _OPT_A5_H_
@@ -17941,7 +17941,7 @@ _OPT_A5_H_
 
 	)
 
-	@kern/compile/ASST0/opt-dumbvm.h
+	@os161-1.99/kern/compile/ASST0/opt-dumbvm.h
 
 2 #i‚de‡
 _OPT_DUMBVM_H_
@@ -17959,7 +17959,7 @@ _OPT_DUMBVM_H_
 
 	)
 
-	@kern/compile/ASST0/opt-net.h
+	@os161-1.99/kern/compile/ASST0/opt-net.h
 
 2 #i‚de‡
 _OPT_NET_H_
@@ -17977,7 +17977,7 @@ _OPT_NET_H_
 
 	)
 
-	@kern/compile/ASST0/opt-netfs.h
+	@os161-1.99/kern/compile/ASST0/opt-netfs.h
 
 2 #i‚de‡
 _OPT_NETFS_H_
@@ -17995,7 +17995,7 @@ _OPT_NETFS_H_
 
 	)
 
-	@kern/compile/ASST0/opt-noasserts.h
+	@os161-1.99/kern/compile/ASST0/opt-noasserts.h
 
 2 #i‚de‡
 _OPT_NOASSERTS_H_
@@ -18013,7 +18013,7 @@ _OPT_NOASSERTS_H_
 
 	)
 
-	@kern/compile/ASST0/opt-sfs.h
+	@os161-1.99/kern/compile/ASST0/opt-sfs.h
 
 2 #i‚de‡
 _OPT_SFS_H_
@@ -18031,7 +18031,7 @@ _OPT_SFS_H_
 
 	)
 
-	@kern/compile/ASST0/opt-synchprobs.h
+	@os161-1.99/kern/compile/ASST0/opt-synchprobs.h
 
 2 #i‚de‡
 _OPT_SYNCHPROBS_H_
@@ -18049,7 +18049,7 @@ _OPT_SYNCHPROBS_H_
 
 	)
 
-	@kern/compile/ASST0/vers.c
+	@os161-1.99/kern/compile/ASST0/vers.c
 
 2 c⁄° 
 	gbuûdvîsi⁄
@@ -18059,7 +18059,7 @@ _OPT_SYNCHPROBS_H_
 	gbuûdc⁄fig
 [] = "ASST0";
 
-	@kern/compile/ASST1/autoconf.c
+	@os161-1.99/kern/compile/ASST1/autoconf.c
 
 2 
 	~<ty≥s.h
@@ -19557,7 +19557,7 @@ busunô
 	}
 }
 
-	@kern/compile/ASST1/autoconf.h
+	@os161-1.99/kern/compile/ASST1/autoconf.h
 
 2 #i‚de‡
 _AUTOCONF_H_
@@ -19847,7 +19847,7 @@ unô
 p£udoc⁄fig
 ();
 
-	@kern/compile/ASST1/opt-A0.h
+	@os161-1.99/kern/compile/ASST1/opt-A0.h
 
 2 #i‚de‡
 _OPT_A0_H_
@@ -19865,7 +19865,7 @@ _OPT_A0_H_
 
 	)
 
-	@kern/compile/ASST1/opt-A1.h
+	@os161-1.99/kern/compile/ASST1/opt-A1.h
 
 2 #i‚de‡
 _OPT_A1_H_
@@ -19883,7 +19883,7 @@ _OPT_A1_H_
 
 	)
 
-	@kern/compile/ASST1/opt-A2.h
+	@os161-1.99/kern/compile/ASST1/opt-A2.h
 
 2 #i‚de‡
 _OPT_A2_H_
@@ -19901,7 +19901,7 @@ _OPT_A2_H_
 
 	)
 
-	@kern/compile/ASST1/opt-A3.h
+	@os161-1.99/kern/compile/ASST1/opt-A3.h
 
 2 #i‚de‡
 _OPT_A3_H_
@@ -19919,7 +19919,7 @@ _OPT_A3_H_
 
 	)
 
-	@kern/compile/ASST1/opt-A4.h
+	@os161-1.99/kern/compile/ASST1/opt-A4.h
 
 2 #i‚de‡
 _OPT_A4_H_
@@ -19937,7 +19937,7 @@ _OPT_A4_H_
 
 	)
 
-	@kern/compile/ASST1/opt-A5.h
+	@os161-1.99/kern/compile/ASST1/opt-A5.h
 
 2 #i‚de‡
 _OPT_A5_H_
@@ -19955,7 +19955,7 @@ _OPT_A5_H_
 
 	)
 
-	@kern/compile/ASST1/opt-dumbvm.h
+	@os161-1.99/kern/compile/ASST1/opt-dumbvm.h
 
 2 #i‚de‡
 _OPT_DUMBVM_H_
@@ -19973,7 +19973,7 @@ _OPT_DUMBVM_H_
 
 	)
 
-	@kern/compile/ASST1/opt-net.h
+	@os161-1.99/kern/compile/ASST1/opt-net.h
 
 2 #i‚de‡
 _OPT_NET_H_
@@ -19991,7 +19991,7 @@ _OPT_NET_H_
 
 	)
 
-	@kern/compile/ASST1/opt-netfs.h
+	@os161-1.99/kern/compile/ASST1/opt-netfs.h
 
 2 #i‚de‡
 _OPT_NETFS_H_
@@ -20009,7 +20009,7 @@ _OPT_NETFS_H_
 
 	)
 
-	@kern/compile/ASST1/opt-noasserts.h
+	@os161-1.99/kern/compile/ASST1/opt-noasserts.h
 
 2 #i‚de‡
 _OPT_NOASSERTS_H_
@@ -20027,7 +20027,7 @@ _OPT_NOASSERTS_H_
 
 	)
 
-	@kern/compile/ASST1/opt-sfs.h
+	@os161-1.99/kern/compile/ASST1/opt-sfs.h
 
 2 #i‚de‡
 _OPT_SFS_H_
@@ -20045,7 +20045,7 @@ _OPT_SFS_H_
 
 	)
 
-	@kern/compile/ASST1/opt-synchprobs.h
+	@os161-1.99/kern/compile/ASST1/opt-synchprobs.h
 
 2 #i‚de‡
 _OPT_SYNCHPROBS_H_
@@ -20063,7 +20063,7 @@ _OPT_SYNCHPROBS_H_
 
 	)
 
-	@kern/compile/ASST1/vers.c
+	@os161-1.99/kern/compile/ASST1/vers.c
 
 2 c⁄° 
 	gbuûdvîsi⁄
@@ -20073,7 +20073,7 @@ _OPT_SYNCHPROBS_H_
 	gbuûdc⁄fig
 [] = "ASST1";
 
-	@kern/compile/ASST2/autoconf.c
+	@os161-1.99/kern/compile/ASST2/autoconf.c
 
 2 
 	~<ty≥s.h
@@ -21571,7 +21571,7 @@ busunô
 	}
 }
 
-	@kern/compile/ASST2/autoconf.h
+	@os161-1.99/kern/compile/ASST2/autoconf.h
 
 2 #i‚de‡
 _AUTOCONF_H_
@@ -21861,7 +21861,7 @@ unô
 p£udoc⁄fig
 ();
 
-	@kern/compile/ASST2/opt-A0.h
+	@os161-1.99/kern/compile/ASST2/opt-A0.h
 
 2 #i‚de‡
 _OPT_A0_H_
@@ -21879,7 +21879,7 @@ _OPT_A0_H_
 
 	)
 
-	@kern/compile/ASST2/opt-A1.h
+	@os161-1.99/kern/compile/ASST2/opt-A1.h
 
 2 #i‚de‡
 _OPT_A1_H_
@@ -21897,7 +21897,7 @@ _OPT_A1_H_
 
 	)
 
-	@kern/compile/ASST2/opt-A2.h
+	@os161-1.99/kern/compile/ASST2/opt-A2.h
 
 2 #i‚de‡
 _OPT_A2_H_
@@ -21915,7 +21915,7 @@ _OPT_A2_H_
 
 	)
 
-	@kern/compile/ASST2/opt-A3.h
+	@os161-1.99/kern/compile/ASST2/opt-A3.h
 
 2 #i‚de‡
 _OPT_A3_H_
@@ -21933,7 +21933,7 @@ _OPT_A3_H_
 
 	)
 
-	@kern/compile/ASST2/opt-A4.h
+	@os161-1.99/kern/compile/ASST2/opt-A4.h
 
 2 #i‚de‡
 _OPT_A4_H_
@@ -21951,7 +21951,7 @@ _OPT_A4_H_
 
 	)
 
-	@kern/compile/ASST2/opt-A5.h
+	@os161-1.99/kern/compile/ASST2/opt-A5.h
 
 2 #i‚de‡
 _OPT_A5_H_
@@ -21969,7 +21969,7 @@ _OPT_A5_H_
 
 	)
 
-	@kern/compile/ASST2/opt-dumbvm.h
+	@os161-1.99/kern/compile/ASST2/opt-dumbvm.h
 
 2 #i‚de‡
 _OPT_DUMBVM_H_
@@ -21987,7 +21987,7 @@ _OPT_DUMBVM_H_
 
 	)
 
-	@kern/compile/ASST2/opt-net.h
+	@os161-1.99/kern/compile/ASST2/opt-net.h
 
 2 #i‚de‡
 _OPT_NET_H_
@@ -22005,7 +22005,7 @@ _OPT_NET_H_
 
 	)
 
-	@kern/compile/ASST2/opt-netfs.h
+	@os161-1.99/kern/compile/ASST2/opt-netfs.h
 
 2 #i‚de‡
 _OPT_NETFS_H_
@@ -22023,7 +22023,7 @@ _OPT_NETFS_H_
 
 	)
 
-	@kern/compile/ASST2/opt-noasserts.h
+	@os161-1.99/kern/compile/ASST2/opt-noasserts.h
 
 2 #i‚de‡
 _OPT_NOASSERTS_H_
@@ -22041,7 +22041,7 @@ _OPT_NOASSERTS_H_
 
 	)
 
-	@kern/compile/ASST2/opt-sfs.h
+	@os161-1.99/kern/compile/ASST2/opt-sfs.h
 
 2 #i‚de‡
 _OPT_SFS_H_
@@ -22059,7 +22059,7 @@ _OPT_SFS_H_
 
 	)
 
-	@kern/compile/ASST2/opt-synchprobs.h
+	@os161-1.99/kern/compile/ASST2/opt-synchprobs.h
 
 2 #i‚de‡
 _OPT_SYNCHPROBS_H_
@@ -22077,17 +22077,17 @@ _OPT_SYNCHPROBS_H_
 
 	)
 
-	@kern/compile/ASST2/vers.c
+	@os161-1.99/kern/compile/ASST2/vers.c
 
 2 c⁄° 
 	gbuûdvîsi⁄
- = 40;
+ = 31;
 
 3 c⁄° 
 	gbuûdc⁄fig
 [] = "ASST2";
 
-	@kern/dev/generic/beep.c
+	@os161-1.99/kern/dev/generic/beep.c
 
 30 
 	~<ty≥s.h
@@ -22179,7 +22179,7 @@ bs_devd©a
 	}
 }
 
-	@kern/dev/generic/beep.h
+	@os161-1.99/kern/dev/generic/beep.h
 
 30 #i‚de‡
 _GENERIC_BEEP_H_
@@ -22205,7 +22205,7 @@ _GENERIC_BEEP_H_
 	mdevd©a
 );
 
-	@kern/dev/generic/console.c
+	@os161-1.99/kern/dev/generic/console.c
 
 53 
 	~<ty≥s.h
@@ -23335,7 +23335,7 @@ cs
 	}
 }
 
-	@kern/dev/generic/console.h
+	@os161-1.99/kern/dev/generic/console.h
 
 30 #i‚de‡
 _GENERIC_CONSOLE_H_
@@ -23429,7 +23429,7 @@ c⁄_°¨t
 cs
 );
 
-	@kern/dev/generic/random.c
+	@os161-1.99/kern/dev/generic/random.c
 
 30 
 	~<ty≥s.h
@@ -23777,7 +23777,7 @@ rs_devd©a
 	}
 }
 
-	@kern/dev/generic/random.h
+	@os161-1.99/kern/dev/generic/random.h
 
 30 #i‚de‡
 _GENERIC_RANDOM_H_
@@ -23837,7 +23837,7 @@ devi˚
 	mrs_dev
 ;
 
-	@kern/dev/generic/rtclock.c
+	@os161-1.99/kern/dev/generic/rtclock.c
 
 43 
 	~<ty≥s.h
@@ -23943,7 +23943,7 @@ n£cs
 	}
 }
 
-	@kern/dev/generic/rtclock.h
+	@os161-1.99/kern/dev/generic/rtclock.h
 
 30 #i‚de‡
 _GENERIC_RTCLOCK_H_
@@ -23977,7 +23977,7 @@ uöt32_t
 	mn£cs
 );
 
-	@kern/dev/lamebus/beep_ltimer.c
+	@os161-1.99/kern/dev/lamebus/beep_ltimer.c
 
 35 
 	~<ty≥s.h
@@ -24059,7 +24059,7 @@ bs
 	}
 }
 
-	@kern/dev/lamebus/con_lscreen.c
+	@os161-1.99/kern/dev/lamebus/con_lscreen.c
 
 35 
 	~<ty≥s.h
@@ -24185,7 +24185,7 @@ cs
 	}
 }
 
-	@kern/dev/lamebus/con_lser.c
+	@os161-1.99/kern/dev/lamebus/con_lser.c
 
 35 
 	~<ty≥s.h
@@ -24315,7 +24315,7 @@ cs
 	}
 }
 
-	@kern/dev/lamebus/emu.c
+	@os161-1.99/kern/dev/lamebus/emu.c
 
 43 
 	~<ty≥s.h
@@ -28589,7 +28589,7 @@ sc
 	}
 }
 
-	@kern/dev/lamebus/emu.h
+	@os161-1.99/kern/dev/lamebus/emu.h
 
 30 #i‚de‡
 _LAMEBUS_EMU_H_
@@ -28657,7 +28657,7 @@ uöt32_t
 emu_úq
 ( *);
 
-	@kern/dev/lamebus/emu_att.c
+	@os161-1.99/kern/dev/lamebus/emu_att.c
 
 34 
 	~<ty≥s.h
@@ -28807,7 +28807,7 @@ es
 	}
 }
 
-	@kern/dev/lamebus/lamebus.c
+	@os161-1.99/kern/dev/lamebus/lamebus.c
 
 34 
 	~<ty≥s.h
@@ -30479,7 +30479,7 @@ NULL
 	}
 }
 
-	@kern/dev/lamebus/lamebus.h
+	@os161-1.99/kern/dev/lamebus/lamebus.h
 
 30 #i‚de‡
 _LAMEBUS_H_
@@ -30817,7 +30817,7 @@ uöt32_t
 off£t
 );
 
-	@kern/dev/lamebus/lhd.c
+	@os161-1.99/kern/dev/lamebus/lhd.c
 
 34 
 	~<ty≥s.h
@@ -31689,7 +31689,7 @@ lh_dev
 	}
 }
 
-	@kern/dev/lamebus/lhd.h
+	@os161-1.99/kern/dev/lamebus/lhd.h
 
 30 #i‚de‡
 _LAMEBUS_LHD_H_
@@ -31759,7 +31759,7 @@ devi˚
 lhd_úq
 ( *);
 
-	@kern/dev/lamebus/lhd_att.c
+	@os161-1.99/kern/dev/lamebus/lhd_att.c
 
 33 
 	~<ty≥s.h
@@ -31909,7 +31909,7 @@ lh
 	}
 }
 
-	@kern/dev/lamebus/lnet.c
+	@os161-1.99/kern/dev/lamebus/lnet.c
 
 30 
 	~<ty≥s.h
@@ -31955,7 +31955,7 @@ ENODEV
 	}
 }
 
-	@kern/dev/lamebus/lnet_att.c
+	@os161-1.99/kern/dev/lamebus/lnet_att.c
 
 30 
 	~<ty≥s.h
@@ -32039,7 +32039,7 @@ NULL
 	}
 }
 
-	@kern/dev/lamebus/lrandom.c
+	@os161-1.99/kern/dev/lamebus/lrandom.c
 
 33 
 	~<ty≥s.h
@@ -32225,7 +32225,7 @@ uio
 	}
 }
 
-	@kern/dev/lamebus/lrandom.h
+	@os161-1.99/kern/dev/lamebus/lrandom.h
 
 30 #i‚de‡
 _LAMEBUS_LRANDOM_H_
@@ -32277,7 +32277,7 @@ devd©a
 uio
  *);
 
-	@kern/dev/lamebus/lrandom_att.c
+	@os161-1.99/kern/dev/lamebus/lrandom_att.c
 
 30 
 	~<ty≥s.h
@@ -32411,7 +32411,7 @@ sc
 	}
 }
 
-	@kern/dev/lamebus/lscreen.c
+	@os161-1.99/kern/dev/lamebus/lscreen.c
 
 36 
 	~<ty≥s.h
@@ -33007,7 +33007,7 @@ LSCR_SCREEN
 	}
 }
 
-	@kern/dev/lamebus/lscreen.h
+	@os161-1.99/kern/dev/lamebus/lscreen.h
 
 30 #i‚de‡
 _LAMEBUS_LSCREEN_H_
@@ -33087,7 +33087,7 @@ sc
 ch
 );
 
-	@kern/dev/lamebus/lscreen_att.c
+	@os161-1.99/kern/dev/lamebus/lscreen_att.c
 
 33 
 	~<ty≥s.h
@@ -33229,7 +33229,7 @@ ls
 	}
 }
 
-	@kern/dev/lamebus/lser.c
+	@os161-1.99/kern/dev/lamebus/lser.c
 
 30 
 	~<ty≥s.h
@@ -33861,7 +33861,7 @@ LSER_IRQ_ENABLE
 	}
 }
 
-	@kern/dev/lamebus/lser.h
+	@os161-1.99/kern/dev/lamebus/lser.h
 
 30 #i‚de‡
 _LAMEBUS_LSER_H_
@@ -33975,7 +33975,7 @@ l£r_ídpﬁlög
 sc
 );
 
-	@kern/dev/lamebus/lser_att.c
+	@os161-1.99/kern/dev/lamebus/lser_att.c
 
 30 
 	~<ty≥s.h
@@ -34197,7 +34197,7 @@ ls
 	}
 }
 
-	@kern/dev/lamebus/ltimer.c
+	@os161-1.99/kern/dev/lamebus/ltimer.c
 
 33 
 	~<ty≥s.h
@@ -34549,7 +34549,7 @@ n£cs
 	}
 }
 
-	@kern/dev/lamebus/ltimer.h
+	@os161-1.99/kern/dev/lamebus/ltimer.h
 
 30 #i‚de‡
 _LAMEBUS_LTIMER_H_
@@ -34611,7 +34611,7 @@ uöt32_t
 n£cs
 );
 
-	@kern/dev/lamebus/ltimer_att.c
+	@os161-1.99/kern/dev/lamebus/ltimer_att.c
 
 33 
 	~<ty≥s.h
@@ -34757,7 +34757,7 @@ sc
 	}
 }
 
-	@kern/dev/lamebus/ltrace.c
+	@os161-1.99/kern/dev/lamebus/ltrace.c
 
 30 
 	~<ty≥s.h
@@ -34969,7 +34969,7 @@ sc
 	}
 }
 
-	@kern/dev/lamebus/ltrace.h
+	@os161-1.99/kern/dev/lamebus/ltrace.h
 
 30 #i‚de‡
 _LAMEBUS_LTRACE_H_
@@ -35027,7 +35027,7 @@ uöt32_t
 code
 );
 
-	@kern/dev/lamebus/ltrace_att.c
+	@os161-1.99/kern/dev/lamebus/ltrace_att.c
 
 30 
 	~<ty≥s.h
@@ -35161,7 +35161,7 @@ sc
 	}
 }
 
-	@kern/dev/lamebus/random_lrandom.c
+	@os161-1.99/kern/dev/lamebus/random_lrandom.c
 
 35 
 	~<ty≥s.h
@@ -35259,7 +35259,7 @@ rs
 	}
 }
 
-	@kern/dev/lamebus/rtclock_ltimer.c
+	@os161-1.99/kern/dev/lamebus/rtclock_ltimer.c
 
 41 
 	~<ty≥s.h
@@ -35341,7 +35341,7 @@ ls
 	}
 }
 
-	@kern/fs/sfs/sfs_fs.c
+	@os161-1.99/kern/fs/sfs/sfs_fs.c
 
 36 
 	~<ty≥s.h
@@ -36243,7 +36243,7 @@ sfs_domou¡
 	}
 }
 
-	@kern/fs/sfs/sfs_io.c
+	@os161-1.99/kern/fs/sfs/sfs_io.c
 
 30 
 	~<ty≥s.h
@@ -36513,7 +36513,7 @@ ku
 	}
 }
 
-	@kern/fs/sfs/sfs_vnode.c
+	@os161-1.99/kern/fs/sfs/sfs_vnode.c
 
 35 
 	~<ty≥s.h
@@ -41507,7 +41507,7 @@ sv_v
 	}
 }
 
-	@kern/include/addrspace.h
+	@os161-1.99/kern/include/addrspace.h
 
 30 #i‚de‡
 _ADDRSPACE_H_
@@ -41673,7 +41673,7 @@ vaddr_t
 íåypoöt
 );
 
-	@kern/include/array.h
+	@os161-1.99/kern/include/array.h
 
 30 #i‚de‡
 _ARRAY_H_
@@ -42429,7 +42429,7 @@ DEFARRAY_BYTYPE
 ARRAYINLINE
 );
 
-	@kern/include/bitmap.h
+	@os161-1.99/kern/include/bitmap.h
 
 30 #i‚de‡
 _BITMAP_H_
@@ -42497,7 +42497,7 @@ bôm≠_de°roy
 bôm≠
  *);
 
-	@kern/include/cdefs.h
+	@os161-1.99/kern/include/cdefs.h
 
 30 #i‚de‡
 _CDEFS_H_
@@ -42587,7 +42587,7 @@ __STDC_VERSION__
 
 	)
 
-	@kern/include/clock.h
+	@os161-1.99/kern/include/clock.h
 
 30 #i‚de‡
 _CLOCK_H_
@@ -42681,7 +42681,7 @@ uöt32_t
 £c⁄ds
 );
 
-	@kern/include/copyinout.h
+	@os161-1.99/kern/include/copyinout.h
 
 30 #i‚de‡
 _COPYINOUT_H_
@@ -42753,7 +42753,7 @@ size_t
 gŸ
 );
 
-	@kern/include/cpu.h
+	@os161-1.99/kern/include/cpu.h
 
 30 #i‚de‡
 _CPU_H_
@@ -42959,7 +42959,7 @@ m≠pög
 öãΩro˚ss‹_öãºu±
 ();
 
-	@kern/include/current.h
+	@os161-1.99/kern/include/current.h
 
 30 #i‚de‡
 _CURRENT_H_
@@ -43045,7 +43045,7 @@ t_¥oc
 
 	)
 
-	@kern/include/device.h
+	@os161-1.99/kern/include/device.h
 
 30 #i‚de‡
 _DEVICE_H_
@@ -43139,7 +43139,7 @@ devnuŒ_¸óã
 dev_boŸ°øp
 ();
 
-	@kern/include/elf.h
+	@os161-1.99/kern/include/elf.h
 
 30 #i‚de‡
 _ELF_H_
@@ -43805,7 +43805,7 @@ Elf32_Phdr
 	tElf_Phdr
 ;
 
-	@kern/include/emufs.h
+	@os161-1.99/kern/include/emufs.h
 
 30 #i‚de‡
 _EMUFS_H_
@@ -43875,7 +43875,7 @@ vnodóºay
 	mef_vnodes
 ;
 
-	@kern/include/endian.h
+	@os161-1.99/kern/include/endian.h
 
 30 #i‚de‡
 _ENDIAN_H_
@@ -43973,7 +43973,7 @@ y1
 y2
 );
 
-	@kern/include/fs.h
+	@os161-1.99/kern/include/fs.h
 
 30 #i‚de‡
 _FS_H_
@@ -44059,7 +44059,7 @@ fs
 
 	)
 
-	@kern/include/kern/endian.h
+	@os161-1.99/kern/include/kern/endian.h
 
 30 #i‚de‡
 _KERN_ENDIAN_H_
@@ -44093,7 +44093,7 @@ _KERN_ENDIAN_H_
 	~<kîn/machöe/ídün.h
 >
 
-	@kern/include/kern/errmsg.h
+	@os161-1.99/kern/include/kern/errmsg.h
 
 30 #i‚de‡
 _KERN_ERRMSG_H_
@@ -44115,7 +44115,7 @@ _KERN_ERRMSG_H_
 sys_îæi°
 )/(const *);
 
-	@kern/include/kern/errno.h
+	@os161-1.99/kern/include/kern/errno.h
 
 30 #i‚de‡
 _KERN_ERRNO_H_
@@ -44511,7 +44511,7 @@ _KERN_ERRNO_H_
 
 	)
 
-	@kern/include/kern/fcntl.h
+	@os161-1.99/kern/include/kern/fcntl.h
 
 30 #i‚de‡
 _KERN_FCNTL_H_
@@ -44715,7 +44715,7 @@ pid_t
 	ml_pid
 ;
 
-	@kern/include/kern/ioctl.h
+	@os161-1.99/kern/include/kern/ioctl.h
 
 30 #i‚de‡
 _KERN_IOCTL_H_
@@ -44727,7 +44727,7 @@ _KERN_IOCTL_H_
 
 	)
 
-	@kern/include/kern/iovec.h
+	@os161-1.99/kern/include/kern/iovec.h
 
 30 #i‚de‡
 _KERN_IOVEC_H_
@@ -44767,7 +44767,7 @@ size_t
 	miov_Àn
 ;
 
-	@kern/include/kern/limits.h
+	@os161-1.99/kern/include/kern/limits.h
 
 30 #i‚de‡
 _KERN_LIMITS_H_
@@ -44839,7 +44839,7 @@ _KERN_LIMITS_H_
 
 	)
 
-	@kern/include/kern/reboot.h
+	@os161-1.99/kern/include/kern/reboot.h
 
 30 #i‚de‡
 _KERN_REBOOT_H_
@@ -44869,7 +44869,7 @@ _KERN_REBOOT_H_
 
 	)
 
-	@kern/include/kern/resource.h
+	@os161-1.99/kern/include/kern/resource.h
 
 30 #i‚de‡
 _KERN_RESOURCE_H_
@@ -45107,7 +45107,7 @@ __æim_t
 
 	)
 
-	@kern/include/kern/seek.h
+	@os161-1.99/kern/include/kern/seek.h
 
 30 #i‚de‡
 _KERN_SEEK_H_
@@ -45137,7 +45137,7 @@ _KERN_SEEK_H_
 
 	)
 
-	@kern/include/kern/sfs.h
+	@os161-1.99/kern/include/kern/sfs.h
 
 30 #i‚de‡
 _KERN_SFS_H_
@@ -45359,7 +45359,7 @@ uöt32_t
 SFS_NAMELEN
 ];
 
-	@kern/include/kern/signal.h
+	@os161-1.99/kern/include/kern/signal.h
 
 37 #i‚de‡
 _KERN_SIGNAL_H_
@@ -45669,7 +45669,7 @@ ss_size
 ss_Êags
 ;
 
-	@kern/include/kern/socket.h
+	@os161-1.99/kern/include/kern/socket.h
 
 30 #i‚de‡
 _KERN_SOCKET_H_
@@ -45885,7 +45885,7 @@ sockÀn_t
 	mcmsg_ty≥
 ;
 
-	@kern/include/kern/stat.h
+	@os161-1.99/kern/include/kern/stat.h
 
 30 #i‚de‡
 _KERN_STAT_H_
@@ -46003,7 +46003,7 @@ blksize_t
 	m°_blksize
 ;
 
-	@kern/include/kern/stattypes.h
+	@os161-1.99/kern/include/kern/stattypes.h
 
 30 #i‚de‡
 _KERN_STATTYPES_H_
@@ -46063,7 +46063,7 @@ _KERN_STATTYPES_H_
 
 	)
 
-	@kern/include/kern/syscall.h
+	@os161-1.99/kern/include/kern/syscall.h
 
 30 #i‚de‡
 _KERN_SYSCALL_H_
@@ -46591,7 +46591,7 @@ _KERN_SYSCALL_H_
 
 	)
 
-	@kern/include/kern/time.h
+	@os161-1.99/kern/include/kern/time.h
 
 30 #i‚de‡
 _KERN_TIME_H_
@@ -46669,7 +46669,7 @@ timevÆ
 	mô_vÆue
 ;
 
-	@kern/include/kern/types.h
+	@os161-1.99/kern/include/kern/types.h
 
 30 #i‚de‡
 _KERN_TYPES_H_
@@ -46811,7 +46811,7 @@ __buûtö_va_li°
 	t__va_li°
 ;
 
-	@kern/include/kern/unistd.h
+	@os161-1.99/kern/include/kern/unistd.h
 
 30 #i‚de‡
 _KERN_UNISTD_H_
@@ -46841,7 +46841,7 @@ _KERN_UNISTD_H_
 
 	)
 
-	@kern/include/kern/wait.h
+	@os161-1.99/kern/include/kern/wait.h
 
 30 #i‚de‡
 _KERN_WAIT_H_
@@ -47053,7 +47053,7 @@ __WSTOPPED
 
 	)
 
-	@kern/include/lib.h
+	@os161-1.99/kern/include/lib.h
 
 30 #i‚de‡
 _LIB_H_
@@ -47479,7 +47479,7 @@ b
 
 	)
 
-	@kern/include/limits.h
+	@os161-1.99/kern/include/limits.h
 
 30 #i‚de‡
 _LIMITS_H_
@@ -47575,7 +47575,7 @@ __IOV_MAX
 
 	)
 
-	@kern/include/mainbus.h
+	@os161-1.99/kern/include/mainbus.h
 
 30 #i‚de‡
 _MAINBUS_H_
@@ -47639,7 +47639,7 @@ maöbus_ªboŸ
 maöbus_∑nic
 ();
 
-	@kern/include/pid.h
+	@os161-1.99/kern/include/pid.h
 
 1 #i‚de‡
 _PID_H_
@@ -47791,7 +47791,7 @@ pid_t
 ¥oc
  *proc);
 
-	@kern/include/proc.h
+	@os161-1.99/kern/include/proc.h
 
 30 #i‚de‡
 _PROC_H_
@@ -47947,7 +47947,7 @@ addr•a˚
 cuΩroc_£ès
 (addrspace *);
 
-	@kern/include/queue.h
+	@os161-1.99/kern/include/queue.h
 
 1 #i‚de‡
 _QUEUE_H_
@@ -48047,7 +48047,7 @@ queue
 ödex
 );
 
-	@kern/include/setjmp.h
+	@os161-1.99/kern/include/setjmp.h
 
 30 #i‚de‡
 _SETJMP_H_
@@ -48081,7 +48081,7 @@ jb
 ªtvÆ
 );
 
-	@kern/include/sfs.h
+	@os161-1.99/kern/include/sfs.h
 
 30 #i‚de‡
 _SFS_H_
@@ -48265,7 +48265,7 @@ sfs_gëroŸ
 fs
  *fs);
 
-	@kern/include/signal.h
+	@os161-1.99/kern/include/signal.h
 
 30 #i‚de‡
 _SIGNAL_H_
@@ -48285,7 +48285,7 @@ _SIGNAL_H_
 	~<kîn/sig«l.h
 >
 
-	@kern/include/spinlock.h
+	@os161-1.99/kern/include/spinlock.h
 
 30 #i‚de‡
 _SPINLOCK_H_
@@ -48385,7 +48385,7 @@ boﬁ
 lk
 );
 
-	@kern/include/spl.h
+	@os161-1.99/kern/include/spl.h
 
 30 #i‚de‡
 _SPL_H_
@@ -48489,7 +48489,7 @@ IPL_HIGH
 	}
 }
 
-	@kern/include/stat.h
+	@os161-1.99/kern/include/stat.h
 
 30 #i‚de‡
 _STAT_H_
@@ -48573,7 +48573,7 @@ _S_IFBLK
 
 	)
 
-	@kern/include/stdarg.h
+	@os161-1.99/kern/include/stdarg.h
 
 30 #i‚de‡
 _STDARG_H_
@@ -48701,7 +48701,7 @@ va_li°
 	`__PF
 (3,0);
 
-	@kern/include/synch.h
+	@os161-1.99/kern/include/synch.h
 
 30 #i‚de‡
 _SYNCH_H_
@@ -48881,7 +48881,7 @@ cv
 lock
  *lock);
 
-	@kern/include/synchprobs.h
+	@os161-1.99/kern/include/synchprobs.h
 
 1 #i‚de‡
 _SYNCHPROBS_H_
@@ -48991,7 +48991,7 @@ bowls
 ¥öt_°©e_off
 ();
 
-	@kern/include/syscall.h
+	@os161-1.99/kern/include/syscall.h
 
 30 #i‚de‡
 _SYSCALL_H_
@@ -49147,7 +49147,7 @@ sys_execv
 u¨gs
 );
 
-	@kern/include/test.h
+	@os161-1.99/kern/include/test.h
 
 30 #i‚de‡
 _TEST_H_
@@ -49295,7 +49295,7 @@ kmaö
 boŸ°rög
 );
 
-	@kern/include/thread.h
+	@os161-1.99/kern/include/thread.h
 
 30 #i‚de‡
 _THREAD_H_
@@ -49517,7 +49517,7 @@ d©a2
 	`thªad_c⁄sidî_migøti⁄
 ();
 
-	@kern/include/threadlist.h
+	@os161-1.99/kern/include/threadlist.h
 
 30 #i‚de‡
 _THREADLIST_H_
@@ -49793,7 +49793,7 @@ t_li°node
 
 	)
 
-	@kern/include/threadprivate.h
+	@os161-1.99/kern/include/threadprivate.h
 
 30 #i‚de‡
 _THREADPRIVATE_H_
@@ -49879,7 +49879,7 @@ d©a1
 d©a2
 );
 
-	@kern/include/types.h
+	@os161-1.99/kern/include/types.h
 
 30 #i‚de‡
 _TYPES_H_
@@ -50141,7 +50141,7 @@ _Boﬁ
 
 	)
 
-	@kern/include/uio.h
+	@os161-1.99/kern/include/uio.h
 
 30 #i‚de‡
 _UIO_H_
@@ -50275,7 +50275,7 @@ uio_rw
 rw
 );
 
-	@kern/include/uw-vmstats.h
+	@os161-1.99/kern/include/uw-vmstats.h
 
 1 #i‚de‡
 VM_STATS_H
@@ -50377,7 +50377,7 @@ _vm°©s_öc
 vm°©s_¥öt
 ();
 
-	@kern/include/version.h
+	@os161-1.99/kern/include/version.h
 
 30 #i‚de‡
 _VERSION_H_
@@ -50401,7 +50401,7 @@ _VERSION_H_
 
 	)
 
-	@kern/include/vfs.h
+	@os161-1.99/kern/include/vfs.h
 
 30 #i‚de‡
 _VFS_H_
@@ -50705,7 +50705,7 @@ boﬁ
 	`vfs_biglock_do_i_hﬁd
 ();
 
-	@kern/include/vm.h
+	@os161-1.99/kern/include/vm.h
 
 30 #i‚de‡
 _VM_H_
@@ -50779,7 +50779,7 @@ vm_ébshoŸdown
 ébshoŸdown
  *);
 
-	@kern/include/vnode.h
+	@os161-1.99/kern/include/vnode.h
 
 30 #i‚de‡
 _VNODE_H_
@@ -51649,7 +51649,7 @@ vn
 
 	)
 
-	@kern/include/wchan.h
+	@os161-1.99/kern/include/wchan.h
 
 30 #i‚de‡
 _WCHAN_H_
@@ -51731,7 +51731,7 @@ wch™
 wc
 );
 
-	@kern/lib/array.c
+	@os161-1.99/kern/lib/array.c
 
 30 
 	#ARRAYINLINE
@@ -52065,7 +52065,7 @@ num
 	}
 }
 
-	@kern/lib/bitmap.c
+	@os161-1.99/kern/lib/bitmap.c
 
 34 
 	~<ty≥s.h
@@ -52665,7 +52665,7 @@ b
 	}
 }
 
-	@kern/lib/bswap.c
+	@os161-1.99/kern/lib/bswap.c
 
 30 
 	~<ty≥s.h
@@ -53001,7 +53001,7 @@ x
 	}
 }
 
-	@kern/lib/kgets.c
+	@os161-1.99/kern/lib/kgets.c
 
 31 
 	~<ty≥s.h
@@ -53199,7 +53199,7 @@ pos
 	}
 }
 
-	@kern/lib/kprintf.c
+	@os161-1.99/kern/lib/kprintf.c
 
 30 
 	~<ty≥s.h
@@ -53601,7 +53601,7 @@ func
 	}
 }
 
-	@kern/lib/misc.c
+	@os161-1.99/kern/lib/misc.c
 
 30 
 	~<ty≥s.h
@@ -53693,7 +53693,7 @@ NULL
 	}
 }
 
-	@kern/lib/queue.c
+	@os161-1.99/kern/lib/queue.c
 
 5 
 	~<ty≥s.h
@@ -54407,7 +54407,7 @@ cou¡
 	}
 }
 
-	@kern/lib/uio.c
+	@os161-1.99/kern/lib/uio.c
 
 30 
 	~<ty≥s.h
@@ -54921,7 +54921,7 @@ NULL
 	}
 }
 
-	@kern/proc/pid.c
+	@os161-1.99/kern/proc/pid.c
 
 1 
 	~<pid.h
@@ -55817,7 +55817,7 @@ pid
 	}
 }
 
-	@kern/proc/proc.c
+	@os161-1.99/kern/proc/proc.c
 
 45 
 	~<ty≥s.h
@@ -56755,13 +56755,13 @@ p_lock
 	}
 }
 
-	@kern/startup/._menu.c
+	@os161-1.99/kern/startup/._menu.c
 
 1      OS X        2  ∞     ‚                                    =
 
 2   ‚                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               )     ˇˇ
 
-	@kern/startup/main.c
+	@os161-1.99/kern/startup/main.c
 
 34 
 	~<ty≥s.h
@@ -57105,7 +57105,7 @@ RB_POWEROFF
 	}
 }
 
-	@kern/startup/menu.c
+	@os161-1.99/kern/startup/menu.c
 
 30 
 	~<ty≥s.h
@@ -57283,19 +57283,15 @@ s1
 «rgs
  >= 1);
 
-97 #i‡
-OPT_A2
-
-
-99 i‡(
+98 i‡(
 «rgs
  > 2) {
 
-100 
+99 
 	`k¥ötf
 ("Warning:árgumentÖassing from menuÇot supported\n");
 
-104 
+103 
 	`KASSERT
 (
 	`°æí
@@ -57305,7 +57301,7 @@ OPT_A2
 ¥og«me
 ));
 
-106 
+105 
 	`°r˝y
 (
 ¥og«me
@@ -57313,11 +57309,11 @@ OPT_A2
 ¨gs
 [0]);
 
-108 #i‡
+107 #i‡
 OPT_A2
 
 
-109 
+108 
 ªsu…
  = 
 	`ru≈rogøm
@@ -57329,7 +57325,7 @@ OPT_A2
 «rgs
 );
 
-111 
+110 
 ªsu…
  = 
 	`ru≈rogøm
@@ -57337,27 +57333,27 @@ OPT_A2
 ¥og«me
 );
 
-113 i‡(
+112 i‡(
 ªsu…
 ) {
 
-114 
+113 
 	`k¥ötf
 ("Ru¬ögÖrogøm %†Áûed: %s\n", 
 ¨gs
 [0],
 
-115 
+114 
 	`°ªº‹
 (
 ªsu…
 ));
 
-120 
+119 
 	}
 }
 
-136 
+135 
 	$comm⁄_¥og
 (
 «rgs
@@ -57365,23 +57361,23 @@ OPT_A2
 ¨gs
 )
 
-138 
+137 
 ¥oc
  *proc;
 
-139 
+138 
 ªsu…
 ;
 
-141 #i‡
+140 #i‡
 OPT_SYNCHPROBS
 
 
-142 
+141 
 	`k¥ötf
 ("Warning:ÅhisÖrobably won't work withá "
 
-147 
+146 
 ¥oc
  = 
 	`¥oc_¸óã_ru≈rogøm
@@ -57389,17 +57385,17 @@ OPT_SYNCHPROBS
 ¨gs
 [0] );
 
-148 i‡(
+147 i‡(
 ¥oc
  =
 NULL
 ) {
 
-149  
+148  
 ENOMEM
 ;
 
-152 
+151 
 ªsu…
  = 
 	`thªad_f‹k
@@ -57407,25 +57403,25 @@ ENOMEM
 ¨gs
 [0] ,
 
-153 
+152 
 ¥oc
  ,
 
-154 
+153 
 cmd_¥ogthªad
  ,
 
-155 
+154 
 ¨gs
  , 
 «rgs
  );
 
-156 i‡(
+155 i‡(
 ªsu…
 ) {
 
-157 
+156 
 	`k¥ötf
 ("thªad_f‹k faûed: %s\n", 
 	`°ªº‹
@@ -57433,31 +57429,31 @@ cmd_¥ogthªad
 ªsu…
 ));
 
-158 
+157 
 	`¥oc_de°roy
 (
 ¥oc
 );
 
-159  
+158  
 ªsu…
 ;
 
-162 #ifde‡
+161 #ifde‡
 UW
 
 
-165 
+164 
 	`P
 (
 no_¥oc_£m
 );
 
-169 
+168 
 	}
 }
 
-176 
+175 
 	$cmd_¥og
 (
 «rgs
@@ -57465,27 +57461,27 @@ no_¥oc_£m
 ¨gs
 )
 
-178 i‡(
+177 i‡(
 «rgs
  < 2) {
 
-179 
+178 
 	`k¥ötf
 ("Usage:ÖÖrogram [arguments]\n");
 
-180  
+179  
 EINVAL
 ;
 
-184 
+183 
 ¨gs
 ++;
 
-185 
+184 
 «rgs
 --;
 
-187  
+186  
 	`comm⁄_¥og
 (
 «rgs
@@ -57493,11 +57489,11 @@ EINVAL
 ¨gs
 );
 
-188 
+187 
 	}
 }
 
-195 
+194 
 	$cmd_shñl
 (
 «rgs
@@ -57505,29 +57501,29 @@ EINVAL
 ¨gs
 )
 
-197 ()
+196 ()
 ¨gs
 ;
 
-198 i‡(
+197 i‡(
 «rgs
  != 1) {
 
-199 
+198 
 	`k¥ötf
 ("Usage: s\n");
 
-200  
+199  
 EINVAL
 ;
 
-203 
+202 
 ¨gs
 [0] = (*)
 _PATH_SHELL
 ;
 
-205  
+204  
 	`comm⁄_¥og
 (
 «rgs
@@ -57535,11 +57531,11 @@ _PATH_SHELL
 ¨gs
 );
 
-206 
+205 
 	}
 }
 
-213 
+212 
 	$cmd_chdú
 (
 «rgs
@@ -57547,29 +57543,29 @@ _PATH_SHELL
 ¨gs
 )
 
-215 i‡(
+214 i‡(
 «rgs
  != 2) {
 
-216 
+215 
 	`k¥ötf
 ("Usage: cd directory\n");
 
-217  
+216  
 EINVAL
 ;
 
-220  
+219  
 	`vfs_chdú
 (
 ¨gs
 [1]);
 
-221 
+220 
 	}
 }
 
-228 
+227 
 	$cmd_pwd
 (
 «rgs
@@ -57577,37 +57573,37 @@ EINVAL
 ¨gs
 )
 
-230 
+229 
 buf
 [
 PATH_MAX
 +1];
 
-231 
+230 
 ªsu…
 ;
 
-232 
+231 
 iovec
  
 iov
 ;
 
-233 
+232 
 uio
  
 ku
 ;
 
-235 ()
+234 ()
 «rgs
 ;
 
-236 ()
+235 ()
 ¨gs
 ;
 
-238 
+237 
 	`uio_köô
 (&
 iov
@@ -57619,7 +57615,7 @@ buf
 UIO_READ
 );
 
-239 
+238 
 ªsu…
  = 
 	`vfs_gëcwd
@@ -57627,11 +57623,11 @@ UIO_READ
 ku
 );
 
-240 i‡(
+239 i‡(
 ªsu…
 ) {
 
-241 
+240 
 	`k¥ötf
 ("vfs_gëcwd faûed (%s)\n", 
 	`°ªº‹
@@ -57639,11 +57635,11 @@ ku
 ªsu…
 ));
 
-242  
+241  
 ªsu…
 ;
 
-246 
+245 
 buf
 [(buf)-1-
 ku
@@ -57651,17 +57647,17 @@ ku
 uio_ªsid
 ] = 0;
 
-249 
+248 
 	`k¥ötf
 ("%s\n", 
 buf
 );
 
-252 
+251 
 	}
 }
 
-259 
+258 
 	$cmd_sync
 (
 «rgs
@@ -57669,23 +57665,23 @@ buf
 ¨gs
 )
 
-261 ()
+260 ()
 «rgs
 ;
 
-262 ()
+261 ()
 ¨gs
 ;
 
-264 
+263 
 	`vfs_sync
 ();
 
-267 
+266 
 	}
 }
 
-274 
+273 
 	$cmd_∑nic
 (
 «rgs
@@ -57693,23 +57689,23 @@ buf
 ¨gs
 )
 
-276 ()
+275 ()
 «rgs
 ;
 
-277 ()
+276 ()
 ¨gs
 ;
 
-279 
+278 
 	`∑nic
 ("UserÑequestedÖanic\n");
 
-281 
+280 
 	}
 }
 
-288 
+287 
 	$cmd_quô
 (
 «rgs
@@ -57717,59 +57713,59 @@ buf
 ¨gs
 )
 
-290 ()
+289 ()
 «rgs
 ;
 
-291 ()
+290 ()
 ¨gs
 ;
 
-293 
+292 
 	`vfs_sync
 ();
 
-294 
+293 
 	`sys_ªboŸ
 (
 RB_POWEROFF
 );
 
-295 
+294 
 	`thªad_exô
 ();
 
-297 
+296 
 	}
 }
 
-305 c⁄° *
+304 c⁄° *
 	m«me
 ;
 
-306 (*
+305 (*
 	mfunc
 )(c⁄° *
 	mdevi˚
 );
 
-307 } 
+306 } 
 	gmou¡èbÀ
 [] = {
 
-308 #i‡
+307 #i‡
 OPT_SFS
 
 
-309 { "sfs", 
+308 { "sfs", 
 sfs_mou¡
  },
 
-311 { 
+310 { 
 NULL
 , NULL }
 
-316 
+315 
 	$cmd_mou¡
 (
 «rgs
@@ -57777,55 +57773,55 @@ NULL
 ¨gs
 )
 
-318 *
+317 *
 f°y≥
 ;
 
-319 *
+318 *
 devi˚
 ;
 
-320 
+319 
 i
 ;
 
-322 i‡(
+321 i‡(
 «rgs
  != 3) {
 
-323 
+322 
 	`k¥ötf
 ("Usage: mount fstype device:\n");
 
-324  
+323  
 EINVAL
 ;
 
-327 
+326 
 f°y≥
  = 
 ¨gs
 [1];
 
-328 
+327 
 devi˚
  = 
 ¨gs
 [2];
 
-331 i‡(
+330 i‡(
 devi˚
 [
 	`°æí
 (device)-1]==':') {
 
-332 
+331 
 devi˚
 [
 	`°æí
 (device)-1] = 0;
 
-335 
+334 
 i
 =0; 
 mou¡èbÀ
@@ -57833,7 +57829,7 @@ mou¡èbÀ
 «me
 ; i++) {
 
-336 i‡(!
+335 i‡(!
 	`°rcmp
 (
 mou¡èbÀ
@@ -57845,7 +57841,7 @@ i
 f°y≥
 )) {
 
-337  
+336  
 mou¡èbÀ
 [
 i
@@ -57855,21 +57851,21 @@ i
 devi˚
 );
 
-340 
+339 
 	`k¥ötf
 ("Unknow¿fûesy°emÅy≥ %s\n", 
 f°y≥
 );
 
-341  
+340  
 EINVAL
 ;
 
-342 
+341 
 	}
 }
 
-346 
+345 
 	$cmd_unmou¡
 (
 «rgs
@@ -57877,51 +57873,51 @@ EINVAL
 ¨gs
 )
 
-348 *
+347 *
 devi˚
 ;
 
-350 i‡(
+349 i‡(
 «rgs
  != 2) {
 
-351 
+350 
 	`k¥ötf
 ("Usage: unmount device:\n");
 
-352  
+351  
 EINVAL
 ;
 
-355 
+354 
 devi˚
  = 
 ¨gs
 [1];
 
-358 i‡(
+357 i‡(
 devi˚
 [
 	`°æí
 (device)-1]==':') {
 
-359 
+358 
 devi˚
 [
 	`°æí
 (device)-1] = 0;
 
-362  
+361  
 	`vfs_unmou¡
 (
 devi˚
 );
 
-363 
+362 
 	}
 }
 
-375 
+374 
 	$cmd_boŸfs
 (
 «rgs
@@ -57929,51 +57925,51 @@ devi˚
 ¨gs
 )
 
-377 *
+376 *
 devi˚
 ;
 
-379 i‡(
+378 i‡(
 «rgs
  != 2) {
 
-380 
+379 
 	`k¥ötf
 ("Usage: bootfs device\n");
 
-381  
+380  
 EINVAL
 ;
 
-384 
+383 
 devi˚
  = 
 ¨gs
 [1];
 
-387 i‡(
+386 i‡(
 devi˚
 [
 	`°æí
 (device)-1]==':') {
 
-388 
+387 
 devi˚
 [
 	`°æí
 (device)-1] = 0;
 
-391  
+390  
 	`vfs_£tboŸfs
 (
 devi˚
 );
 
-392 
+391 
 	}
 }
 
-396 
+395 
 	$cmd_khóp°©s
 (
 «rgs
@@ -57981,23 +57977,23 @@ devi˚
 ¨gs
 )
 
-398 ()
+397 ()
 «rgs
 ;
 
-399 ()
+398 ()
 ¨gs
 ;
 
-401 
+400 
 	`khóp_¥öt°©s
 ();
 
-404 
+403 
 	}
 }
 
-408 
+407 
 	$cmd_ouçutdbthªads
 (
 «rgs
@@ -58005,29 +58001,29 @@ devi˚
 ¨gs
 )
 
-410 ()
+409 ()
 «rgs
 ;
 
-411 ()
+410 ()
 ¨gs
 ;
 
-413 
+412 
 dbÊags
  = 
 DB_THREADS
 ;
 
-414 
+413 
 	`k¥ötf
 ("Done! Enabled debugging messages DB_THREADS!\n");
 
-417 
+416 
 	}
 }
 
-425 
+424 
 	$showmíu
 (c⁄° *
 «me
@@ -58035,7 +58031,7 @@ DB_THREADS
 x
 [])
 
-427 
+426 
 ˘
 , 
 hÆf
@@ -58043,17 +58039,17 @@ hÆf
 i
 ;
 
-429 
+428 
 	`k¥ötf
 ("\n");
 
-430 
+429 
 	`k¥ötf
 ("%s\n", 
 «me
 );
 
-432 
+431 
 i
 =
 ˘
@@ -58061,23 +58057,23 @@ i
 x
 [i]; i++) {
 
-433 
+432 
 ˘
 ++;
 
-435 
+434 
 hÆf
  = (
 ˘
 +1)/2;
 
-437 
+436 
 i
 =0; i<
 hÆf
 ; i++) {
 
-438 
+437 
 	`k¥ötf
 (" %-36s", 
 x
@@ -58085,7 +58081,7 @@ x
 i
 ]);
 
-439 i‡(
+438 i‡(
 i
 +
 hÆf
@@ -58093,7 +58089,7 @@ hÆf
 ˘
 ) {
 
-440 
+439 
 	`k¥ötf
 ("%s", 
 x
@@ -58103,27 +58099,27 @@ i
 hÆf
 ]);
 
-442 
+441 
+	`k¥ötf
+("\n");
+
+444 
 	`k¥ötf
 ("\n");
 
 445 
-	`k¥ötf
-("\n");
-
-446 
 	}
 }
 
-448 c⁄° *
+447 c⁄° *
 	g›smíu
 [] = {
 
-461 
+460 
 NULL
 
 
-466 
+465 
 	$cmd_›smíu
 (
 n
@@ -58131,41 +58127,41 @@ n
 a
 )
 
-468 ()
+467 ()
 n
 ;
 
-469 ()
+468 ()
 a
 ;
 
-471 
+470 
 	`showmíu
 ("OS/161 o≥øti⁄†míu", 
 ›smíu
 );
 
-473 
+472 
 	}
 }
 
-475 c⁄° *
+474 c⁄° *
 	gã°míu
 [] = {
 
-483 #i‡
+482 #i‡
 OPT_NET
 
 
-489 #ifde‡
+488 #ifde‡
 UW
 
 
-498 
+497 
 NULL
 
 
-503 
+502 
 	$cmd_ã°míu
 (
 n
@@ -58173,53 +58169,53 @@ n
 a
 )
 
-505 ()
+504 ()
 n
 ;
 
-506 ()
+505 ()
 a
 ;
 
-508 
+507 
 	`showmíu
 ("OS/161Åe°†míu", 
 ã°míu
 );
 
-509 
+508 
 	`k¥ötf
 (" (1) TheseÅests will fail until you finishÅhe "
 
-511 
+510 
 	`k¥ötf
 (" (4) TheseÅests may fail until you finishÅhe "
 
-513 
+512 
 	`k¥ötf
 ("\n");
 
-516 
+515 
 	}
 }
 
-518 c⁄° *
+517 c⁄° *
 	gmaömíu
 [] = {
 
-521 #i‡
+520 #i‡
 OPT_SYNCHPROBS
 
 
-523 #ifde‡
+522 #ifde‡
 UW
 
 
-530 
+529 
 NULL
 
 
-535 
+534 
 	$cmd_maömíu
 (
 n
@@ -58227,29 +58223,29 @@ n
 a
 )
 
-537 ()
+536 ()
 n
 ;
 
-538 ()
+537 ()
 a
 ;
 
-540 
+539 
 	`showmíu
 ("OS/161 kî√»míu", 
 maömíu
 );
 
-542 
+541 
 	}
 }
 
-549 c⁄° *
+548 c⁄° *
 	m«me
 ;
 
-550 (*
+549 (*
 	mfunc
 )(
 	m«rgs
@@ -58257,201 +58253,201 @@ maömíu
 	m¨gs
 );
 
-551 } 
+550 } 
 	gcmdèbÀ
 [] = {
 
-553 { "?", 
+552 { "?", 
 cmd_maömíu
  },
 
-554 { "h", 
+553 { "h", 
 cmd_maömíu
  },
 
-555 { "hñp", 
+554 { "hñp", 
 cmd_maömíu
  },
 
-556 { "?o", 
+555 { "?o", 
 cmd_›smíu
  },
 
-557 { "?t", 
+556 { "?t", 
 cmd_ã°míu
  },
 
-560 { "s", 
+559 { "s", 
 cmd_shñl
  },
 
-561 { "p", 
+560 { "p", 
 cmd_¥og
  },
 
-562 { "mou¡", 
+561 { "mou¡", 
 cmd_mou¡
  },
 
-563 { "unmou¡", 
+562 { "unmou¡", 
 cmd_unmou¡
  },
 
-564 { "boŸfs", 
+563 { "boŸfs", 
 cmd_boŸfs
  },
 
-565 { "pf", 
+564 { "pf", 
 ¥ötfûe
  },
 
-566 { "cd", 
+565 { "cd", 
 cmd_chdú
  },
 
-567 { "pwd", 
+566 { "pwd", 
 cmd_pwd
  },
 
-568 { "sync", 
+567 { "sync", 
 cmd_sync
  },
 
-569 { "∑nic", 
+568 { "∑nic", 
 cmd_∑nic
  },
 
-570 { "q", 
+569 { "q", 
 cmd_quô
  },
 
-571 { "exô", 
+570 { "exô", 
 cmd_quô
  },
 
-572 { "hÆt", 
+571 { "hÆt", 
 cmd_quô
  },
 
-574 #i‡
+573 #i‡
 OPT_SYNCHPROBS
 
 
-576 { "•1", 
+575 { "•1", 
 whÆem©ög
  },
 
-577 #ifde‡
+576 #ifde‡
 UW
 
 
-578 { "•2", 
+577 { "•2", 
 ˇtmou£
  },
 
-579 { "•3", 
+578 { "•3", 
 åaffic_simuœti⁄
  },
 
-584 { "kh", 
+583 { "kh", 
 cmd_khóp°©s
  },
 
-585 {"dth", 
+584 {"dth", 
 cmd_ouçutdbthªads
  },
 
-588 { "©", 
+587 { "©", 
 ¨øyã°
  },
 
-589 { "bt", 
+588 { "bt", 
 bôm≠ã°
  },
 
-590 { "km1", 
+589 { "km1", 
 mÆlo˘e°
  },
 
-591 { "km2", 
+590 { "km2", 
 mÆloc°ªss
  },
 
-592 #i‡
+591 #i‡
 OPT_NET
 
 
-593 { "√t", 
+592 { "√t", 
 √âe°
  },
 
-595 { "â1", 
+594 { "â1", 
 thªadã°
  },
 
-596 { "â2", 
+595 { "â2", 
 thªadã°2
  },
 
-597 { "â3", 
+596 { "â3", 
 thªadã°3
  },
 
-598 { "sy1", 
+597 { "sy1", 
 £mã°
  },
 
-601 { "sy2", 
+600 { "sy2", 
 lockã°
  },
 
-602 { "sy3", 
+601 { "sy3", 
 cvã°
  },
 
-603 #ifde‡
+602 #ifde‡
 UW
 
 
-604 { "uw1", 
+603 { "uw1", 
 uwlockã°1
  },
 
-605 { "uw2", 
+604 { "uw2", 
 uwvm°©°e°
  },
 
-609 { "fs1", 
+608 { "fs1", 
 f°e°
  },
 
-610 { "fs2", 
+609 { "fs2", 
 ªad°ªss
  },
 
-611 { "fs3", 
+610 { "fs3", 
 wrôe°ªss
  },
 
-612 { "fs4", 
+611 { "fs4", 
 wrôe°ªss2
  },
 
-613 { "fs5", 
+612 { "fs5", 
 ¸óã°ªss
  },
 
-615 { 
+614 { 
 NULL
 , NULL }
 
-623 
+622 
 	$cmd_di•©ch
 (*
 cmd
 )
 
-625 
+624 
 time_t
  
 bef‹e£cs
@@ -58461,7 +58457,7 @@ a·î£cs
 £cs
 ;
 
-626 
+625 
 uöt32_t
  
 bef‹í£cs
@@ -58471,31 +58467,31 @@ a·în£cs
 n£cs
 ;
 
-627 *
+626 *
 ¨gs
 [
 MAXMENUARGS
 ];
 
-628 
+627 
 «rgs
 =0;
 
-629 *
+628 *
 w‹d
 ;
 
-630 *
+629 *
 c⁄ãxt
 ;
 
-631 
+630 
 i
 , 
 ªsu…
 ;
 
-633 
+632 
 w‹d
  = 
 	`°πok_r
@@ -58505,13 +58501,13 @@ cmd
 c⁄ãxt
 );
 
-634 
+633 
 w‹d
  !
 NULL
 ;
 
-635 
+634 
 w‹d
  = 
 	`°πok_r
@@ -58521,21 +58517,21 @@ NULL
 c⁄ãxt
 )) {
 
-637 i‡(
+636 i‡(
 «rgs
  >
 MAXMENUARGS
 ) {
 
-638 
+637 
 	`k¥ötf
 ("CommandÜine hasÅoo many words\n");
 
-639  
+638  
 E2BIG
 ;
 
-641 
+640 
 ¨gs
 [
 «rgs
@@ -58543,11 +58539,11 @@ E2BIG
 w‹d
 ;
 
-644 i‡(
+643 i‡(
 «rgs
 ==0) {
 
-648 
+647 
 i
 =0; 
 cmdèbÀ
@@ -58555,7 +58551,7 @@ cmdèbÀ
 «me
 ; i++) {
 
-649 i‡(*
+648 i‡(*
 cmdèbÀ
 [
 i
@@ -58567,7 +58563,7 @@ i
 ¨gs
 [0], cmdtable[i].name)) {
 
-650 
+649 
 	`KASSERT
 (
 cmdèbÀ
@@ -58579,7 +58575,7 @@ func
 NULL
 );
 
-652 
+651 
 	`gëtime
 (&
 bef‹e£cs
@@ -58587,7 +58583,7 @@ bef‹e£cs
 bef‹í£cs
 );
 
-654 
+653 
 ªsu…
  = 
 cmdèbÀ
@@ -58601,7 +58597,7 @@ i
 ¨gs
 );
 
-656 
+655 
 	`gëtime
 (&
 a·î£cs
@@ -58609,7 +58605,7 @@ a·î£cs
 a·în£cs
 );
 
-657 
+656 
 	`gëöãrvÆ
 (
 bef‹e£cs
@@ -58617,49 +58613,49 @@ bef‹e£cs
 bef‹í£cs
 ,
 
-658 
+657 
 a·î£cs
 , 
 a·în£cs
 ,
 
-659 &
+658 &
 £cs
 , &
 n£cs
 );
 
-661 
+660 
 	`k¥ötf
 ("OperationÅook %lu.%09lu seconds\n",
 
-662 (Ë
+661 (Ë
 £cs
 ,
 
-663 (Ë
+662 (Ë
 n£cs
 );
 
-665  
+664  
 ªsu…
 ;
 
-669 
+668 
 	`k¥ötf
 ("%s: Comm™dÇŸ found\n", 
 ¨gs
 [0]);
 
-670  
+669  
 EINVAL
 ;
 
-671 
+670 
 	}
 }
 
-682 
+681 
 	$míu_execuã
 (*
 löe
@@ -58667,19 +58663,19 @@ löe
 ißrgs
 )
 
-684 *
+683 *
 comm™d
 ;
 
-685 *
+684 *
 c⁄ãxt
 ;
 
-686 
+685 
 ªsu…
 ;
 
-688 
+687 
 comm™d
  = 
 	`°πok_r
@@ -58689,13 +58685,13 @@ löe
 c⁄ãxt
 );
 
-689 
+688 
 comm™d
  !
 NULL
 ;
 
-690 
+689 
 comm™d
  = 
 	`°πok_r
@@ -58705,17 +58701,17 @@ NULL
 c⁄ãxt
 )) {
 
-692 i‡(
+691 i‡(
 ißrgs
 ) {
 
-693 
+692 
 	`k¥ötf
 ("OS/161 kî√l: %s\n", 
 comm™d
 );
 
-696 
+695 
 ªsu…
  = 
 	`cmd_di•©ch
@@ -58723,11 +58719,11 @@ comm™d
 comm™d
 );
 
-697 i‡(
+696 i‡(
 ªsu…
 ) {
 
-698 
+697 
 	`k¥ötf
 ("Míu comm™d faûed: %s\n", 
 	`°ªº‹
@@ -58735,55 +58731,55 @@ comm™d
 ªsu…
 ));
 
-699 i‡(
+698 i‡(
 ißrgs
 ) {
 
-700 
+699 
 	`∑nic
 ("FailureÖrocessing kernelárguments\n");
 
-704 
+703 
 	}
 }
 
-724 
+723 
 	$míu
 (*
 ¨gs
 )
 
-726 
+725 
 buf
 [64];
 
-728 
+727 
 	`míu_execuã
 (
 ¨gs
 , 1);
 
-731 
+730 
 	`k¥ötf
 ("OS/161 kernel [? for menu]: ");
 
-732 
+731 
 	`kgës
 (
 buf
 , (buf));
 
-733 
+732 
 	`míu_execuã
 (
 buf
 , 0);
 
-735 
+734 
 	}
 }
 
-	@kern/synchprobs/catmouse.c
+	@os161-1.99/kern/synchprobs/catmouse.c
 
 30 
 	~<ty≥s.h
@@ -60645,7 +60641,7 @@ món_mou£_waô_u£cs
 	}
 }
 
-	@kern/synchprobs/catmouse_synch.c
+	@os161-1.99/kern/synchprobs/catmouse_synch.c
 
 1 
 	~<ty≥s.h
@@ -60839,7 +60835,7 @@ globÆC©Mou£Sem
 	}
 }
 
-	@kern/synchprobs/traffic.c
+	@os161-1.99/kern/synchprobs/traffic.c
 
 23 
 	~<ty≥s.h
@@ -62193,7 +62189,7 @@ Simuœti⁄Waô
 	}
 }
 
-	@kern/synchprobs/traffic_synch.c
+	@os161-1.99/kern/synchprobs/traffic_synch.c
 
 1 
 	~<ty≥s.h
@@ -64197,7 +64193,7 @@ sw
 	}
 }
 
-	@kern/synchprobs/whalemating.c
+	@os161-1.99/kern/synchprobs/whalemating.c
 
 33 
 	~<ty≥s.h
@@ -64441,7 +64437,7 @@ j
 	}
 }
 
-	@kern/syscall/file_syscalls.c
+	@os161-1.99/kern/syscall/file_syscalls.c
 
 1 
 	~<ty≥s.h
@@ -64675,7 +64671,7 @@ uio_ªsid
 	}
 }
 
-	@kern/syscall/loadelf.c
+	@os161-1.99/kern/syscall/loadelf.c
 
 53 
 	~<ty≥s.h
@@ -65489,7 +65485,7 @@ e_íåy
 	}
 }
 
-	@kern/syscall/proc_syscalls.c
+	@os161-1.99/kern/syscall/proc_syscalls.c
 
 1 
 	~<ty≥s.h
@@ -66201,19 +66197,11 @@ NULL
 ªsu…
 ) {
 
-241  
+241 (
 ªsu…
-;
+);
 
-244 
-˝å
-[
-¨gc
--1] = 
-NULL
-;
-
-247 
+246 
 •size
  = 
 	`ROUNDUP
@@ -66221,13 +66209,13 @@ NULL
 ¨gc
 *(**),8);
 
-248 
+247 
 °ack±r
  -
 •size
 ;
 
-250 
+249 
 ªsu…
  = 
 	`c›yout
@@ -66237,23 +66225,25 @@ NULL
 u£Ωå_t
 )
 °ack±r
-, 
+, (
+size_t
+)
 •size
 );
 
-251 i‡(
+250 i‡(
 ªsu…
 ) {
 
-252  
+251 (
 ªsu…
-;
+);
 
-257 
+256 
 	`íãr_√w_¥o˚ss
 (
 ¨gc
--1,(
+,(
 u£Ωå_t
 )
 °ack±r
@@ -66261,19 +66251,19 @@ u£Ωå_t
 íåypoöt
 );
 
-258 
+257 
 	`∑nic
 ("enter_new_processÑeturned\n");
 
-259  
+258  
 EINVAL
 ;
 
-260 
+259 
 	}
 }
 
-	@kern/syscall/runprogram.c
+	@os161-1.99/kern/syscall/runprogram.c
 
 36 
 	~<ty≥s.h
@@ -66501,25 +66491,65 @@ i
 «rgs
 ; i++) {
 
-111 
+112 
 ∆í
  = 
-	`ROUNDUP
-((
 	`°æí
 (
 ¨gs
 [
 i
-])+1)*(),8);
+]) + 1;
 
-112 
+113 *
+ãmp
+ = 
+	`kmÆloc
+(
+∆í
+ * ());
+
+114 
+k
+ = 0; k < 
+∆í
+; k++) {
+
+115 i‡(
+k
+ =
+∆í
+-1) {
+
+116 
+ãmp
+[
+k
+] = '\0';
+
+118 
+ãmp
+[
+k
+] = 
+¨gs
+[
+i
+][k];
+
+121 
+∆í
+ = 
+	`ROUNDUP
+(nlen*(),8);
+
+122 
 °ack±r
  -
 ∆í
 ;
 
-113 
+123 
 ˝å
 [
 i
@@ -66529,15 +66559,13 @@ u£Ωå_t
 °ack±r
 ;
 
-114 
+124 
 ªsu…
  = 
 	`c›yout°r
 (
-¨gs
-[
-i
-],(
+ãmp
+,(
 u£Ωå_t
 )
 °ack±r
@@ -66547,15 +66575,21 @@ u£Ωå_t
 NULL
 );
 
-115 i‡(
+125 
+	`k‰ì
+(
+ãmp
+);
+
+126 i‡(
 ªsu…
 ) {
 
-116  
+127  
 ªsu…
 ;
 
-119 
+130 
 ˝å
 [
 «rgs
@@ -66563,7 +66597,7 @@ NULL
 NULL
 ;
 
-121 
+132 
 •size
  = 
 	`ROUNDUP
@@ -66571,13 +66605,13 @@ NULL
 «rgs
 +1)*(**),8);
 
-122 
+133 
 °ack±r
  -
 •size
 ;
 
-123 
+134 
 ªsu…
  = 
 	`c›yout
@@ -66587,19 +66621,21 @@ NULL
 u£Ωå_t
 )
 °ack±r
-,
+,(
+size_t
+)
 •size
 );
 
-124 i‡(
+135 i‡(
 ªsu…
 ) {
 
-125  
+136  
 ªsu…
 ;
 
-127 
+139 
 	`íãr_√w_¥o˚ss
 (
 «rgs
@@ -66611,31 +66647,31 @@ u£Ωå_t
 íåypoöt
 );
 
-130 
+142 
 	`íãr_√w_¥o˚ss
 (0 , 
 NULL
  ,
 
-131 
+143 
 °ack±r
 , 
 íåypoöt
 );
 
-135 
+147 
 	`∑nic
 ("enter_new_processÑeturned\n");
 
-136  
+148  
 EINVAL
 ;
 
-137 
+149 
 	}
 }
 
-	@kern/syscall/time_syscalls.c
+	@os161-1.99/kern/syscall/time_syscalls.c
 
 30 
 	~<ty≥s.h
@@ -66731,7 +66767,7 @@ uöt32_t
 	}
 }
 
-	@kern/test/arraytest.c
+	@os161-1.99/kern/test/arraytest.c
 
 30 
 	~<ty≥s.h
@@ -67293,7 +67329,7 @@ a
 	}
 }
 
-	@kern/test/bitmaptest.c
+	@os161-1.99/kern/test/bitmaptest.c
 
 30 
 	~<ty≥s.h
@@ -67589,7 +67625,7 @@ i
 	}
 }
 
-	@kern/test/fstest.c
+	@os161-1.99/kern/test/fstest.c
 
 41 
 	~<ty≥s.h
@@ -69647,7 +69683,7 @@ rv
 	}
 }
 
-	@kern/test/malloctest.c
+	@os161-1.99/kern/test/malloctest.c
 
 33 
 	~<ty≥s.h
@@ -69965,7 +70001,7 @@ NTHREADS
 	}
 }
 
-	@kern/test/nettest.c
+	@os161-1.99/kern/test/nettest.c
 
 33 
 	~<ty≥s.h
@@ -70003,7 +70039,7 @@ NTHREADS
 	}
 }
 
-	@kern/test/synchtest.c
+	@os161-1.99/kern/test/synchtest.c
 
 34 
 	~<ty≥s.h
@@ -71019,7 +71055,7 @@ UW
 	}
 }
 
-	@kern/test/threadtest.c
+	@os161-1.99/kern/test/threadtest.c
 
 33 
 	~<ty≥s.h
@@ -71331,7 +71367,7 @@ t£m
 	}
 }
 
-	@kern/test/tt3.c
+	@os161-1.99/kern/test/tt3.c
 
 33 
 	~<ty≥s.h
@@ -72189,7 +72225,7 @@ ncompuãs
 	}
 }
 
-	@kern/test/uw-tests.c
+	@os161-1.99/kern/test/uw-tests.c
 
 9 
 	~<ty≥s.h
@@ -72999,7 +73035,7 @@ d⁄e£m
 	}
 }
 
-	@kern/thread/clock.c
+	@os161-1.99/kern/thread/clock.c
 
 30 
 	~<ty≥s.h
@@ -73157,7 +73193,7 @@ num_£cs
 	}
 }
 
-	@kern/thread/spinlock.c
+	@os161-1.99/kern/thread/spinlock.c
 
 31 
 	#SPINLOCK_INLINE
@@ -73417,7 +73453,7 @@ c_£lf
 	}
 }
 
-	@kern/thread/spl.c
+	@os161-1.99/kern/thread/spl.c
 
 31 
 	#SPL_INLINE
@@ -73659,7 +73695,7 @@ t_cur•l
 	}
 }
 
-	@kern/thread/synch.c
+	@os161-1.99/kern/thread/synch.c
 
 35 
 	~<ty≥s.h
@@ -74687,7 +74723,7 @@ cv_wch™
 	}
 }
 
-	@kern/thread/thread.c
+	@os161-1.99/kern/thread/thread.c
 
 34 
 	#THREADINLINE
@@ -77639,7 +77675,7 @@ c_ùi_lock
 	}
 }
 
-	@kern/thread/threadlist.c
+	@os161-1.99/kern/thread/threadlist.c
 
 34 
 	~<ty≥s.h
@@ -78585,7 +78621,7 @@ t_li°node
 	}
 }
 
-	@kern/vfs/device.c
+	@os161-1.99/kern/vfs/device.c
 
 36 
 	~<ty≥s.h
@@ -79697,7 +79733,7 @@ v
 	}
 }
 
-	@kern/vfs/devnull.c
+	@os161-1.99/kern/vfs/devnull.c
 
 34 
 	~<ty≥s.h
@@ -79939,7 +79975,7 @@ dev
 	}
 }
 
-	@kern/vfs/vfscwd.c
+	@os161-1.99/kern/vfs/vfscwd.c
 
 34 
 	~<ty≥s.h
@@ -80435,7 +80471,7 @@ cwd
 	}
 }
 
-	@kern/vfs/vfslist.c
+	@os161-1.99/kern/vfs/vfslist.c
 
 35 
 	#VFSINLINE
@@ -82217,7 +82253,7 @@ NULL
 	}
 }
 
-	@kern/vfs/vfslookup.c
+	@os161-1.99/kern/vfs/vfslookup.c
 
 34 
 	~<ty≥s.h
@@ -82869,7 +82905,7 @@ vnode
 	}
 }
 
-	@kern/vfs/vfspath.c
+	@os161-1.99/kern/vfs/vfspath.c
 
 34 
 	~<ty≥s.h
@@ -83797,7 +83833,7 @@ NAME_MAX
 	}
 }
 
-	@kern/vfs/vnode.c
+	@os161-1.99/kern/vfs/vnode.c
 
 33 
 	~<ty≥s.h
@@ -84375,7 +84411,7 @@ vn_›ícou¡
 	}
 }
 
-	@kern/vm/copyinout.c
+	@os161-1.99/kern/vm/copyinout.c
 
 30 
 	~<ty≥s.h
@@ -85063,7 +85099,7 @@ NULL
 	}
 }
 
-	@kern/vm/kmalloc.c
+	@os161-1.99/kern/vm/kmalloc.c
 
 30 
 	~<ty≥s.h
@@ -87047,7 +87083,7 @@ vaddr_t
 	}
 }
 
-	@kern/vm/uw-vmstats.c
+	@os161-1.99/kern/vm/uw-vmstats.c
 
 13 
 	~<ty≥s.h
@@ -87383,7 +87419,7 @@ disk_ªads
 	}
 }
 
-	@user/bin/cat/cat.c
+	@os161-1.99/user/bin/cat/cat.c
 
 30 
 	~<uni°d.h
@@ -87579,7 +87615,7 @@ i
 	}
 }
 
-	@user/bin/cp/cp.c
+	@os161-1.99/user/bin/cp/cp.c
 
 30 
 	~<uni°d.h
@@ -87775,7 +87811,7 @@ to
 	}
 }
 
-	@user/bin/false/false.c
+	@os161-1.99/user/bin/false/false.c
 
 30 
 	~<uni°d.h
@@ -87797,7 +87833,7 @@ to
 	}
 }
 
-	@user/bin/ln/ln.c
+	@os161-1.99/user/bin/ln/ln.c
 
 30 
 	~<uni°d.h
@@ -87917,7 +87953,7 @@ to
 	}
 }
 
-	@user/bin/ls/ls.c
+	@os161-1.99/user/bin/ls/ls.c
 
 30 
 	~<sys/ty≥s.h
@@ -88693,7 +88729,7 @@ i
 	}
 }
 
-	@user/bin/mkdir/mkdir.c
+	@os161-1.99/user/bin/mkdir/mkdir.c
 
 30 
 	~<sys/ty≥s.h
@@ -88743,7 +88779,7 @@ i
 	}
 }
 
-	@user/bin/mv/mv.c
+	@os161-1.99/user/bin/mv/mv.c
 
 30 
 	~<uni°d.h
@@ -88807,7 +88843,7 @@ i
 	}
 }
 
-	@user/bin/pwd/pwd.c
+	@os161-1.99/user/bin/pwd/pwd.c
 
 30 
 	~<°dio.h
@@ -88869,7 +88905,7 @@ buf
 	}
 }
 
-	@user/bin/rm/rm.c
+	@os161-1.99/user/bin/rm/rm.c
 
 30 
 	~<uni°d.h
@@ -88939,7 +88975,7 @@ i
 	}
 }
 
-	@user/bin/rmdir/rmdir.c
+	@os161-1.99/user/bin/rmdir/rmdir.c
 
 30 
 	~<uni°d.h
@@ -88981,7 +89017,7 @@ i
 	}
 }
 
-	@user/bin/sh/sh.c
+	@os161-1.99/user/bin/sh/sh.c
 
 38 
 	~<sys/ty≥s.h
@@ -90123,7 +90159,7 @@ HOST
 	}
 }
 
-	@user/bin/sync/sync.c
+	@os161-1.99/user/bin/sync/sync.c
 
 30 
 	~<uni°d.h
@@ -90141,7 +90177,7 @@ HOST
 	}
 }
 
-	@user/bin/true/true.c
+	@os161-1.99/user/bin/true/true.c
 
 30 
 	~<uni°d.h
@@ -90163,7 +90199,7 @@ HOST
 	}
 }
 
-	@user/include/assert.h
+	@os161-1.99/user/include/assert.h
 
 30 #i‚de‡
 _ASSERT_H_
@@ -90223,7 +90259,7 @@ __LINE__
 
 	)
 
-	@user/include/err.h
+	@os161-1.99/user/include/err.h
 
 30 #i‚de‡
 _ERR_H_
@@ -90303,7 +90339,7 @@ fmt
 __va_li°
 );
 
-	@user/include/errno.h
+	@os161-1.99/user/include/errno.h
 
 30 #i‚de‡
 _ERRNO_H_
@@ -90323,13 +90359,13 @@ _ERRNO_H_
 î∫o
 ;
 
-	@user/include/fcntl.h
+	@os161-1.99/user/include/fcntl.h
 
 31 
 	~<uni°d.h
 >
 
-	@user/include/limits.h
+	@os161-1.99/user/include/limits.h
 
 30 #i‚de‡
 _LIMITS_H_
@@ -90425,7 +90461,7 @@ __IOV_MAX
 
 	)
 
-	@user/include/setjmp.h
+	@os161-1.99/user/include/setjmp.h
 
 30 #i‚de‡
 _SETJMP_H_
@@ -90459,13 +90495,13 @@ jb
 code
 );
 
-	@user/include/signal.h
+	@os161-1.99/user/include/signal.h
 
 30 
 	~<kîn/sig«l.h
 >
 
-	@user/include/stdarg.h
+	@os161-1.99/user/include/stdarg.h
 
 30 #i‚de‡
 _STDARG_H_
@@ -90533,7 +90569,7 @@ t
 
 	)
 
-	@user/include/stdint.h
+	@os161-1.99/user/include/stdint.h
 
 30 #i‚de‡
 _STDINT_H_
@@ -90609,7 +90645,7 @@ __uöçå_t
 	tuöçå_t
 ;
 
-	@user/include/stdio.h
+	@os161-1.99/user/include/stdio.h
 
 30 #i‚de‡
 _STDIO_H_
@@ -90725,7 +90761,7 @@ __va_li°
 	`gëch¨
 ();
 
-	@user/include/stdlib.h
+	@os161-1.99/user/include/stdlib.h
 
 30 #i‚de‡
 _STDLIB_H_
@@ -90809,7 +90845,7 @@ size
 ±r
 );
 
-	@user/include/string.h
+	@os161-1.99/user/include/string.h
 
 30 #i‚de‡
 _STRING_H_
@@ -90905,7 +90941,7 @@ bzîo
 size_t
 );
 
-	@user/include/sys/endian.h
+	@os161-1.99/user/include/sys/endian.h
 
 30 #i‚de‡
 _SYS_ENDIAN_H_
@@ -90921,13 +90957,13 @@ _SYS_ENDIAN_H_
 	~<kîn/ídün.h
 >
 
-	@user/include/sys/ioctl.h
+	@os161-1.99/user/include/sys/ioctl.h
 
 31 
 	~<uni°d.h
 >
 
-	@user/include/sys/null.h
+	@os161-1.99/user/include/sys/null.h
 
 30 #i‚de‡
 _SYS_NULL_H_
@@ -90945,13 +90981,13 @@ _SYS_NULL_H_
 
 	)
 
-	@user/include/sys/reboot.h
+	@os161-1.99/user/include/sys/reboot.h
 
 31 
 	~<uni°d.h
 >
 
-	@user/include/sys/stat.h
+	@os161-1.99/user/include/sys/stat.h
 
 30 #i‚de‡
 _SYS_STAT_H_
@@ -91167,7 +91203,7 @@ dú«me
 ign‹e
 );
 
-	@user/include/sys/types.h
+	@os161-1.99/user/include/sys/types.h
 
 30 #i‚de‡
 _SYS_TYPES_H_
@@ -91325,19 +91361,19 @@ __CHAR_BIT
 
 	)
 
-	@user/include/sys/wait.h
+	@os161-1.99/user/include/sys/wait.h
 
 31 
 	~<uni°d.h
 >
 
-	@user/include/time.h
+	@os161-1.99/user/include/time.h
 
 31 
 	~<uni°d.h
 >
 
-	@user/include/types/size_t.h
+	@os161-1.99/user/include/types/size_t.h
 
 30 #i‚de‡
 _TYPES_SIZE_T_H_
@@ -91359,7 +91395,7 @@ __size_t
 	tsize_t
 ;
 
-	@user/include/unistd.h
+	@os161-1.99/user/include/unistd.h
 
 30 #i‚de‡
 _UNISTD_H_
@@ -91671,7 +91707,7 @@ time
 £c⁄ds
 );
 
-	@user/lib/hostcompat/err.c
+	@os161-1.99/user/lib/hostcompat/err.c
 
 34 
 	~<uni°d.h
@@ -92047,7 +92083,7 @@ fmt
 	}
 }
 
-	@user/lib/hostcompat/host-err.h
+	@os161-1.99/user/lib/hostcompat/host-err.h
 
 31 #i‚de‡
 HOSTCOMPAT_ERR_H
@@ -92127,7 +92163,7 @@ fmt
 va_li°
 );
 
-	@user/lib/hostcompat/hostcompat.c
+	@os161-1.99/user/lib/hostcompat/hostcompat.c
 
 30 
 	~<uni°d.h
@@ -92705,7 +92741,7 @@ ho°com∑t_c⁄t
 	}
 }
 
-	@user/lib/hostcompat/hostcompat.h
+	@os161-1.99/user/lib/hostcompat/hostcompat.h
 
 31 
 	~<sys/ty≥s.h
@@ -92729,7 +92765,7 @@ __time
 n£cs
 );
 
-	@user/lib/hostcompat/time.c
+	@os161-1.99/user/lib/hostcompat/time.c
 
 34 
 	~<sys/ty≥s.h
@@ -92809,7 +92845,7 @@ tv_£c
 	}
 }
 
-	@user/lib/libc/stdio/__puts.c
+	@os161-1.99/user/lib/libc/stdio/__puts.c
 
 30 
 	~<°dio.h
@@ -92851,7 +92887,7 @@ cou¡
 	}
 }
 
-	@user/lib/libc/stdio/getchar.c
+	@os161-1.99/user/lib/libc/stdio/getchar.c
 
 30 
 	~<°dio.h
@@ -92899,7 +92935,7 @@ ch
 	}
 }
 
-	@user/lib/libc/stdio/printf.c
+	@os161-1.99/user/lib/libc/stdio/printf.c
 
 30 
 	~<°dio.h
@@ -93021,7 +93057,7 @@ fmt
 	}
 }
 
-	@user/lib/libc/stdio/putchar.c
+	@os161-1.99/user/lib/libc/stdio/putchar.c
 
 30 
 	~<°dio.h
@@ -93073,7 +93109,7 @@ ch
 	}
 }
 
-	@user/lib/libc/stdio/puts.c
+	@os161-1.99/user/lib/libc/stdio/puts.c
 
 30 
 	~<°dio.h
@@ -93099,7 +93135,7 @@ s
 	}
 }
 
-	@user/lib/libc/stdlib/abort.c
+	@os161-1.99/user/lib/libc/stdlib/abort.c
 
 30 
 	~<°dlib.h
@@ -93121,7 +93157,7 @@ s
 	}
 }
 
-	@user/lib/libc/stdlib/exit.c
+	@os161-1.99/user/lib/libc/stdlib/exit.c
 
 30 
 	~<°dlib.h
@@ -93167,7 +93203,7 @@ bœh
 	}
 }
 
-	@user/lib/libc/stdlib/malloc.c
+	@os161-1.99/user/lib/libc/stdlib/malloc.c
 
 39 
 	~<°dlib.h
@@ -94599,7 +94635,7 @@ x
 	}
 }
 
-	@user/lib/libc/stdlib/random.c
+	@os161-1.99/user/lib/libc/stdlib/random.c
 
 41 
 	~<as£π.h
@@ -95507,7 +95543,7 @@ r
 	}
 }
 
-	@user/lib/libc/stdlib/system.c
+	@os161-1.99/user/lib/libc/stdlib/system.c
 
 30 
 	~<î∫o.h
@@ -95665,7 +95701,7 @@ pid
 	}
 }
 
-	@user/lib/libc/string/memcmp.c
+	@os161-1.99/user/lib/libc/string/memcmp.c
 
 30 
 	~<°rög.h
@@ -95727,7 +95763,7 @@ b
 	}
 }
 
-	@user/lib/libc/string/memset.c
+	@os161-1.99/user/lib/libc/string/memset.c
 
 30 
 	~<°rög.h
@@ -95779,7 +95815,7 @@ ch
 	}
 }
 
-	@user/lib/libc/string/strerror.c
+	@os161-1.99/user/lib/libc/string/strerror.c
 
 30 
 	~<°rög.h
@@ -95811,7 +95847,7 @@ sys_îæi°
 	}
 }
 
-	@user/lib/libc/string/strtok.c
+	@os161-1.99/user/lib/libc/string/strtok.c
 
 30 
 	~<°rög.h
@@ -95843,7 +95879,7 @@ __°πok_c⁄ãxt
 	}
 }
 
-	@user/lib/libc/time/time.c
+	@os161-1.99/user/lib/libc/time/time.c
 
 30 
 	~<uni°d.h
@@ -95873,7 +95909,7 @@ NULL
 	}
 }
 
-	@user/lib/libc/unix/__assert.c
+	@os161-1.99/user/lib/libc/unix/__assert.c
 
 30 
 	~<as£π.h
@@ -95941,7 +95977,7 @@ buf
 	}
 }
 
-	@user/lib/libc/unix/err.c
+	@os161-1.99/user/lib/libc/unix/err.c
 
 30 
 	~<°dio.h
@@ -96377,7 +96413,7 @@ fmt
 	}
 }
 
-	@user/lib/libc/unix/errno.c
+	@os161-1.99/user/lib/libc/unix/errno.c
 
 30 
 	~<î∫o.h
@@ -96391,7 +96427,7 @@ fmt
 	gî∫o
 ;
 
-	@user/lib/libc/unix/getcwd.c
+	@os161-1.99/user/lib/libc/unix/getcwd.c
 
 30 
 	~<uni°d.h
@@ -96461,7 +96497,7 @@ buf
 	}
 }
 
-	@user/my-testbin/example/example.c
+	@os161-1.99/user/my-testbin/example/example.c
 
 4 
 	~<uni°d.h
@@ -96481,7 +96517,7 @@ RB_POWEROFF
 	}
 }
 
-	@user/sbin/dumpsfs/dumpsfs.c
+	@os161-1.99/user/sbin/dumpsfs/dumpsfs.c
 
 30 
 	~<sys/ty≥s.h
@@ -97069,7 +97105,7 @@ SFS_ROOT_LOCATION
 	}
 }
 
-	@user/sbin/halt/halt.c
+	@os161-1.99/user/sbin/halt/halt.c
 
 30 
 	~<uni°d.h
@@ -97089,7 +97125,7 @@ RB_HALT
 	}
 }
 
-	@user/sbin/mksfs/disk.c
+	@os161-1.99/user/sbin/mksfs/disk.c
 
 30 
 	~<sys/ty≥s.h
@@ -97589,7 +97625,7 @@ fd
 	}
 }
 
-	@user/sbin/mksfs/disk.h
+	@os161-1.99/user/sbin/mksfs/disk.h
 
 30 
 ›ídisk
@@ -97633,7 +97669,7 @@ block
 ˛o£disk
 ();
 
-	@user/sbin/mksfs/mksfs.c
+	@os161-1.99/user/sbin/mksfs/mksfs.c
 
 30 
 	~<sys/ty≥s.h
@@ -98229,9 +98265,9 @@ size
 	}
 }
 
-	@user/sbin/mksfs/support.c
+	@os161-1.99/user/sbin/mksfs/support.c
 
-	@user/sbin/mksfs/support.h
+	@os161-1.99/user/sbin/mksfs/support.h
 
 31 #ifde‡
 __osf__
@@ -98299,7 +98335,7 @@ __•¨c__
 	tuöt8_t
 ;
 
-	@user/sbin/poweroff/poweroff.c
+	@os161-1.99/user/sbin/poweroff/poweroff.c
 
 30 
 	~<uni°d.h
@@ -98319,7 +98355,7 @@ RB_POWEROFF
 	}
 }
 
-	@user/sbin/reboot/reboot.c
+	@os161-1.99/user/sbin/reboot/reboot.c
 
 30 
 	~<uni°d.h
@@ -98339,7 +98375,7 @@ RB_REBOOT
 	}
 }
 
-	@user/sbin/sfsck/sfsck.c
+	@os161-1.99/user/sbin/sfsck/sfsck.c
 
 30 
 	~<sys/ty≥s.h
@@ -103263,7 +103299,7 @@ bad√ss
 	}
 }
 
-	@user/testbin/add/add.c
+	@os161-1.99/user/testbin/add/add.c
 
 38 
 	~<°dio.h
@@ -103327,7 +103363,7 @@ j
 	}
 }
 
-	@user/testbin/argtest/argtest.c
+	@os161-1.99/user/testbin/argtest/argtest.c
 
 38 
 	~<°dio.h
@@ -103391,7 +103427,7 @@ tmp
 	}
 }
 
-	@user/testbin/badcall/bad_chdir.c
+	@os161-1.99/user/testbin/badcall/bad_chdir.c
 
 34 
 	~<uni°d.h
@@ -103453,7 +103489,7 @@ EINVAL
 	}
 }
 
-	@user/testbin/badcall/bad_close.c
+	@os161-1.99/user/testbin/badcall/bad_close.c
 
 34 
 	~"ã°.h
@@ -103471,7 +103507,7 @@ EINVAL
 	}
 }
 
-	@user/testbin/badcall/bad_dup2.c
+	@os161-1.99/user/testbin/badcall/bad_dup2.c
 
 34 
 	~<sys/ty≥s.h
@@ -103749,7 +103785,7 @@ OPEN_MAX
 	}
 }
 
-	@user/testbin/badcall/bad_execv.c
+	@os161-1.99/user/testbin/badcall/bad_execv.c
 
 34 
 	~<sys/ty≥s.h
@@ -104135,7 +104171,7 @@ KERN_PTR
 	}
 }
 
-	@user/testbin/badcall/bad_fsync.c
+	@os161-1.99/user/testbin/badcall/bad_fsync.c
 
 34 
 	~"ã°.h
@@ -104153,7 +104189,7 @@ KERN_PTR
 	}
 }
 
-	@user/testbin/badcall/bad_ftruncate.c
+	@os161-1.99/user/testbin/badcall/bad_ftruncate.c
 
 34 
 	~<sys/ty≥s.h
@@ -104323,7 +104359,7 @@ TESTFILE
 	}
 }
 
-	@user/testbin/badcall/bad_getcwd.c
+	@os161-1.99/user/testbin/badcall/bad_getcwd.c
 
 34 
 	~"ã°.h
@@ -104341,7 +104377,7 @@ TESTFILE
 	}
 }
 
-	@user/testbin/badcall/bad_getdirentry.c
+	@os161-1.99/user/testbin/badcall/bad_getdirentry.c
 
 34 
 	~"ã°.h
@@ -104363,7 +104399,7 @@ TESTFILE
 	}
 }
 
-	@user/testbin/badcall/bad_ioctl.c
+	@os161-1.99/user/testbin/badcall/bad_ioctl.c
 
 34 
 	~<sys/ty≥s.h
@@ -104583,7 +104619,7 @@ EIOCTL
 	}
 }
 
-	@user/testbin/badcall/bad_link.c
+	@os161-1.99/user/testbin/badcall/bad_link.c
 
 34 
 	~<uni°d.h
@@ -104731,7 +104767,7 @@ TESTDIR
 	}
 }
 
-	@user/testbin/badcall/bad_lseek.c
+	@os161-1.99/user/testbin/badcall/bad_lseek.c
 
 34 
 	~<sys/ty≥s.h
@@ -105439,7 +105475,7 @@ TESTFILE
 	}
 }
 
-	@user/testbin/badcall/bad_mkdir.c
+	@os161-1.99/user/testbin/badcall/bad_mkdir.c
 
 34 
 	~<sys/ty≥s.h
@@ -105589,7 +105625,7 @@ EINVAL
 	}
 }
 
-	@user/testbin/badcall/bad_open.c
+	@os161-1.99/user/testbin/badcall/bad_open.c
 
 34 
 	~<sys/ty≥s.h
@@ -105719,7 +105755,7 @@ rv
 	}
 }
 
-	@user/testbin/badcall/bad_pipe.c
+	@os161-1.99/user/testbin/badcall/bad_pipe.c
 
 34 
 	~<sys/ty≥s.h
@@ -105871,7 +105907,7 @@ KERN_PTR
 	}
 }
 
-	@user/testbin/badcall/bad_read.c
+	@os161-1.99/user/testbin/badcall/bad_read.c
 
 34 
 	~"ã°.h
@@ -105893,7 +105929,7 @@ KERN_PTR
 	}
 }
 
-	@user/testbin/badcall/bad_readlink.c
+	@os161-1.99/user/testbin/badcall/bad_readlink.c
 
 34 
 	~<uni°d.h
@@ -106065,7 +106101,7 @@ EINVAL
 	}
 }
 
-	@user/testbin/badcall/bad_reboot.c
+	@os161-1.99/user/testbin/badcall/bad_reboot.c
 
 34 
 	~<sys/ty≥s.h
@@ -106151,7 +106187,7 @@ EINVAL
 	}
 }
 
-	@user/testbin/badcall/bad_remove.c
+	@os161-1.99/user/testbin/badcall/bad_remove.c
 
 34 
 	~<sys/ty≥s.h
@@ -106351,7 +106387,7 @@ EINVAL
 	}
 }
 
-	@user/testbin/badcall/bad_rename.c
+	@os161-1.99/user/testbin/badcall/bad_rename.c
 
 34 
 	~<uni°d.h
@@ -106557,7 +106593,7 @@ TESTDIR
 	}
 }
 
-	@user/testbin/badcall/bad_rmdir.c
+	@os161-1.99/user/testbin/badcall/bad_rmdir.c
 
 34 
 	~<sys/ty≥s.h
@@ -106753,7 +106789,7 @@ EINVAL
 	}
 }
 
-	@user/testbin/badcall/bad_sbrk.c
+	@os161-1.99/user/testbin/badcall/bad_sbrk.c
 
 34 
 	~<sys/ty≥s.h
@@ -107005,7 +107041,7 @@ EINVAL
 	}
 }
 
-	@user/testbin/badcall/bad_stat.c
+	@os161-1.99/user/testbin/badcall/bad_stat.c
 
 34 
 	~<sys/ty≥s.h
@@ -107327,7 +107363,7 @@ badbuf_°©
 	}
 }
 
-	@user/testbin/badcall/bad_symlink.c
+	@os161-1.99/user/testbin/badcall/bad_symlink.c
 
 34 
 	~<uni°d.h
@@ -107425,7 +107461,7 @@ EINVAL
 	}
 }
 
-	@user/testbin/badcall/bad_time.c
+	@os161-1.99/user/testbin/badcall/bad_time.c
 
 34 
 	~<sys/ty≥s.h
@@ -107575,7 +107611,7 @@ KERN_PTR
 	}
 }
 
-	@user/testbin/badcall/bad_waitpid.c
+	@os161-1.99/user/testbin/badcall/bad_waitpid.c
 
 34 
 	~<sys/ty≥s.h
@@ -108389,7 +108425,7 @@ KERN_PTR
 	}
 }
 
-	@user/testbin/badcall/bad_write.c
+	@os161-1.99/user/testbin/badcall/bad_write.c
 
 34 
 	~"ã°.h
@@ -108411,7 +108447,7 @@ KERN_PTR
 	}
 }
 
-	@user/testbin/badcall/common_buf.c
+	@os161-1.99/user/testbin/badcall/common_buf.c
 
 34 
 	~<sys/ty≥s.h
@@ -108909,7 +108945,7 @@ T
 gëcwd
 );
 
-	@user/testbin/badcall/common_fds.c
+	@os161-1.99/user/testbin/badcall/common_fds.c
 
 34 
 	~<sys/ty≥s.h
@@ -109431,7 +109467,7 @@ TC
 dup2
 );
 
-	@user/testbin/badcall/common_path.c
+	@os161-1.99/user/testbin/badcall/common_path.c
 
 34 
 	~<sys/ty≥s.h
@@ -110003,7 +110039,7 @@ T2
 symlök
 );
 
-	@user/testbin/badcall/config.h
+	@os161-1.99/user/testbin/badcall/config.h
 
 37 #i‡
 deföed
@@ -110073,7 +110109,7 @@ EINVAL
 
 	)
 
-	@user/testbin/badcall/driver.c
+	@os161-1.99/user/testbin/badcall/driver.c
 
 30 
 	~<sys/ty≥s.h
@@ -111003,7 +111039,7 @@ EOF
 	}
 }
 
-	@user/testbin/badcall/test.h
+	@os161-1.99/user/testbin/badcall/test.h
 
 30 
 	#TESTFILE
@@ -111293,7 +111329,7 @@ desc
 ã°_l°©
 ();
 
-	@user/testbin/bigfile/bigfile.c
+	@os161-1.99/user/testbin/bigfile/bigfile.c
 
 39 
 	~<°dlib.h
@@ -111453,7 +111489,7 @@ fûeid
 	}
 }
 
-	@user/testbin/conman/conman.c
+	@os161-1.99/user/testbin/conman/conman.c
 
 37 
 	~<uni°d.h
@@ -111513,7 +111549,7 @@ ch
 	}
 }
 
-	@user/testbin/crash/crash.c
+	@os161-1.99/user/testbin/crash/crash.c
 
 44 
 	~<°dio.h
@@ -112163,7 +112199,7 @@ pid
 	}
 }
 
-	@user/testbin/ctest/ctest.c
+	@os161-1.99/user/testbin/ctest/ctest.c
 
 39 
 	~<°dio.h
@@ -112315,7 +112351,7 @@ e
 	}
 }
 
-	@user/testbin/dirconc/dirconc.c
+	@os161-1.99/user/testbin/dirconc/dirconc.c
 
 37 
 	~<sys/ty≥s.h
@@ -113363,7 +113399,7 @@ TESTDIR
 	}
 }
 
-	@user/testbin/dirseek/dirseek.c
+	@os161-1.99/user/testbin/dirseek/dirseek.c
 
 49 
 	~<sys/ty≥s.h
@@ -114727,7 +114763,7 @@ TESTDIR
 	}
 }
 
-	@user/testbin/dirtest/dirtest.c
+	@os161-1.99/user/testbin/dirtest/dirtest.c
 
 42 
 	~<sys/ty≥s.h
@@ -114865,7 +114901,7 @@ dú«me
 	}
 }
 
-	@user/testbin/f_test/f_hdr.h
+	@os161-1.99/user/testbin/f_test/f_hdr.h
 
 30 
 sub¥oc_ªad
@@ -114875,7 +114911,7 @@ sub¥oc_ªad
 sub¥oc_wrôe
 ();
 
-	@user/testbin/f_test/f_read.c
+	@os161-1.99/user/testbin/f_test/f_read.c
 
 44 
 	#Se˘‹Size
@@ -115079,7 +115115,7 @@ fd
 	}
 }
 
-	@user/testbin/f_test/f_test.c
+	@os161-1.99/user/testbin/f_test/f_test.c
 
 43 
 	~<sys/ty≥s.h
@@ -116045,7 +116081,7 @@ RUNCONCUR
 	}
 }
 
-	@user/testbin/f_test/f_write.c
+	@os161-1.99/user/testbin/f_test/f_write.c
 
 44 
 	#Se˘‹Size
@@ -116189,7 +116225,7 @@ fd
 	}
 }
 
-	@user/testbin/farm/farm.c
+	@os161-1.99/user/testbin/farm/farm.c
 
 40 
 	~<uni°d.h
@@ -116403,7 +116439,7 @@ h¨gv
 	}
 }
 
-	@user/testbin/faulter/faulter.c
+	@os161-1.99/user/testbin/faulter/faulter.c
 
 39 
 	~<°dio.h
@@ -116441,7 +116477,7 @@ REALLY_BIG_ADDRESS
 	}
 }
 
-	@user/testbin/filetest/filetest.c
+	@os161-1.99/user/testbin/filetest/filetest.c
 
 41 
 	~<°dio.h
@@ -116651,7 +116687,7 @@ rv
 	}
 }
 
-	@user/testbin/forkbomb/forkbomb.c
+	@os161-1.99/user/testbin/forkbomb/forkbomb.c
 
 50 
 	~<uni°d.h
@@ -116717,7 +116753,7 @@ pid
 	}
 }
 
-	@user/testbin/forktest/forktest.c
+	@os161-1.99/user/testbin/forktest/forktest.c
 
 39 
 	~<uni°d.h
@@ -117059,7 +117095,7 @@ nowaô
 	}
 }
 
-	@user/testbin/guzzle/guzzle.c
+	@os161-1.99/user/testbin/guzzle/guzzle.c
 
 37 
 	~<°dio.h
@@ -117121,7 +117157,7 @@ ch
 	}
 }
 
-	@user/testbin/hash/hash.c
+	@os161-1.99/user/testbin/hash/hash.c
 
 41 
 	~<°dio.h
@@ -117245,7 +117281,7 @@ j
 	}
 }
 
-	@user/testbin/hog/hog.c
+	@os161-1.99/user/testbin/hog/hog.c
 
 38 
 	$maö
@@ -117263,7 +117299,7 @@ i
 	}
 }
 
-	@user/testbin/huge/huge.c
+	@os161-1.99/user/testbin/huge/huge.c
 
 40 
 	~<°dio.h
@@ -117377,7 +117413,7 @@ i
 	}
 }
 
-	@user/testbin/kitchen/kitchen.c
+	@os161-1.99/user/testbin/kitchen/kitchen.c
 
 38 
 	~<uni°d.h
@@ -117549,7 +117585,7 @@ i
 	}
 }
 
-	@user/testbin/malloctest/malloctest.c
+	@os161-1.99/user/testbin/malloctest/malloctest.c
 
 40 
 	~<°döt.h
@@ -119207,7 +119243,7 @@ míu
 	}
 }
 
-	@user/testbin/matmult/matmult-orig.c
+	@os161-1.99/user/testbin/matmult/matmult-orig.c
 
 48 
 	~<uni°d.h
@@ -119367,7 +119403,7 @@ RIGHT
 	}
 }
 
-	@user/testbin/matmult/matmult.c
+	@os161-1.99/user/testbin/matmult/matmult.c
 
 42 
 	~<uni°d.h
@@ -119573,7 +119609,7 @@ RIGHT
 	}
 }
 
-	@user/testbin/palin/palin.c
+	@os161-1.99/user/testbin/palin/palin.c
 
 84 
 	~<°dio.h
@@ -119661,7 +119697,7 @@ RIGHT
 	}
 }
 
-	@user/testbin/parallelvm/parallelvm.c
+	@os161-1.99/user/testbin/parallelvm/parallelvm.c
 
 39 
 	~<sys/ty≥s.h
@@ -120367,7 +120403,7 @@ i
 	}
 }
 
-	@user/testbin/psort/psort.c
+	@os161-1.99/user/testbin/psort/psort.c
 
 39 
 	~<sys/ty≥s.h
@@ -124307,7 +124343,7 @@ numkeys
 	}
 }
 
-	@user/testbin/randcall/calls.c
+	@os161-1.99/user/testbin/randcall/calls.c
 
 2 
 	~<sys/ty≥s.h
@@ -127519,7 +127555,7 @@ dof‹k
 	}
 }
 
-	@user/testbin/randcall/extern.h
+	@os161-1.99/user/testbin/randcall/extern.h
 
 30 
 	~<sys/ty≥s.h
@@ -127555,7 +127591,7 @@ dof‹k
 cou¡
 );
 
-	@user/testbin/randcall/main.c
+	@os161-1.99/user/testbin/randcall/main.c
 
 30 
 	~<°dlib.h
@@ -127983,7 +128019,7 @@ cou¡
 	}
 }
 
-	@user/testbin/rmdirtest/rmdirtest.c
+	@os161-1.99/user/testbin/rmdirtest/rmdirtest.c
 
 39 
 	~<sys/ty≥s.h
@@ -128819,7 +128855,7 @@ buf
 	}
 }
 
-	@user/testbin/rmtest/rmtest.c
+	@os161-1.99/user/testbin/rmtest/rmtest.c
 
 39 
 	~<°dio.h
@@ -129211,7 +129247,7 @@ ENOENT
 	}
 }
 
-	@user/testbin/sink/sink.c
+	@os161-1.99/user/testbin/sink/sink.c
 
 38 
 	~<uni°d.h
@@ -129263,7 +129299,7 @@ r
 	}
 }
 
-	@user/testbin/sort/sort.c
+	@os161-1.99/user/testbin/sort/sort.c
 
 39 
 	~<°dlib.h
@@ -129531,7 +129567,7 @@ SIZE
 	}
 }
 
-	@user/testbin/sty/sty.c
+	@os161-1.99/user/testbin/sty/sty.c
 
 39 
 	~<uni°d.h
@@ -129711,7 +129747,7 @@ i
 	}
 }
 
-	@user/testbin/tail/tail.c
+	@os161-1.99/user/testbin/tail/tail.c
 
 39 
 	~<uni°d.h
@@ -129853,7 +129889,7 @@ fûe
 	}
 }
 
-	@user/testbin/tictac/tictac.c
+	@os161-1.99/user/testbin/tictac/tictac.c
 
 41 
 	~<°dio.h
@@ -130901,7 +130937,7 @@ b
 	}
 }
 
-	@user/testbin/triplehuge/triple.c
+	@os161-1.99/user/testbin/triplehuge/triple.c
 
 36 
 	~<°dio.h
@@ -131127,7 +131163,7 @@ pids
 	}
 }
 
-	@user/testbin/triplehuge/triple.h
+	@os161-1.99/user/testbin/triplehuge/triple.h
 
 30 
 åùÀ
@@ -131135,7 +131171,7 @@ pids
 ¥og
 );
 
-	@user/testbin/triplehuge/triplehuge.c
+	@os161-1.99/user/testbin/triplehuge/triplehuge.c
 
 38 
 	~"åùÀ.h
@@ -131153,7 +131189,7 @@ pids
 	}
 }
 
-	@user/testbin/triplemat/triple.c
+	@os161-1.99/user/testbin/triplemat/triple.c
 
 36 
 	~<°dio.h
@@ -131379,7 +131415,7 @@ pids
 	}
 }
 
-	@user/testbin/triplemat/triple.h
+	@os161-1.99/user/testbin/triplemat/triple.h
 
 30 
 åùÀ
@@ -131387,7 +131423,7 @@ pids
 ¥og
 );
 
-	@user/testbin/triplemat/triplemat.c
+	@os161-1.99/user/testbin/triplemat/triplemat.c
 
 38 
 	~"åùÀ.h
@@ -131405,7 +131441,7 @@ pids
 	}
 }
 
-	@user/testbin/triplesort/triple.c
+	@os161-1.99/user/testbin/triplesort/triple.c
 
 36 
 	~<°dio.h
@@ -131631,7 +131667,7 @@ pids
 	}
 }
 
-	@user/testbin/triplesort/triple.h
+	@os161-1.99/user/testbin/triplesort/triple.h
 
 30 
 åùÀ
@@ -131639,7 +131675,7 @@ pids
 ¥og
 );
 
-	@user/testbin/triplesort/triplesort.c
+	@os161-1.99/user/testbin/triplesort/triplesort.c
 
 38 
 	~"åùÀ.h
@@ -131657,7 +131693,7 @@ pids
 	}
 }
 
-	@user/testbin/userthreads/userthreads.c
+	@os161-1.99/user/testbin/userthreads/userthreads.c
 
 52 
 	~<uni°d.h
@@ -131793,7 +131829,7 @@ cou¡
 	}
 }
 
-	@user/testbin/zero/zero.c
+	@os161-1.99/user/testbin/zero/zero.c
 
 38 
 	~<°dio.h
@@ -132059,7 +132095,7 @@ ba£
 	}
 }
 
-	@user/uw-testbin/argtest/argtest.c
+	@os161-1.99/user/uw-testbin/argtest/argtest.c
 
 9 
 	~<°dio.h
@@ -132193,7 +132229,7 @@ tmp
 	}
 }
 
-	@user/uw-testbin/argtesttest/argtesttest.c
+	@os161-1.99/user/uw-testbin/argtesttest/argtesttest.c
 
 10 
 	~<uni°d.h
@@ -132265,7 +132301,7 @@ x¨gv
 	}
 }
 
-	@user/uw-testbin/conc-io/conc-io.c
+	@os161-1.99/user/uw-testbin/conc-io/conc-io.c
 
 6 
 	~<°dio.h
@@ -132747,7 +132783,7 @@ rvÆ
 	}
 }
 
-	@user/uw-testbin/files1/files1.c
+	@os161-1.99/user/uw-testbin/files1/files1.c
 
 14 
 	~<°dio.h
@@ -133031,7 +133067,7 @@ j
 	}
 }
 
-	@user/uw-testbin/files2/files2.c
+	@os161-1.99/user/uw-testbin/files2/files2.c
 
 14 
 	~<°dio.h
@@ -133659,7 +133695,7 @@ EFAULT
 	}
 }
 
-	@user/uw-testbin/hogparty/hogparty.c
+	@os161-1.99/user/uw-testbin/hogparty/hogparty.c
 
 10 
 	~<uni°d.h
@@ -133755,7 +133791,7 @@ zh¨gv
 	}
 }
 
-	@user/uw-testbin/lib/testutils.c
+	@os161-1.99/user/uw-testbin/lib/testutils.c
 
 17 
 	~<°dio.h
@@ -134437,7 +134473,7 @@ UNIT_TEST
 	}
 }
 
-	@user/uw-testbin/lib/testutils.h
+	@os161-1.99/user/uw-testbin/lib/testutils.h
 
 1 #i‚de‡
 TESTUTILS_H
@@ -134737,7 +134773,7 @@ löe
 ã°_vîbo£_off
 ();
 
-	@user/uw-testbin/onefork/onefork.c
+	@os161-1.99/user/uw-testbin/onefork/onefork.c
 
 10 
 	~<uni°d.h
@@ -134819,7 +134855,7 @@ pid
 	}
 }
 
-	@user/uw-testbin/pidcheck/pidcheck.c
+	@os161-1.99/user/uw-testbin/pidcheck/pidcheck.c
 
 10 
 	~<uni°d.h
@@ -134937,7 +134973,7 @@ pid2
 	}
 }
 
-	@user/uw-testbin/romemwrite/romemwrite.c
+	@os161-1.99/user/uw-testbin/romemwrite/romemwrite.c
 
 16 
 	~<°dio.h
@@ -134993,7 +135029,7 @@ INVAL_INSN
 	}
 }
 
-	@user/uw-testbin/segments/segments.c
+	@os161-1.99/user/uw-testbin/segments/segments.c
 
 4 
 	~<uni°d.h
@@ -135093,7 +135129,7 @@ RB_POWEROFF
 	}
 }
 
-	@user/uw-testbin/sparse/sparse.c
+	@os161-1.99/user/uw-testbin/sparse/sparse.c
 
 12 
 	~<°dio.h
@@ -135213,7 +135249,7 @@ i
 	}
 }
 
-	@user/uw-testbin/syscall/syscall.c
+	@os161-1.99/user/uw-testbin/syscall/syscall.c
 
 2 
 	~<uni°d.h
@@ -135253,7 +135289,7 @@ x
 	}
 }
 
-	@user/uw-testbin/tlbfaulter/tlbfaulter.c
+	@os161-1.99/user/uw-testbin/tlbfaulter/tlbfaulter.c
 
 17 
 	~<°dio.h
@@ -135371,7 +135407,7 @@ i
 	}
 }
 
-	@user/uw-testbin/vm-crash1/vm-crash1.c
+	@os161-1.99/user/uw-testbin/vm-crash1/vm-crash1.c
 
 1 
 	~<°dio.h
@@ -135429,7 +135465,7 @@ INVAL_INSN
 	}
 }
 
-	@user/uw-testbin/vm-crash2/vm-crash2.c
+	@os161-1.99/user/uw-testbin/vm-crash2/vm-crash2.c
 
 1 
 	~<°dio.h
@@ -135487,7 +135523,7 @@ loˇti⁄
 	}
 }
 
-	@user/uw-testbin/vm-crash3/vm-crash3.c
+	@os161-1.99/user/uw-testbin/vm-crash3/vm-crash3.c
 
 1 
 	~<°dio.h
@@ -135713,7 +135749,7 @@ i
 	}
 }
 
-	@user/uw-testbin/vm-data1/vm-data1.c
+	@os161-1.99/user/uw-testbin/vm-data1/vm-data1.c
 
 1 
 	~<°dio.h
@@ -135823,7 +135859,7 @@ i
 	}
 }
 
-	@user/uw-testbin/vm-data2/vm-data2.c
+	@os161-1.99/user/uw-testbin/vm-data2/vm-data2.c
 
 1 
 	~<°dio.h
@@ -135965,7 +136001,7 @@ i
 	}
 }
 
-	@user/uw-testbin/vm-data3/vm-data3.c
+	@os161-1.99/user/uw-testbin/vm-data3/vm-data3.c
 
 1 
 	~<°dio.h
@@ -136139,7 +136175,7 @@ i
 	}
 }
 
-	@user/uw-testbin/vm-funcs/vm-funcs.c
+	@os161-1.99/user/uw-testbin/vm-funcs/vm-funcs.c
 
 6 
 ˇŒ_Æl_lo›
@@ -137519,7 +137555,7 @@ cou¡
 	}
 }
 
-	@user/uw-testbin/vm-mix1-exec/vm-mix1-exec.c
+	@os161-1.99/user/uw-testbin/vm-mix1-exec/vm-mix1-exec.c
 
 1 
 	~<°dio.h
@@ -137561,7 +137597,7 @@ NULL
 	}
 }
 
-	@user/uw-testbin/vm-mix1-fork/vm-mix1-fork.c
+	@os161-1.99/user/uw-testbin/vm-mix1-fork/vm-mix1-fork.c
 
 1 
 	~<°dio.h
@@ -138429,7 +138465,7 @@ pid
 	}
 }
 
-	@user/uw-testbin/vm-mix1/vm-mix1.c
+	@os161-1.99/user/uw-testbin/vm-mix1/vm-mix1.c
 
 1 
 	~<°dio.h
@@ -139185,7 +139221,7 @@ DEBUG
 	}
 }
 
-	@user/uw-testbin/vm-mix2/vm-mix2.c
+	@os161-1.99/user/uw-testbin/vm-mix2/vm-mix2.c
 
 1 
 	~<°dio.h
@@ -139997,7 +140033,7 @@ DEBUG
 	}
 }
 
-	@user/uw-testbin/vm-stack1/vm-stack1.c
+	@os161-1.99/user/uw-testbin/vm-stack1/vm-stack1.c
 
 1 
 	~<°dio.h
@@ -140091,7 +140127,7 @@ i
 	}
 }
 
-	@user/uw-testbin/vm-stack2/vm-stack2.c
+	@os161-1.99/user/uw-testbin/vm-stack2/vm-stack2.c
 
 1 
 	~<°dio.h
@@ -140303,7 +140339,7 @@ i
 	}
 }
 
-	@user/uw-testbin/widefork/widefork.c
+	@os161-1.99/user/uw-testbin/widefork/widefork.c
 
 17 
 	~<uni°d.h
@@ -140535,7 +140571,7 @@ pid3
 	}
 }
 
-	@user/uw-testbin/writeread/writeread.c
+	@os161-1.99/user/uw-testbin/writeread/writeread.c
 
 5 
 	~<°dio.h
@@ -140725,7 +140761,7 @@ wrôe_¨øy
 	}
 }
 
-	@user/uw-testbin/xhog/xhog.c
+	@os161-1.99/user/uw-testbin/xhog/xhog.c
 
 35 
 	~<°dio.h
@@ -140759,7 +140795,7 @@ i
 	}
 }
 
-	@user/uw-testbin/yhog/yhog.c
+	@os161-1.99/user/uw-testbin/yhog/yhog.c
 
 35 
 	~<°dio.h
@@ -140793,7 +140829,7 @@ i
 	}
 }
 
-	@user/uw-testbin/zhog/zhog.c
+	@os161-1.99/user/uw-testbin/zhog/zhog.c
 
 35 
 	~<°dio.h
@@ -140826,6 +140862,4944 @@ i
 50 
 	}
 }
+
+	@root/hostinclude/hostcompat.h
+
+31 
+	~<sys/ty≥s.h
+>
+
+33 
+ho°com∑t_öô
+(
+¨gc
+, **
+¨gv
+);
+
+35 
+time_t
+ 
+__time
+—ime_à*
+£cs
+, *
+n£cs
+);
+
+	@root/include/assert.h
+
+30 #i‚de‡
+_ASSERT_H_
+
+
+31 
+	#_ASSERT_H_
+
+
+	)
+
+36 #unde‡
+as£π
+
+
+41 
+__bad_as£π
+(c⁄° *
+fûe
+, 
+löe
+, c⁄° *
+msg
+);
+
+47 #ifde‡
+NDEBUG
+
+
+50 
+	#as£π
+(
+x
+Ë(()(x)Ë
+
+	)
+
+52 
+	#as£π
+(
+x
+Ë(()0Ë
+
+	)
+
+56 
+	#as£π
+(
+x
+Ë((xË? ()0 : 
+	`__bad_as£π
+(
+__FILE__
+, 
+__LINE__
+, #x))
+
+	)
+
+	@root/include/err.h
+
+30 #i‚de‡
+_ERR_H_
+
+
+31 
+	#_ERR_H_
+
+
+	)
+
+33 
+	~<kîn/ty≥s.h
+>
+
+47 
+w¨n
+(c⁄° *
+fmt
+, ...);
+
+48 
+w¨nx
+(c⁄° *
+fmt
+, ...);
+
+49 
+îr
+(
+exôcode
+, c⁄° *
+fmt
+, ...);
+
+50 
+îrx
+(
+exôcode
+, c⁄° *
+fmt
+, ...);
+
+52 
+vw¨n
+(c⁄° *
+fmt
+, 
+__va_li°
+);
+
+53 
+vw¨nx
+(c⁄° *
+fmt
+, 
+__va_li°
+);
+
+54 
+vîr
+(
+exôcode
+, c⁄° *
+fmt
+, 
+__va_li°
+);
+
+55 
+vîrx
+(
+exôcode
+, c⁄° *
+fmt
+, 
+__va_li°
+);
+
+	@root/include/errno.h
+
+30 #i‚de‡
+_ERRNO_H_
+
+
+31 
+	#_ERRNO_H_
+
+
+	)
+
+34 
+	~<kîn/î∫o.h
+>
+
+37 
+î∫o
+;
+
+	@root/include/fcntl.h
+
+31 
+	~<uni°d.h
+>
+
+	@root/include/kern/endian.h
+
+30 #i‚de‡
+_KERN_ENDIAN_H_
+
+
+31 
+	#_KERN_ENDIAN_H_
+
+
+	)
+
+42 
+	#_LITTLE_ENDIAN
+ 1234
+
+	)
+
+43 
+	#_BIG_ENDIAN
+ 4321
+
+	)
+
+44 
+	#_PDP_ENDIAN
+ 3412
+
+	)
+
+47 
+	~<kîn/machöe/ídün.h
+>
+
+	@root/include/kern/errmsg.h
+
+30 #i‚de‡
+_KERN_ERRMSG_H_
+
+
+31 
+	#_KERN_ERRMSG_H_
+
+
+	)
+
+41 c⁄° *c⁄° 
+	gsys_îæi°
+[] = {
+
+112 c⁄° 
+	gsys_√º
+ = (
+sys_îæi°
+)/(const *);
+
+	@root/include/kern/errno.h
+
+30 #i‚de‡
+_KERN_ERRNO_H_
+
+
+31 
+	#_KERN_ERRNO_H_
+
+
+	)
+
+45 
+	#ENOSYS
+ 1
+
+	)
+
+46 
+	#EUNIMP
+ 2
+
+	)
+
+47 
+	#ENOMEM
+ 3
+
+	)
+
+48 
+	#EAGAIN
+ 4
+
+	)
+
+49 
+	#EINTR
+ 5
+
+	)
+
+50 
+	#EFAULT
+ 6
+
+	)
+
+51 
+	#ENAMETOOLONG
+ 7
+
+	)
+
+52 
+	#EINVAL
+ 8
+
+	)
+
+53 
+	#EPERM
+ 9
+
+	)
+
+54 
+	#EACCES
+ 10
+
+	)
+
+55 
+	#EMPROC
+ 11
+
+	)
+
+56 
+	#ENPROC
+ 12
+
+	)
+
+57 
+	#ENOEXEC
+ 13
+
+	)
+
+58 
+	#E2BIG
+ 14
+
+	)
+
+59 
+	#ESRCH
+ 15
+
+	)
+
+60 
+	#ECHILD
+ 16
+
+	)
+
+61 
+	#ENOTDIR
+ 17
+
+	)
+
+62 
+	#EISDIR
+ 18
+
+	)
+
+63 
+	#ENOENT
+ 19
+
+	)
+
+64 
+	#ELOOP
+ 20
+
+	)
+
+65 
+	#ENOTEMPTY
+ 21
+
+	)
+
+66 
+	#EEXIST
+ 22
+
+	)
+
+67 
+	#EMLINK
+ 23
+
+	)
+
+68 
+	#EXDEV
+ 24
+
+	)
+
+69 
+	#ENODEV
+ 25
+
+	)
+
+70 
+	#ENXIO
+ 26
+
+	)
+
+71 
+	#EBUSY
+ 27
+
+	)
+
+72 
+	#EMFILE
+ 28
+
+	)
+
+73 
+	#ENFILE
+ 29
+
+	)
+
+74 
+	#EBADF
+ 30
+
+	)
+
+75 
+	#EIOCTL
+ 31
+
+	)
+
+76 
+	#EIO
+ 32
+
+	)
+
+77 
+	#ESPIPE
+ 33
+
+	)
+
+78 
+	#EPIPE
+ 34
+
+	)
+
+79 
+	#EROFS
+ 35
+
+	)
+
+80 
+	#ENOSPC
+ 36
+
+	)
+
+81 
+	#EDQUOT
+ 37
+
+	)
+
+82 
+	#EFBIG
+ 38
+
+	)
+
+83 
+	#EFTYPE
+ 39
+
+	)
+
+84 
+	#EDOM
+ 40
+
+	)
+
+85 
+	#ERANGE
+ 41
+
+	)
+
+86 
+	#EILSEQ
+ 42
+
+	)
+
+87 
+	#ENOTSOCK
+ 43
+
+	)
+
+88 
+	#EISSOCK
+ 44
+
+	)
+
+89 
+	#EISCONN
+ 45
+
+	)
+
+90 
+	#ENOTCONN
+ 46
+
+	)
+
+91 
+	#ESHUTDOWN
+ 47
+
+	)
+
+92 
+	#EPFNOSUPPORT
+ 48
+
+	)
+
+93 
+	#ESOCKTNOSUPPORT
+ 49
+
+	)
+
+94 
+	#EPROTONOSUPPORT
+ 50
+
+	)
+
+95 
+	#EPROTOTYPE
+ 51
+
+	)
+
+96 
+	#EAFNOSUPPORT
+ 52
+
+	)
+
+97 
+	#ENOPROTOOPT
+ 53
+
+	)
+
+98 
+	#EADDRINUSE
+ 54
+
+	)
+
+99 
+	#EADDRNOTAVAIL
+ 55
+
+	)
+
+100 
+	#ENETDOWN
+ 56
+
+	)
+
+101 
+	#ENETUNREACH
+ 57
+
+	)
+
+102 
+	#EHOSTDOWN
+ 58
+
+	)
+
+103 
+	#EHOSTUNREACH
+ 59
+
+	)
+
+104 
+	#ECONNREFUSED
+ 60
+
+	)
+
+105 
+	#ETIMEDOUT
+ 61
+
+	)
+
+106 
+	#ECONNRESET
+ 62
+
+	)
+
+107 
+	#EMSGSIZE
+ 63
+
+	)
+
+108 
+	#ENOTSUP
+ 64
+
+	)
+
+	@root/include/kern/fcntl.h
+
+30 #i‚de‡
+_KERN_FCNTL_H_
+
+
+31 
+	#_KERN_FCNTL_H_
+
+
+	)
+
+43 
+	#O_RDONLY
+ 0
+
+	)
+
+44 
+	#O_WRONLY
+ 1
+
+	)
+
+45 
+	#O_RDWR
+ 2
+
+	)
+
+47 
+	#O_CREAT
+ 4
+
+	)
+
+48 
+	#O_EXCL
+ 8
+
+	)
+
+49 
+	#O_TRUNC
+ 16
+
+	)
+
+50 
+	#O_APPEND
+ 32
+
+	)
+
+51 
+	#O_NOCTTY
+ 64
+
+	)
+
+54 
+	#O_ACCMODE
+ 3
+
+	)
+
+61 
+	#LOCK_SH
+ 1
+
+	)
+
+62 
+	#LOCK_EX
+ 2
+
+	)
+
+63 
+	#LOCK_UN
+ 3
+
+	)
+
+64 
+	#LOCK_NB
+ 4
+
+	)
+
+71 
+	#F_DUPFD
+ 0
+
+	)
+
+72 
+	#F_GETFD
+ 1
+
+	)
+
+73 
+	#F_SETFD
+ 2
+
+	)
+
+74 
+	#F_GETFL
+ 3
+
+	)
+
+75 
+	#F_SETFL
+ 4
+
+	)
+
+76 
+	#F_GETOWN
+ 5
+
+	)
+
+77 
+	#F_SETOWN
+ 6
+
+	)
+
+78 
+	#F_GETLK
+ 7
+
+	)
+
+79 
+	#F_SETLK
+ 8
+
+	)
+
+80 
+	#F_SETLKW
+ 9
+
+	)
+
+83 
+	#FD_CLOEXEC
+ 1
+
+	)
+
+86 
+	#F_RDLCK
+ 0
+
+	)
+
+87 
+	#F_WRLCK
+ 1
+
+	)
+
+88 
+	#F_UNLCK
+ 2
+
+	)
+
+91 
+	sÊock
+ {
+
+92 
+off_t
+ 
+	ml_°¨t
+;
+
+93 
+	ml_whí˚
+;
+
+94 
+	ml_ty≥
+;
+
+95 
+off_t
+ 
+	ml_Àn
+;
+
+96 
+pid_t
+ 
+	ml_pid
+;
+
+	@root/include/kern/ioctl.h
+
+30 #i‚de‡
+_KERN_IOCTL_H_
+
+
+31 
+	#_KERN_IOCTL_H_
+
+
+	)
+
+	@root/include/kern/iovec.h
+
+30 #i‚de‡
+_KERN_IOVEC_H_
+
+
+31 
+	#_KERN_IOVEC_H_
+
+
+	)
+
+38 
+	siovec
+ {
+
+57 #ifde‡
+_KERNEL
+
+
+59 
+u£Ωå_t
+ 
+	miov_uba£
+;
+
+60 *
+	miov_kba£
+;
+
+63 *
+	miov_ba£
+;
+
+65 
+size_t
+ 
+	miov_Àn
+;
+
+	@root/include/kern/limits.h
+
+30 #i‚de‡
+_KERN_LIMITS_H_
+
+
+31 
+	#_KERN_LIMITS_H_
+
+
+	)
+
+54 
+	#__NAME_MAX
+ 255
+
+	)
+
+57 
+	#__PATH_MAX
+ 1024
+
+	)
+
+60 
+	#__ARG_MAX
+ (64 * 1024)
+
+	)
+
+68 
+	#__PID_MIN
+ 2
+
+	)
+
+71 
+	#__PID_MAX
+ 32767
+
+	)
+
+74 
+	#__PIPE_BUF
+ 512
+
+	)
+
+85 
+	#__NGROUPS_MAX
+ 32
+
+	)
+
+88 
+	#__LOGIN_NAME_MAX
+ 17
+
+	)
+
+99 
+	#__OPEN_MAX
+ 128
+
+	)
+
+102 
+	#__IOV_MAX
+ 1024
+
+	)
+
+	@root/include/kern/mips/endian.h
+
+30 #i‚de‡
+_KERN_MIPS_ENDIAN_H_
+
+
+31 
+	#_KERN_MIPS_ENDIAN_H_
+
+
+	)
+
+42 
+	#_BYTE_ORDER
+ 
+_BIG_ENDIAN
+
+
+	)
+
+	@root/include/kern/mips/regdefs.h
+
+36 #i‚de‡
+_KERN_MIPS_REGDEFS_H_
+
+
+37 
+	#_KERN_MIPS_REGDEFS_H_
+
+
+	)
+
+40 
+	#z0
+ 
+$0
+
+
+	)
+
+41 
+	#AT
+ 
+$1
+
+
+	)
+
+42 
+	#v0
+ 
+$2
+
+
+	)
+
+43 
+	#v1
+ 
+$3
+
+
+	)
+
+44 
+	#a0
+ 
+$4
+
+
+	)
+
+45 
+	#a1
+ 
+$5
+
+
+	)
+
+46 
+	#a2
+ 
+$6
+
+
+	)
+
+47 
+	#a3
+ 
+$7
+
+
+	)
+
+48 
+	#t0
+ 
+$8
+
+
+	)
+
+49 
+	#t1
+ 
+$9
+
+
+	)
+
+50 
+	#t2
+ 
+$10
+
+
+	)
+
+51 
+	#t3
+ 
+$11
+
+
+	)
+
+52 
+	#t4
+ 
+$12
+
+
+	)
+
+53 
+	#t5
+ 
+$13
+
+
+	)
+
+54 
+	#t6
+ 
+$14
+
+
+	)
+
+55 
+	#t7
+ 
+$15
+
+
+	)
+
+56 
+	#s0
+ 
+$16
+
+
+	)
+
+57 
+	#s1
+ 
+$17
+
+
+	)
+
+58 
+	#s2
+ 
+$18
+
+
+	)
+
+59 
+	#s3
+ 
+$19
+
+
+	)
+
+60 
+	#s4
+ 
+$20
+
+
+	)
+
+61 
+	#s5
+ 
+$21
+
+
+	)
+
+62 
+	#s6
+ 
+$22
+
+
+	)
+
+63 
+	#s7
+ 
+$23
+
+
+	)
+
+64 
+	#t8
+ 
+$24
+
+
+	)
+
+65 
+	#t9
+ 
+$25
+
+
+	)
+
+66 
+	#k0
+ 
+$26
+
+
+	)
+
+67 
+	#k1
+ 
+$27
+
+
+	)
+
+68 
+	#gp
+ 
+$28
+
+
+	)
+
+69 
+	#•
+ 
+$29
+
+
+	)
+
+70 
+	#s8
+ 
+$30
+
+
+	)
+
+71 
+	#ø
+ 
+$31
+
+
+	)
+
+	@root/include/kern/mips/setjmp.h
+
+30 #i‚de‡
+_MIPS_SETJMP_H_
+
+
+31 
+	#_MIPS_SETJMP_H_
+
+
+	)
+
+41 
+	#__JB_REGS
+ 11
+
+	)
+
+44 
+uöt32_t
+ 
+	tjmp_buf
+[
+__JB_REGS
+];
+
+	@root/include/kern/mips/signal.h
+
+31 #i‚de‡
+_KERN_MIPS_SIGNAL_H_
+
+
+32 
+	#_KERN_MIPS_SIGNAL_H_
+
+
+	)
+
+41 
+	ssigc⁄ãxt
+ {
+
+	@root/include/kern/mips/types.h
+
+30 #i‚de‡
+_KERN_MIPS_TYPES_H_
+
+
+31 
+	#_KERN_MIPS_TYPES_H_
+
+
+	)
+
+43 
+	t__i8
+;
+
+44 
+	t__i16
+;
+
+45 
+	t__i32
+;
+
+46 
+	t__i64
+;
+
+48 
+	t__u8
+;
+
+49 
+	t__u16
+;
+
+50 
+	t__u32
+;
+
+51 
+	t__u64
+;
+
+54 
+	t__öçå_t
+;
+
+55 
+	t__uöçå_t
+;
+
+65 
+	t__size_t
+;
+
+66 
+	t__ssize_t
+;
+
+67 
+	t__±rdiff_t
+;
+
+69 
+	t__size_t
+;
+
+70 
+	t__ssize_t
+;
+
+71 
+	t__±rdiff_t
+;
+
+75 
+	#__CHAR_BIT
+ 8
+
+	)
+
+	@root/include/kern/reboot.h
+
+30 #i‚de‡
+_KERN_REBOOT_H_
+
+
+31 
+	#_KERN_REBOOT_H_
+
+
+	)
+
+40 
+	#RB_REBOOT
+ 0
+
+	)
+
+41 
+	#RB_HALT
+ 1
+
+	)
+
+42 
+	#RB_POWEROFF
+ 2
+
+	)
+
+	@root/include/kern/resource.h
+
+30 #i‚de‡
+_KERN_RESOURCE_H_
+
+
+31 
+	#_KERN_RESOURCE_H_
+
+
+	)
+
+41 
+	#PRIO_MIN
+ (-20)
+
+	)
+
+42 
+	#PRIO_MAX
+ 20
+
+	)
+
+45 
+	#PRIO_PROCESS
+ 0
+
+	)
+
+46 
+	#PRIO_PGRP
+ 1
+
+	)
+
+47 
+	#PRIO_USER
+ 2
+
+	)
+
+50 
+	#RUSAGE_SELF
+ 0
+
+	)
+
+51 
+	#RUSAGE_CHILDREN
+ (-1)
+
+	)
+
+53 
+	srußge
+ {
+
+54 
+timevÆ
+ 
+	mru_utime
+;
+
+55 
+timevÆ
+ 
+	mru_°ime
+;
+
+56 
+__size_t
+ 
+	mru_maxrss
+;
+
+57 
+__cou¡î_t
+ 
+	mru_ixrss
+;
+
+58 
+__cou¡î_t
+ 
+	mru_idrss
+;
+
+59 
+__cou¡î_t
+ 
+	mru_i§ss
+;
+
+60 
+__cou¡î_t
+ 
+	mru_möÊt
+;
+
+61 
+__cou¡î_t
+ 
+	mru_majÊt
+;
+
+62 
+__cou¡î_t
+ 
+	mru_nsw≠
+;
+
+63 
+__cou¡î_t
+ 
+	mru_öblock
+;
+
+64 
+__cou¡î_t
+ 
+	mru_oublock
+;
+
+65 
+__cou¡î_t
+ 
+	mru_msgrcv
+;
+
+66 
+__cou¡î_t
+ 
+	mru_msg¢d
+;
+
+67 
+__cou¡î_t
+ 
+	mru_nsig«ls
+;
+
+68 
+__cou¡î_t
+ 
+	mru_nvcsw
+;
+
+69 
+__cou¡î_t
+ 
+	mru_nivcsw
+;
+
+74 
+	#RLIMIT_NPROC
+ 0
+
+	)
+
+75 
+	#RLIMIT_NOFILE
+ 1
+
+	)
+
+76 
+	#RLIMIT_CPU
+ 2
+
+	)
+
+77 
+	#RLIMIT_DATA
+ 3
+
+	)
+
+78 
+	#RLIMIT_STACK
+ 4
+
+	)
+
+79 
+	#RLIMIT_MEMLOCK
+ 5
+
+	)
+
+80 
+	#RLIMIT_RSS
+ 6
+
+	)
+
+81 
+	#RLIMIT_CORE
+ 7
+
+	)
+
+82 
+	#RLIMIT_FSIZE
+ 8
+
+	)
+
+83 
+	#__RLIMIT_NUM
+ 9
+
+	)
+
+85 
+	sæimô
+ {
+
+86 
+__æim_t
+ 
+	mæim_cur
+;
+
+87 
+__æim_t
+ 
+	mæim_max
+;
+
+90 
+	#RLIM_INFINITY
+ (~(
+__æim_t
+)0)
+
+	)
+
+	@root/include/kern/seek.h
+
+30 #i‚de‡
+_KERN_SEEK_H_
+
+
+31 
+	#_KERN_SEEK_H_
+
+
+	)
+
+42 
+	#SEEK_SET
+ 0
+
+	)
+
+43 
+	#SEEK_CUR
+ 1
+
+	)
+
+44 
+	#SEEK_END
+ 2
+
+	)
+
+	@root/include/kern/sfs.h
+
+30 #i‚de‡
+_KERN_SFS_H_
+
+
+31 
+	#_KERN_SFS_H_
+
+
+	)
+
+39 
+	#SFS_MAGIC
+ 0xabadf001
+
+	)
+
+40 
+	#SFS_BLOCKSIZE
+ 512
+
+	)
+
+41 
+	#SFS_VOLNAME_SIZE
+ 32
+
+	)
+
+42 
+	#SFS_NDIRECT
+ 15
+
+	)
+
+43 
+	#SFS_DBPERIDB
+ 128
+
+	)
+
+44 
+	#SFS_NAMELEN
+ 60
+
+	)
+
+45 
+	#SFS_SB_LOCATION
+ 0
+
+	)
+
+46 
+	#SFS_ROOT_LOCATION
+ 1
+
+	)
+
+47 
+	#SFS_MAP_LOCATION
+ 2
+
+	)
+
+48 
+	#SFS_NOINO
+ 0
+
+	)
+
+51 
+	#SFS_BLOCKBITS
+ (
+SFS_BLOCKSIZE
+ * 
+CHAR_BIT
+)
+
+	)
+
+54 
+	#SFS_ROUNDUP
+(
+a
+,
+b
+Ë(((◊)+(b)-1)/(b))*b)
+
+	)
+
+57 
+	#SFS_BITMAPSIZE
+(
+nblocks
+Ë
+	`SFS_ROUNDUP
+“blocks, 
+SFS_BLOCKBITS
+)
+
+	)
+
+60 
+	#SFS_BITBLOCKS
+(
+nblocks
+Ë(
+	`SFS_BITMAPSIZE
+“blocks)/
+SFS_BLOCKBITS
+)
+
+	)
+
+63 
+	#SFS_TYPE_INVAL
+ 0
+
+	)
+
+64 
+	#SFS_TYPE_FILE
+ 1
+
+	)
+
+65 
+	#SFS_TYPE_DIR
+ 2
+
+	)
+
+70 
+	ssfs_su≥r
+ {
+
+71 
+uöt32_t
+ 
+	m•_magic
+;
+
+72 
+uöt32_t
+ 
+	m•_nblocks
+;
+
+73 
+	m•_vﬁ«me
+[
+SFS_VOLNAME_SIZE
+];
+
+74 
+uöt32_t
+ 
+	mª£rved
+[118];
+
+80 
+	ssfs_öode
+ {
+
+81 
+uöt32_t
+ 
+	msfi_size
+;
+
+82 
+uöt16_t
+ 
+	msfi_ty≥
+;
+
+83 
+uöt16_t
+ 
+	msfi_lökcou¡
+;
+
+84 
+uöt32_t
+ 
+	msfi_dúe˘
+[
+SFS_NDIRECT
+];
+
+85 
+uöt32_t
+ 
+	msfi_ödúe˘
+;
+
+86 
+uöt32_t
+ 
+	msfi_wa°e
+[128-3-
+SFS_NDIRECT
+];
+
+92 
+	ssfs_dú
+ {
+
+93 
+uöt32_t
+ 
+	msfd_öo
+;
+
+94 
+	msfd_«me
+[
+SFS_NAMELEN
+];
+
+	@root/include/kern/signal.h
+
+37 #i‚de‡
+_KERN_SIGNAL_H_
+
+
+38 
+	#_KERN_SIGNAL_H_
+
+
+	)
+
+56 
+	#SIGHUP
+ 1
+
+	)
+
+57 
+	#SIGINT
+ 2
+
+	)
+
+58 
+	#SIGQUIT
+ 3
+
+	)
+
+59 
+	#SIGILL
+ 4
+
+	)
+
+60 
+	#SIGTRAP
+ 5
+
+	)
+
+61 
+	#SIGABRT
+ 6
+
+	)
+
+62 
+	#SIGEMT
+ 7
+
+	)
+
+63 
+	#SIGFPE
+ 8
+
+	)
+
+64 
+	#SIGKILL
+ 9
+
+	)
+
+65 
+	#SIGBUS
+ 10
+
+	)
+
+66 
+	#SIGSEGV
+ 11
+
+	)
+
+67 
+	#SIGSYS
+ 12
+
+	)
+
+68 
+	#SIGPIPE
+ 13
+
+	)
+
+69 
+	#SIGALRM
+ 14
+
+	)
+
+70 
+	#SIGTERM
+ 15
+
+	)
+
+71 
+	#SIGURG
+ 16
+
+	)
+
+72 
+	#SIGSTOP
+ 17
+
+	)
+
+73 
+	#SIGTSTP
+ 18
+
+	)
+
+74 
+	#SIGCONT
+ 19
+
+	)
+
+75 
+	#SIGCHLD
+ 20
+
+	)
+
+76 
+	#SIGTTIN
+ 21
+
+	)
+
+77 
+	#SIGTTOU
+ 22
+
+	)
+
+78 
+	#SIGIO
+ 23
+
+	)
+
+79 
+	#SIGXCPU
+ 24
+
+	)
+
+80 
+	#SIGXFSZ
+ 25
+
+	)
+
+81 
+	#SIGVTALRM
+ 26
+
+	)
+
+82 
+	#SIGPROF
+ 27
+
+	)
+
+83 
+	#SIGWINCH
+ 28
+
+	)
+
+84 
+	#SIGINFO
+ 29
+
+	)
+
+85 
+	#SIGUSR1
+ 20
+
+	)
+
+86 
+	#SIGUSR2
+ 31
+
+	)
+
+87 
+	#SIGPWR
+ 32
+
+	)
+
+88 
+	#_NSIG
+ 32
+
+	)
+
+92 
+__u32
+ 
+	tsig£t_t
+;
+
+95 
+	#SA_ONSTACK
+ 1
+
+	)
+
+96 
+	#SA_RESTART
+ 2
+
+	)
+
+97 
+	#SA_RESETHAND
+ 4
+
+	)
+
+100 
+	#SIG_BLOCK
+ 1
+
+	)
+
+101 
+	#SIG_UNBLOCK
+ 2
+
+	)
+
+102 
+	#SIG_SETMASK
+ 3
+
+	)
+
+105 (*
+	t__sigfunc
+)();
+
+108 
+	#SIG_DFL
+ ((
+__sigfunc
+Ë0Ë
+
+	)
+
+109 
+	#SIG_IGN
+ ((
+__sigfunc
+Ë1Ë
+
+	)
+
+114 
+	ssiga˘i⁄
+ {
+
+115 
+__sigfunc
+ 
+ß_h™dÀr
+;
+
+116 
+sig£t_t
+ 
+ß_mask
+;
+
+117 
+ß_Êags
+;
+
+124 
+	ssigÆt°ack
+ {
+
+125 *
+ss_•
+;
+
+126 
+size_t
+ 
+ss_size
+;
+
+127 
+ss_Êags
+;
+
+	@root/include/kern/socket.h
+
+30 #i‚de‡
+_KERN_SOCKET_H_
+
+
+31 
+	#_KERN_SOCKET_H_
+
+
+	)
+
+43 
+	#SOCK_STREAM
+ 1
+
+	)
+
+44 
+	#SOCK_DGRAM
+ 2
+
+	)
+
+45 
+	#SOCK_RAW
+ 3
+
+	)
+
+48 
+	#AF_UNSPEC
+ 0
+
+	)
+
+49 
+	#AF_UNIX
+ 1
+
+	)
+
+50 
+	#AF_INET
+ 2
+
+	)
+
+51 
+	#AF_INET6
+ 3
+
+	)
+
+54 
+	#PF_UNSPEC
+ 
+AF_UNSPEC
+
+
+	)
+
+55 
+	#PF_UNIX
+ 
+AF_UNIX
+
+
+	)
+
+56 
+	#PF_INET
+ 
+AF_INET
+
+
+	)
+
+57 
+	#PF_INET6
+ 
+AF_INET6
+
+
+	)
+
+73 
+	ssockaddr
+ {
+
+74 
+__u8
+ 
+	mß_Àn
+;
+
+75 
+__u8
+ 
+	mß_Ámûy
+;
+
+78 
+	#_SS_SIZE
+ 128
+
+	)
+
+79 
+	ssockaddr_°‹age
+ {
+
+80 
+__u8
+ 
+	mss_Àn
+;
+
+81 
+__u8
+ 
+	mss_Ámûy
+;
+
+82 
+__u8
+ 
+	m__ss_∑d1
+;
+
+83 
+__u8
+ 
+	m__ss_∑d2
+;
+
+84 
+__u32
+ 
+	m__ss_∑d3
+;
+
+85 
+__u64
+ 
+	m__ss_∑d4
+;
+
+86 
+	m__ss_∑d5
+[
+_SS_SIZE
+ - (
+__u64
+Ë- (
+__u32
+Ë- 4*(
+__u8
+)];
+
+98 
+	smsghdr
+ {
+
+99 *
+	mmsg_«me
+;
+
+100 
+sockÀn_t
+ 
+	mmsg_«mñí
+;
+
+101 
+iovec
+ *
+	mmsg_iov
+;
+
+102 
+	mmsg_iovÀn
+;
+
+103 *
+	mmsg_c⁄åﬁ
+;
+
+104 
+sockÀn_t
+ 
+	mmsg_c⁄åﬁÀn
+;
+
+105 
+	mmsg_Êags
+;
+
+108 
+	scmsghdr
+ {
+
+109 
+sockÀn_t
+ 
+	mcmsg_Àn
+;
+
+110 
+	mcmsg_Àvñ
+;
+
+111 
+	mcmsg_ty≥
+;
+
+	@root/include/kern/stat.h
+
+30 #i‚de‡
+_KERN_STAT_H_
+
+
+31 
+	#_KERN_STAT_H_
+
+
+	)
+
+42 
+	s°©
+ {
+
+44 
+off_t
+ 
+	m°_size
+;
+
+45 
+mode_t
+ 
+	m°_mode
+;
+
+46 
+∆ök_t
+ 
+	m°_∆ök
+;
+
+47 
+blk˙t_t
+ 
+	m°_blocks
+;
+
+50 
+dev_t
+ 
+	m°_dev
+;
+
+51 
+öo_t
+ 
+	m°_öo
+;
+
+52 
+dev_t
+ 
+	m°_rdev
+;
+
+55 
+time_t
+ 
+	m°_©ime
+;
+
+56 
+time_t
+ 
+	m°_˘ime
+;
+
+57 
+time_t
+ 
+	m°_mtime
+;
+
+58 
+__u32
+ 
+	m°_©imí£c
+;
+
+59 
+__u32
+ 
+	m°_˘imí£c
+;
+
+60 
+__u32
+ 
+	m°_mtimí£c
+;
+
+63 
+uid_t
+ 
+	m°_uid
+;
+
+64 
+gid_t
+ 
+	m°_gid
+;
+
+67 
+__u32
+ 
+	m°_gí
+;
+
+68 
+blksize_t
+ 
+	m°_blksize
+;
+
+	@root/include/kern/stattypes.h
+
+30 #i‚de‡
+_KERN_STATTYPES_H_
+
+
+31 
+	#_KERN_STATTYPES_H_
+
+
+	)
+
+45 
+	#_S_IFMT
+ 070000
+
+	)
+
+46 
+	#_S_IFREG
+ 010000
+
+	)
+
+47 
+	#_S_IFDIR
+ 020000
+
+	)
+
+48 
+	#_S_IFLNK
+ 030000
+
+	)
+
+49 
+	#_S_IFIFO
+ 040000
+
+	)
+
+50 
+	#_S_IFSOCK
+ 050000
+
+	)
+
+51 
+	#_S_IFCHR
+ 060000
+
+	)
+
+52 
+	#_S_IFBLK
+ 070000
+
+	)
+
+	@root/include/kern/syscall.h
+
+30 #i‚de‡
+_KERN_SYSCALL_H_
+
+
+31 
+	#_KERN_SYSCALL_H_
+
+
+	)
+
+50 
+	#SYS_f‹k
+ 0
+
+	)
+
+51 
+	#SYS_vf‹k
+ 1
+
+	)
+
+52 
+	#SYS_execv
+ 2
+
+	)
+
+53 
+	#SYS__exô
+ 3
+
+	)
+
+54 
+	#SYS_waôpid
+ 4
+
+	)
+
+55 
+	#SYS_gëpid
+ 5
+
+	)
+
+56 
+	#SYS_gëµid
+ 6
+
+	)
+
+58 
+	#SYS_sbrk
+ 7
+
+	)
+
+59 
+	#SYS_mm≠
+ 8
+
+	)
+
+60 
+	#SYS_munm≠
+ 9
+
+	)
+
+61 
+	#SYS_m¥Ÿe˘
+ 10
+
+	)
+
+69 
+	#SYS_umask
+ 17
+
+	)
+
+70 
+	#SYS_is£tugid
+ 18
+
+	)
+
+71 
+	#SYS_gëªsuid
+ 19
+
+	)
+
+72 
+	#SYS_£åesuid
+ 20
+
+	)
+
+73 
+	#SYS_gëªsgid
+ 21
+
+	)
+
+74 
+	#SYS_£åesgid
+ 22
+
+	)
+
+75 
+	#SYS_gëgroups
+ 23
+
+	)
+
+76 
+	#SYS_£tgroups
+ 24
+
+	)
+
+77 
+	#SYS___gëlogö
+ 25
+
+	)
+
+78 
+	#SYS___£éogö
+ 26
+
+	)
+
+80 
+	#SYS_kûl
+ 27
+
+	)
+
+81 
+	#SYS_siga˘i⁄
+ 28
+
+	)
+
+82 
+	#SYS_sig≥ndög
+ 29
+
+	)
+
+83 
+	#SYS_sig¥ocmask
+ 30
+
+	)
+
+84 
+	#SYS_sigsu•íd
+ 31
+
+	)
+
+85 
+	#SYS_sigªtu∫
+ 32
+
+	)
+
+105 
+	#SYS_›í
+ 45
+
+	)
+
+106 
+	#SYS_pùe
+ 46
+
+	)
+
+107 
+	#SYS_dup
+ 47
+
+	)
+
+108 
+	#SYS_dup2
+ 48
+
+	)
+
+109 
+	#SYS_˛o£
+ 49
+
+	)
+
+110 
+	#SYS_ªad
+ 50
+
+	)
+
+111 
+	#SYS_¥ód
+ 51
+
+	)
+
+114 
+	#SYS_gëdúíåy
+ 54
+
+	)
+
+115 
+	#SYS_wrôe
+ 55
+
+	)
+
+116 
+	#SYS_pwrôe
+ 56
+
+	)
+
+119 
+	#SYS_l£ek
+ 59
+
+	)
+
+120 
+	#SYS_Êock
+ 60
+
+	)
+
+121 
+	#SYS_·runˇã
+ 61
+
+	)
+
+122 
+	#SYS_fsync
+ 62
+
+	)
+
+123 
+	#SYS_f˙é
+ 63
+
+	)
+
+124 
+	#SYS_io˘l
+ 64
+
+	)
+
+125 
+	#SYS_£À˘
+ 65
+
+	)
+
+126 
+	#SYS_pﬁl
+ 66
+
+	)
+
+129 
+	#SYS_lök
+ 67
+
+	)
+
+130 
+	#SYS_ªmove
+ 68
+
+	)
+
+131 
+	#SYS_mkdú
+ 69
+
+	)
+
+132 
+	#SYS_rmdú
+ 70
+
+	)
+
+133 
+	#SYS_mkfifo
+ 71
+
+	)
+
+134 
+	#SYS_ª«me
+ 72
+
+	)
+
+135 
+	#SYS_ac˚ss
+ 73
+
+	)
+
+137 
+	#SYS_chdú
+ 74
+
+	)
+
+138 
+	#SYS_fchdú
+ 75
+
+	)
+
+139 
+	#SYS___gëcwd
+ 76
+
+	)
+
+141 
+	#SYS_symlök
+ 77
+
+	)
+
+142 
+	#SYS_ªadlök
+ 78
+
+	)
+
+144 
+	#SYS_mou¡
+ 79
+
+	)
+
+145 
+	#SYS_unmou¡
+ 80
+
+	)
+
+149 
+	#SYS_°©
+ 81
+
+	)
+
+150 
+	#SYS_f°©
+ 82
+
+	)
+
+151 
+	#SYS_l°©
+ 83
+
+	)
+
+153 
+	#SYS_utimes
+ 84
+
+	)
+
+154 
+	#SYS_futimes
+ 85
+
+	)
+
+155 
+	#SYS_lutimes
+ 86
+
+	)
+
+157 
+	#SYS_chmod
+ 87
+
+	)
+
+158 
+	#SYS_chown
+ 88
+
+	)
+
+159 
+	#SYS_fchmod
+ 89
+
+	)
+
+160 
+	#SYS_fchown
+ 90
+
+	)
+
+161 
+	#SYS_lchmod
+ 91
+
+	)
+
+162 
+	#SYS_lchown
+ 92
+
+	)
+
+172 
+	#SYS_sockë
+ 98
+
+	)
+
+173 
+	#SYS_böd
+ 99
+
+	)
+
+174 
+	#SYS_c⁄√˘
+ 100
+
+	)
+
+175 
+	#SYS_li°í
+ 101
+
+	)
+
+176 
+	#SYS_ac˚±
+ 102
+
+	)
+
+178 
+	#SYS_shutdown
+ 104
+
+	)
+
+179 
+	#SYS_gësock«me
+ 105
+
+	)
+
+180 
+	#SYS_gë≥î«me
+ 106
+
+	)
+
+181 
+	#SYS_gësock›t
+ 107
+
+	)
+
+182 
+	#SYS_£tsock›t
+ 108
+
+	)
+
+189 
+	#SYS___time
+ 113
+
+	)
+
+190 
+	#SYS___£âime
+ 114
+
+	)
+
+191 
+	#SYS_«no¶ìp
+ 115
+
+	)
+
+196 
+	#SYS_sync
+ 118
+
+	)
+
+197 
+	#SYS_ªboŸ
+ 119
+
+	)
+
+	@root/include/kern/time.h
+
+30 #i‚de‡
+_KERN_TIME_H_
+
+
+31 
+	#_KERN_TIME_H_
+
+
+	)
+
+43 
+	stimevÆ
+ {
+
+44 
+__time_t
+ 
+	mtv_£c
+;
+
+45 
+__i32
+ 
+	mtv_u£c
+;
+
+48 
+	stime•ec
+ {
+
+49 
+__time_t
+ 
+	mtv_£c
+;
+
+50 
+__i32
+ 
+	mtv_n£c
+;
+
+59 
+	#ITIMER_REAL
+ 0
+
+	)
+
+60 
+	#ITIMER_VIRTUAL
+ 1
+
+	)
+
+61 
+	#ITIMER_PROF
+ 2
+
+	)
+
+64 
+	sôimîvÆ
+ {
+
+65 
+timevÆ
+ 
+	mô_öãrvÆ
+;
+
+66 
+timevÆ
+ 
+	mô_vÆue
+;
+
+	@root/include/kern/types.h
+
+30 #i‚de‡
+_KERN_TYPES_H_
+
+
+31 
+	#_KERN_TYPES_H_
+
+
+	)
+
+34 
+	~<kîn/machöe/ty≥s.h
+>
+
+64 
+__u32
+ 
+	t__blk˙t_t
+;
+
+65 
+__u32
+ 
+	t__blksize_t
+;
+
+66 
+__u64
+ 
+	t__cou¡î_t
+;
+
+67 
+__u32
+ 
+	t__daddr_t
+;
+
+68 
+__u32
+ 
+	t__dev_t
+;
+
+69 
+__u32
+ 
+	t__fsid_t
+;
+
+70 
+__i32
+ 
+	t__gid_t
+;
+
+71 
+__u32
+ 
+	t__ö_addr_t
+;
+
+72 
+__u32
+ 
+	t__ö_p‹t_t
+;
+
+73 
+__u32
+ 
+	t__öo_t
+;
+
+74 
+__u32
+ 
+	t__mode_t
+;
+
+75 
+__u16
+ 
+	t__∆ök_t
+;
+
+76 
+__i64
+ 
+	t__off_t
+;
+
+77 
+__i32
+ 
+	t__pid_t
+;
+
+78 
+__u64
+ 
+	t__æim_t
+;
+
+79 
+__u8
+ 
+	t__ß_Ámûy_t
+;
+
+80 
+__i64
+ 
+	t__time_t
+;
+
+81 
+__i32
+ 
+	t__uid_t
+;
+
+83 
+	t__nfds_t
+;
+
+84 
+	t__sockÀn_t
+;
+
+87 #ifde‡
+__GNUC__
+
+
+88 
+__buûtö_va_li°
+ 
+	t__va_li°
+;
+
+	@root/include/kern/unistd.h
+
+30 #i‚de‡
+_KERN_UNISTD_H_
+
+
+31 
+	#_KERN_UNISTD_H_
+
+
+	)
+
+34 
+	#STDIN_FILENO
+ 0
+
+	)
+
+35 
+	#STDOUT_FILENO
+ 1
+
+	)
+
+36 
+	#STDERR_FILENO
+ 2
+
+	)
+
+	@root/include/kern/wait.h
+
+30 #i‚de‡
+_KERN_WAIT_H_
+
+
+31 
+	#_KERN_WAIT_H_
+
+
+	)
+
+39 
+	#WNOHANG
+ 1
+
+	)
+
+40 
+	#WUNTRACED
+ 2
+
+	)
+
+43 
+	#WAIT_ANY
+ (-1Ë
+
+	)
+
+44 
+	#WAIT_MYPGRP
+ 0
+
+	)
+
+54 
+	#_WWHAT
+(
+x
+Ë((x)&3Ë
+
+	)
+
+55 
+	#_WVAL
+(
+x
+Ë((x)>>2Ë
+
+	)
+
+56 
+	#_MKWVAL
+(
+x
+Ë((x)<<2Ë
+
+	)
+
+59 
+	#__WEXITED
+ 0
+
+	)
+
+60 
+	#__WSIGNALED
+ 1
+
+	)
+
+61 
+	#__WCORED
+ 2
+
+	)
+
+62 
+	#__WSTOPPED
+ 3
+
+	)
+
+65 
+	#WIFEXITED
+(
+x
+Ë(
+	`_WWHAT
+(x)==
+__WEXITED
+)
+
+	)
+
+66 
+	#WIFSIGNALED
+(
+x
+Ë(
+	`_WWHAT
+(x)==
+__WSIGNALED
+ || _WWHAT(x)==
+__WCORED
+)
+
+	)
+
+67 
+	#WIFSTOPPED
+(
+x
+Ë(
+	`_WWHAT
+(x)==
+__WSTOPPED
+)
+
+	)
+
+68 
+	#WEXITSTATUS
+(
+x
+Ë(
+	`_WVAL
+(x))
+
+	)
+
+69 
+	#WTERMSIG
+(
+x
+Ë(
+	`_WVAL
+(x))
+
+	)
+
+70 
+	#WSTOPSIG
+(
+x
+Ë(
+	`_WVAL
+(x))
+
+	)
+
+71 
+	#WCOREDUMP
+(
+x
+Ë(
+	`_WWHAT
+(x)==
+__WCORED
+)
+
+	)
+
+74 
+	#_MKWAIT_EXIT
+(
+x
+Ë(
+	`_MKWVAL
+(x)|
+__WEXITED
+)
+
+	)
+
+75 
+	#_MKWAIT_SIG
+(
+x
+Ë(
+	`_MKWVAL
+(x)|
+__WSIGNALED
+)
+
+	)
+
+76 
+	#_MKWAIT_CORE
+(
+x
+Ë(
+	`_MKWVAL
+(x)|
+__WCORED
+)
+
+	)
+
+77 
+	#_MKWAIT_STOP
+(
+x
+Ë(
+	`_MKWVAL
+(x)|
+__WSTOPPED
+)
+
+	)
+
+	@root/include/limits.h
+
+30 #i‚de‡
+_LIMITS_H_
+
+
+31 
+	#_LIMITS_H_
+
+
+	)
+
+38 
+	~<kîn/limôs.h
+>
+
+41 
+	#NAME_MAX
+ 
+__NAME_MAX
+
+
+	)
+
+42 
+	#PATH_MAX
+ 
+__PATH_MAX
+
+
+	)
+
+43 
+	#ARG_MAX
+ 
+__ARG_MAX
+
+
+	)
+
+44 
+	#PID_MIN
+ 
+__PID_MIN
+
+
+	)
+
+45 
+	#PID_MAX
+ 
+__PID_MAX
+
+
+	)
+
+46 
+	#PIPE_BUF
+ 
+__PIPE_BUF
+
+
+	)
+
+47 
+	#NGROUPS_MAX
+ 
+__NGROUPS_MAX
+
+
+	)
+
+48 
+	#LOGIN_NAME_MAX
+ 
+__LOGIN_NAME_MAX
+
+
+	)
+
+49 
+	#OPEN_MAX
+ 
+__OPEN_MAX
+
+
+	)
+
+50 
+	#IOV_MAX
+ 
+__IOV_MAX
+
+
+	)
+
+	@root/include/setjmp.h
+
+30 #i‚de‡
+_SETJMP_H_
+
+
+31 
+	#_SETJMP_H_
+
+
+	)
+
+34 
+	~<machöe/£tjmp.h
+>
+
+49 
+£tjmp
+(
+jmp_buf
+ 
+jb
+);
+
+50 
+l⁄gjmp
+(
+jmp_buf
+ 
+jb
+, 
+code
+);
+
+	@root/include/signal.h
+
+30 
+	~<kîn/sig«l.h
+>
+
+	@root/include/stdarg.h
+
+30 #i‚de‡
+_STDARG_H_
+
+
+31 
+	#_STDARG_H_
+
+
+	)
+
+33 
+	~<kîn/ty≥s.h
+>
+
+41 
+__va_li°
+ 
+	tva_li°
+;
+
+43 
+	#va_°¨t
+(
+≠
+,
+fmt
+Ë
+	`__buûtö_°d¨g_°¨t
+◊p,fmt)
+
+	)
+
+44 
+	#va_¨g
+(
+≠
+,
+t
+Ë
+	`__buûtö_va_¨g
+◊p,t)
+
+	)
+
+45 
+	#va_c›y
+(
+≠1
+,
+≠2
+Ë
+	`__buûtö_va_c›y
+◊p1,≠2)
+
+	)
+
+46 
+	#va_íd
+(
+≠
+Ë
+	`__buûtö_va_íd
+◊p)
+
+	)
+
+	@root/include/stdint.h
+
+30 #i‚de‡
+_STDINT_H_
+
+
+31 
+	#_STDINT_H_
+
+
+	)
+
+37 
+	~<kîn/ty≥s.h
+>
+
+39 
+__i8
+ 
+	töt8_t
+;
+
+40 
+__i16
+ 
+	töt16_t
+;
+
+41 
+__i32
+ 
+	töt32_t
+;
+
+42 
+__i64
+ 
+	töt64_t
+;
+
+43 
+__u8
+ 
+	tuöt8_t
+;
+
+44 
+__u16
+ 
+	tuöt16_t
+;
+
+45 
+__u32
+ 
+	tuöt32_t
+;
+
+46 
+__u64
+ 
+	tuöt64_t
+;
+
+48 
+__öçå_t
+ 
+	töçå_t
+;
+
+49 
+__uöçå_t
+ 
+	tuöçå_t
+;
+
+	@root/include/stdio.h
+
+30 #i‚de‡
+_STDIO_H_
+
+
+31 
+	#_STDIO_H_
+
+
+	)
+
+37 
+	~<kîn/ty≥s.h
+>
+
+38 
+	~<ty≥s/size_t.h
+>
+
+39 
+	~<sys/nuŒ.h
+>
+
+42 
+	#EOF
+ (-1)
+
+	)
+
+48 
+__v¥ötf
+((*
+£ndfunc
+)(*
+˛õ¡d©a
+, c⁄° *, 
+size_t
+ 
+Àn
+),
+
+49 *
+˛õ¡d©a
+,
+
+50 c⁄° *
+fmt
+,
+
+51 
+__va_li°
+ 
+≠
+);
+
+54 
+	`¥ötf
+(c⁄° *
+fmt
+, ...);
+
+55 
+	`v¥ötf
+(c⁄° *
+fmt
+, 
+__va_li°
+ 
+≠
+);
+
+56 
+	`¢¥ötf
+(*
+buf
+, 
+size_t
+ 
+Àn
+, c⁄° *
+fmt
+, ...);
+
+57 
+	`v¢¥ötf
+(*
+buf
+, 
+size_t
+ 
+Àn
+, c⁄° *
+fmt
+, 
+__va_li°
+ 
+≠
+);
+
+60 
+	`puts
+(const *);
+
+64 
+	`__puts
+(const *);
+
+67 
+	`putch¨
+();
+
+70 
+	`gëch¨
+();
+
+	@root/include/stdlib.h
+
+30 #i‚de‡
+_STDLIB_H_
+
+
+31 
+	#_STDLIB_H_
+
+
+	)
+
+33 
+	~<kîn/ty≥s.h
+>
+
+34 
+	~<ty≥s/size_t.h
+>
+
+35 
+	~<sys/nuŒ.h
+>
+
+40 
+©oi
+(const *);
+
+45 
+ab‹t
+();
+
+51 
+exô
+(
+code
+);
+
+56 
+sy°em
+(c⁄° *
+comm™d
+);
+
+61 
+	#RAND_MAX
+ 0x7fffffff
+
+	)
+
+62 
+øndom
+();
+
+63 
+§™dom
+(
+£ed
+);
+
+64 *
+öô°©e
+(, *, 
+size_t
+);
+
+65 *
+£t°©e
+(*);
+
+70 *
+mÆloc
+(
+size_t
+ 
+size
+);
+
+71 
+‰ì
+(*
+±r
+);
+
+	@root/include/string.h
+
+30 #i‚de‡
+_STRING_H_
+
+
+31 
+	#_STRING_H_
+
+
+	)
+
+33 
+	~<kîn/ty≥s.h
+>
+
+34 
+	~<ty≥s/size_t.h
+>
+
+35 
+	~<sys/nuŒ.h
+>
+
+40 *
+°rˇt
+(*, const *);
+
+41 *
+°r˝y
+(*, const *);
+
+42 *
+°rchr
+(const *, );
+
+43 *
+°ºchr
+(const *, );
+
+44 
+°rcmp
+(const *, const *);
+
+45 
+size_t
+ 
+°æí
+(const *);
+
+46 *
+°πok_r
+(*, const *, **);
+
+47 *
+°πok
+(*, const *);
+
+49 *
+mem£t
+(*, 
+c
+, 
+size_t
+);
+
+50 *
+mem˝y
+(*, c⁄° *, 
+size_t
+);
+
+51 *
+memmove
+(*, c⁄° *, 
+size_t
+);
+
+52 
+memcmp
+(c⁄° *, c⁄° *, 
+size_t
+);
+
+57 c⁄° *
+°ªº‹
+(
+îrcode
+);
+
+62 
+bzîo
+(*, 
+size_t
+);
+
+	@root/include/sys/endian.h
+
+30 #i‚de‡
+_SYS_ENDIAN_H_
+
+
+31 
+	#_SYS_ENDIAN_H_
+
+
+	)
+
+33 
+	~<kîn/ídün.h
+>
+
+	@root/include/sys/ioctl.h
+
+31 
+	~<uni°d.h
+>
+
+	@root/include/sys/null.h
+
+30 #i‚de‡
+_SYS_NULL_H_
+
+
+31 
+	#_SYS_NULL_H_
+
+
+	)
+
+37 
+	#NULL
+ ((*)0)
+
+	)
+
+	@root/include/sys/reboot.h
+
+31 
+	~<uni°d.h
+>
+
+	@root/include/sys/stat.h
+
+30 #i‚de‡
+_SYS_STAT_H_
+
+
+31 
+	#_SYS_STAT_H_
+
+
+	)
+
+36 
+	~<kîn/°©.h
+>
+
+37 
+	~<kîn/°©ty≥s.h
+>
+
+42 
+	#S_ISDIR
+(
+mode
+Ë((modê& 
+_S_IFMT
+Ë=
+_S_IFDIR
+)
+
+	)
+
+43 
+	#S_ISREG
+(
+mode
+Ë((modê& 
+_S_IFMT
+Ë=
+_S_IFREG
+)
+
+	)
+
+44 
+	#S_ISDIR
+(
+mode
+Ë((modê& 
+_S_IFMT
+Ë=
+_S_IFDIR
+)
+
+	)
+
+45 
+	#S_ISLNK
+(
+mode
+Ë((modê& 
+_S_IFMT
+Ë=
+_S_IFLNK
+)
+
+	)
+
+46 
+	#S_ISIFO
+(
+mode
+Ë((modê& 
+_S_IFMT
+Ë=
+_S_IFIFO
+)
+
+	)
+
+47 
+	#S_ISSOCK
+(
+mode
+Ë((modê& 
+_S_IFMT
+Ë==
+_S_IFSOCK
+)
+
+	)
+
+48 
+	#S_ISCHR
+(
+mode
+Ë((modê& 
+_S_IFMT
+Ë=
+_S_IFCHR
+)
+
+	)
+
+49 
+	#S_ISBLK
+(
+mode
+Ë((modê& 
+_S_IFMT
+Ë=
+_S_IFBLK
+)
+
+	)
+
+55 
+	#S_IFMT
+ 
+_S_IFMT
+
+
+	)
+
+56 
+	#S_IFREG
+ 
+_S_IFREG
+
+
+	)
+
+57 
+	#S_IFDIR
+ 
+_S_IFDIR
+
+
+	)
+
+58 
+	#S_IFLNK
+ 
+_S_IFLNK
+
+
+	)
+
+59 
+	#S_IFIFO
+ 
+_S_IFIFO
+
+
+	)
+
+60 
+	#S_IFSOCK
+ 
+_S_IFSOCK
+
+
+	)
+
+61 
+	#S_IFCHR
+ 
+_S_IFCHR
+
+
+	)
+
+62 
+	#S_IFBLK
+ 
+_S_IFBLK
+
+
+	)
+
+71 
+f°©
+(
+fûeh™dÀ
+, 
+°©
+ *
+buf
+);
+
+72 
+°©
+(c⁄° *
+∑th
+, °© *
+buf
+);
+
+73 
+l°©
+(c⁄° *
+∑th
+, 
+°©
+ *
+buf
+);
+
+80 
+mkdú
+(c⁄° *
+dú«me
+, 
+ign‹e
+);
+
+	@root/include/sys/types.h
+
+30 #i‚de‡
+_SYS_TYPES_H_
+
+
+31 
+	#_SYS_TYPES_H_
+
+
+	)
+
+42 
+	~<kîn/ty≥s.h
+>
+
+45 
+	~<ty≥s/size_t.h
+>
+
+46 
+	~<sys/nuŒ.h
+>
+
+55 
+__ssize_t
+ 
+	tssize_t
+;
+
+56 
+__±rdiff_t
+ 
+	t±rdiff_t
+;
+
+59 
+__blk˙t_t
+ 
+	tblk˙t_t
+;
+
+60 
+__blksize_t
+ 
+	tblksize_t
+;
+
+61 
+__daddr_t
+ 
+	tdaddr_t
+;
+
+62 
+__dev_t
+ 
+	tdev_t
+;
+
+63 
+__fsid_t
+ 
+	tfsid_t
+;
+
+64 
+__gid_t
+ 
+	tgid_t
+;
+
+65 
+__ö_addr_t
+ 
+	tö_addr_t
+;
+
+66 
+__ö_p‹t_t
+ 
+	tö_p‹t_t
+;
+
+67 
+__öo_t
+ 
+	töo_t
+;
+
+68 
+__mode_t
+ 
+	tmode_t
+;
+
+69 
+__∆ök_t
+ 
+	t∆ök_t
+;
+
+70 
+__off_t
+ 
+	toff_t
+;
+
+71 
+__pid_t
+ 
+	tpid_t
+;
+
+72 
+__æim_t
+ 
+	tæim_t
+;
+
+73 
+__ß_Ámûy_t
+ 
+	tß_Ámûy_t
+;
+
+74 
+__time_t
+ 
+	ttime_t
+;
+
+75 
+__uid_t
+ 
+	tuid_t
+;
+
+77 
+__nfds_t
+ 
+	tnfds_t
+;
+
+78 
+__sockÀn_t
+ 
+	tsockÀn_t
+;
+
+84 
+	#CHAR_BIT
+ 
+__CHAR_BIT
+
+
+	)
+
+	@root/include/sys/wait.h
+
+31 
+	~<uni°d.h
+>
+
+	@root/include/time.h
+
+31 
+	~<uni°d.h
+>
+
+	@root/include/types/size_t.h
+
+30 #i‚de‡
+_TYPES_SIZE_T_H_
+
+
+31 
+	#_TYPES_SIZE_T_H_
+
+
+	)
+
+33 
+	~<kîn/ty≥s.h
+>
+
+34 
+__size_t
+ 
+	tsize_t
+;
+
+	@root/include/unistd.h
+
+30 #i‚de‡
+_UNISTD_H_
+
+
+31 
+	#_UNISTD_H_
+
+
+	)
+
+33 
+	~<sys/ty≥s.h
+>
+
+40 
+	~<kîn/f˙é.h
+>
+
+41 
+	~<kîn/io˘l.h
+>
+
+42 
+	~<kîn/ªboŸ.h
+>
+
+43 
+	~<kîn/£ek.h
+>
+
+44 
+	~<kîn/time.h
+>
+
+45 
+	~<kîn/uni°d.h
+>
+
+46 
+	~<kîn/waô.h
+>
+
+110 #ifde‡
+__GNUC__
+
+
+112 
+	#__DEAD
+ 
+	`__©åibuã__
+((
+__n‹ëu∫__
+))
+
+	)
+
+114 
+	#__DEAD
+
+
+	)
+
+118 
+__DEAD
+ 
+_exô
+(
+code
+);
+
+119 
+execv
+(c⁄° *
+¥og
+, *c⁄° *
+¨gs
+);
+
+120 
+pid_t
+ 
+f‹k
+();
+
+121 
+waôpid
+(
+pid_t
+ 
+pid
+, *
+ªtu∫code
+, 
+Êags
+);
+
+127 
+›í
+(c⁄° *
+fûíame
+, 
+Êags
+, ...);
+
+128 
+ªad
+(
+fûeh™dÀ
+, *
+buf
+, 
+size_t
+ 
+size
+);
+
+129 
+wrôe
+(
+fûeh™dÀ
+, c⁄° *
+buf
+, 
+size_t
+ 
+size
+);
+
+130 
+˛o£
+(
+fûeh™dÀ
+);
+
+131 
+ªboŸ
+(
+code
+);
+
+132 
+sync
+();
+
+134 
+rmdú
+(c⁄° *
+dú«me
+);
+
+137 
+gëpid
+();
+
+138 
+io˘l
+(
+fûeh™dÀ
+, 
+code
+, *
+buf
+);
+
+139 
+off_t
+ 
+l£ek
+(
+fûeh™dÀ
+, off_à
+pos
+, 
+code
+);
+
+140 
+fsync
+(
+fûeh™dÀ
+);
+
+141 
+·runˇã
+(
+fûeh™dÀ
+, 
+off_t
+ 
+size
+);
+
+142 
+ªmove
+(c⁄° *
+fûíame
+);
+
+143 
+ª«me
+(c⁄° *
+ﬁdfûe
+, c⁄° *
+√wfûe
+);
+
+144 
+lök
+(c⁄° *
+ﬁdfûe
+, c⁄° *
+√wfûe
+);
+
+146 
+chdú
+(c⁄° *
+∑th
+);
+
+149 *
+sbrk
+(
+ch™ge
+);
+
+150 
+gëdúíåy
+(
+fûeh™dÀ
+, *
+buf
+, 
+size_t
+ 
+buÊí
+);
+
+151 
+symlök
+(c⁄° *
+èrgë
+, c⁄° *
+lök«me
+);
+
+152 
+ªadlök
+(c⁄° *
+∑th
+, *
+buf
+, 
+size_t
+ 
+buÊí
+);
+
+153 
+dup2
+(
+fûeh™dÀ
+, 
+√wh™dÀ
+);
+
+154 
+pùe
+(
+fûeh™dÀs
+[2]);
+
+155 
+time_t
+ 
+__time
+—ime_à*
+£c⁄ds
+, *
+«no£c⁄ds
+);
+
+156 
+__gëcwd
+(*
+buf
+, 
+size_t
+ 
+buÊí
+);
+
+164 *
+gëcwd
+(*
+buf
+, 
+size_t
+ 
+buÊí
+);
+
+165 
+time_t
+ 
+time
+—ime_à*
+£c⁄ds
+);
 
 	@/usr/include/arpa/inet.h
 
@@ -260444,494 +265418,542 @@ __END_DECLS
 .
 1
 /usr/include
-619
-17405
-build/install/hostinclude/hostcompat.h
-build/install/include/assert.h
-build/install/include/err.h
-build/install/include/errno.h
-build/install/include/fcntl.h
-build/install/include/kern/endian.h
-build/install/include/kern/errmsg.h
-build/install/include/kern/errno.h
-build/install/include/kern/fcntl.h
-build/install/include/kern/ioctl.h
-build/install/include/kern/iovec.h
-build/install/include/kern/limits.h
-build/install/include/kern/mips/endian.h
-build/install/include/kern/mips/regdefs.h
-build/install/include/kern/mips/setjmp.h
-build/install/include/kern/mips/signal.h
-build/install/include/kern/mips/types.h
-build/install/include/kern/reboot.h
-build/install/include/kern/resource.h
-build/install/include/kern/seek.h
-build/install/include/kern/sfs.h
-build/install/include/kern/signal.h
-build/install/include/kern/socket.h
-build/install/include/kern/stat.h
-build/install/include/kern/stattypes.h
-build/install/include/kern/syscall.h
-build/install/include/kern/time.h
-build/install/include/kern/types.h
-build/install/include/kern/unistd.h
-build/install/include/kern/wait.h
-build/install/include/limits.h
-build/install/include/setjmp.h
-build/install/include/signal.h
-build/install/include/stdarg.h
-build/install/include/stdint.h
-build/install/include/stdio.h
-build/install/include/stdlib.h
-build/install/include/string.h
-build/install/include/sys/endian.h
-build/install/include/sys/ioctl.h
-build/install/include/sys/null.h
-build/install/include/sys/reboot.h
-build/install/include/sys/stat.h
-build/install/include/sys/types.h
-build/install/include/sys/wait.h
-build/install/include/time.h
-build/install/include/types/size_t.h
-build/install/include/unistd.h
-common/gcc-millicode/adddi3.c
-common/gcc-millicode/anddi3.c
-common/gcc-millicode/ashldi3.c
-common/gcc-millicode/ashrdi3.c
-common/gcc-millicode/cmpdi2.c
-common/gcc-millicode/divdi3.c
-common/gcc-millicode/iordi3.c
-common/gcc-millicode/longlong.h
-common/gcc-millicode/lshldi3.c
-common/gcc-millicode/lshrdi3.c
-common/gcc-millicode/moddi3.c
-common/gcc-millicode/muldi3.c
-common/gcc-millicode/negdi2.c
-common/gcc-millicode/notdi2.c
-common/gcc-millicode/qdivrem.c
-common/gcc-millicode/subdi3.c
-common/gcc-millicode/ucmpdi2.c
-common/gcc-millicode/udivdi3.c
-common/gcc-millicode/umoddi3.c
-common/gcc-millicode/xordi3.c
-common/libc/printf/__printf.c
-common/libc/printf/snprintf.c
-common/libc/stdlib/atoi.c
-common/libc/string/bzero.c
-common/libc/string/memcpy.c
-common/libc/string/memmove.c
-common/libc/string/strcat.c
-common/libc/string/strchr.c
-common/libc/string/strcmp.c
-common/libc/string/strcpy.c
-common/libc/string/strlen.c
-common/libc/string/strrchr.c
-common/libc/string/strtok_r.c
-kern/arch/mips/include/current.h
-kern/arch/mips/include/elf.h
-kern/arch/mips/include/kern/endian.h
-kern/arch/mips/include/kern/regdefs.h
-kern/arch/mips/include/kern/setjmp.h
-kern/arch/mips/include/kern/signal.h
-kern/arch/mips/include/kern/types.h
-kern/arch/mips/include/specialreg.h
-kern/arch/mips/include/spinlock.h
-kern/arch/mips/include/thread.h
-kern/arch/mips/include/tlb.h
-kern/arch/mips/include/trapframe.h
-kern/arch/mips/include/types.h
-kern/arch/mips/include/vm.h
-kern/arch/mips/locore/trap.c
-kern/arch/mips/syscall/syscall.c
-kern/arch/mips/thread/cpu.c
-kern/arch/mips/thread/switchframe.c
-kern/arch/mips/thread/switchframe.h
-kern/arch/mips/thread/thread_machdep.c
-kern/arch/mips/vm/dumbvm.c
-kern/arch/mips/vm/ram.c
-kern/arch/sys161/dev/lamebus_machdep.c
-kern/arch/sys161/include/bus.h
-kern/arch/sys161/include/maxcpus.h
-kern/compile/ASST0/autoconf.c
-kern/compile/ASST0/autoconf.h
-kern/compile/ASST0/opt-A0.h
-kern/compile/ASST0/opt-A1.h
-kern/compile/ASST0/opt-A2.h
-kern/compile/ASST0/opt-A3.h
-kern/compile/ASST0/opt-A4.h
-kern/compile/ASST0/opt-A5.h
-kern/compile/ASST0/opt-dumbvm.h
-kern/compile/ASST0/opt-net.h
-kern/compile/ASST0/opt-netfs.h
-kern/compile/ASST0/opt-noasserts.h
-kern/compile/ASST0/opt-sfs.h
-kern/compile/ASST0/opt-synchprobs.h
-kern/compile/ASST0/vers.c
-kern/compile/ASST1/autoconf.c
-kern/compile/ASST1/autoconf.h
-kern/compile/ASST1/opt-A0.h
-kern/compile/ASST1/opt-A1.h
-kern/compile/ASST1/opt-A2.h
-kern/compile/ASST1/opt-A3.h
-kern/compile/ASST1/opt-A4.h
-kern/compile/ASST1/opt-A5.h
-kern/compile/ASST1/opt-dumbvm.h
-kern/compile/ASST1/opt-net.h
-kern/compile/ASST1/opt-netfs.h
-kern/compile/ASST1/opt-noasserts.h
-kern/compile/ASST1/opt-sfs.h
-kern/compile/ASST1/opt-synchprobs.h
-kern/compile/ASST1/vers.c
-kern/compile/ASST2/autoconf.c
-kern/compile/ASST2/autoconf.h
-kern/compile/ASST2/opt-A0.h
-kern/compile/ASST2/opt-A1.h
-kern/compile/ASST2/opt-A2.h
-kern/compile/ASST2/opt-A3.h
-kern/compile/ASST2/opt-A4.h
-kern/compile/ASST2/opt-A5.h
-kern/compile/ASST2/opt-dumbvm.h
-kern/compile/ASST2/opt-net.h
-kern/compile/ASST2/opt-netfs.h
-kern/compile/ASST2/opt-noasserts.h
-kern/compile/ASST2/opt-sfs.h
-kern/compile/ASST2/opt-synchprobs.h
-kern/compile/ASST2/vers.c
-kern/dev/generic/beep.c
-kern/dev/generic/beep.h
-kern/dev/generic/console.c
-kern/dev/generic/console.h
-kern/dev/generic/random.c
-kern/dev/generic/random.h
-kern/dev/generic/rtclock.c
-kern/dev/generic/rtclock.h
-kern/dev/lamebus/beep_ltimer.c
-kern/dev/lamebus/con_lscreen.c
-kern/dev/lamebus/con_lser.c
-kern/dev/lamebus/emu.c
-kern/dev/lamebus/emu.h
-kern/dev/lamebus/emu_att.c
-kern/dev/lamebus/lamebus.c
-kern/dev/lamebus/lamebus.h
-kern/dev/lamebus/lhd.c
-kern/dev/lamebus/lhd.h
-kern/dev/lamebus/lhd_att.c
-kern/dev/lamebus/lnet.c
-kern/dev/lamebus/lnet_att.c
-kern/dev/lamebus/lrandom.c
-kern/dev/lamebus/lrandom.h
-kern/dev/lamebus/lrandom_att.c
-kern/dev/lamebus/lscreen.c
-kern/dev/lamebus/lscreen.h
-kern/dev/lamebus/lscreen_att.c
-kern/dev/lamebus/lser.c
-kern/dev/lamebus/lser.h
-kern/dev/lamebus/lser_att.c
-kern/dev/lamebus/ltimer.c
-kern/dev/lamebus/ltimer.h
-kern/dev/lamebus/ltimer_att.c
-kern/dev/lamebus/ltrace.c
-kern/dev/lamebus/ltrace.h
-kern/dev/lamebus/ltrace_att.c
-kern/dev/lamebus/random_lrandom.c
-kern/dev/lamebus/rtclock_ltimer.c
-kern/fs/sfs/sfs_fs.c
-kern/fs/sfs/sfs_io.c
-kern/fs/sfs/sfs_vnode.c
-kern/include/addrspace.h
-kern/include/array.h
-kern/include/bitmap.h
-kern/include/cdefs.h
-kern/include/clock.h
-kern/include/copyinout.h
-kern/include/cpu.h
-kern/include/current.h
-kern/include/device.h
-kern/include/elf.h
-kern/include/emufs.h
-kern/include/endian.h
-kern/include/fs.h
-kern/include/kern/endian.h
-kern/include/kern/errmsg.h
-kern/include/kern/errno.h
-kern/include/kern/fcntl.h
-kern/include/kern/ioctl.h
-kern/include/kern/iovec.h
-kern/include/kern/limits.h
-kern/include/kern/reboot.h
-kern/include/kern/resource.h
-kern/include/kern/seek.h
-kern/include/kern/sfs.h
-kern/include/kern/signal.h
-kern/include/kern/socket.h
-kern/include/kern/stat.h
-kern/include/kern/stattypes.h
-kern/include/kern/syscall.h
-kern/include/kern/time.h
-kern/include/kern/types.h
-kern/include/kern/unistd.h
-kern/include/kern/wait.h
-kern/include/lib.h
-kern/include/limits.h
-kern/include/mainbus.h
-kern/include/pid.h
-kern/include/proc.h
-kern/include/queue.h
-kern/include/setjmp.h
-kern/include/sfs.h
-kern/include/signal.h
-kern/include/spinlock.h
-kern/include/spl.h
-kern/include/stat.h
-kern/include/stdarg.h
-kern/include/synch.h
-kern/include/synchprobs.h
-kern/include/syscall.h
-kern/include/test.h
-kern/include/thread.h
-kern/include/threadlist.h
-kern/include/threadprivate.h
-kern/include/types.h
-kern/include/uio.h
-kern/include/uw-vmstats.h
-kern/include/version.h
-kern/include/vfs.h
-kern/include/vm.h
-kern/include/vnode.h
-kern/include/wchan.h
-kern/lib/array.c
-kern/lib/bitmap.c
-kern/lib/bswap.c
-kern/lib/kgets.c
-kern/lib/kprintf.c
-kern/lib/misc.c
-kern/lib/queue.c
-kern/lib/uio.c
-kern/proc/pid.c
-kern/proc/proc.c
-kern/startup/._menu.c
-kern/startup/main.c
-kern/startup/menu.c
-kern/synchprobs/catmouse.c
-kern/synchprobs/catmouse_synch.c
-kern/synchprobs/traffic.c
-kern/synchprobs/traffic_synch.c
-kern/synchprobs/whalemating.c
-kern/syscall/file_syscalls.c
-kern/syscall/loadelf.c
-kern/syscall/proc_syscalls.c
-kern/syscall/runprogram.c
-kern/syscall/time_syscalls.c
-kern/test/arraytest.c
-kern/test/bitmaptest.c
-kern/test/fstest.c
-kern/test/malloctest.c
-kern/test/nettest.c
-kern/test/synchtest.c
-kern/test/threadtest.c
-kern/test/tt3.c
-kern/test/uw-tests.c
-kern/thread/clock.c
-kern/thread/spinlock.c
-kern/thread/spl.c
-kern/thread/synch.c
-kern/thread/thread.c
-kern/thread/threadlist.c
-kern/vfs/device.c
-kern/vfs/devnull.c
-kern/vfs/vfscwd.c
-kern/vfs/vfslist.c
-kern/vfs/vfslookup.c
-kern/vfs/vfspath.c
-kern/vfs/vnode.c
-kern/vm/copyinout.c
-kern/vm/kmalloc.c
-kern/vm/uw-vmstats.c
-user/bin/cat/cat.c
-user/bin/cp/cp.c
-user/bin/false/false.c
-user/bin/ln/ln.c
-user/bin/ls/ls.c
-user/bin/mkdir/mkdir.c
-user/bin/mv/mv.c
-user/bin/pwd/pwd.c
-user/bin/rm/rm.c
-user/bin/rmdir/rmdir.c
-user/bin/sh/sh.c
-user/bin/sync/sync.c
-user/bin/true/true.c
-user/include/assert.h
-user/include/err.h
-user/include/errno.h
-user/include/fcntl.h
-user/include/limits.h
-user/include/setjmp.h
-user/include/signal.h
-user/include/stdarg.h
-user/include/stdint.h
-user/include/stdio.h
-user/include/stdlib.h
-user/include/string.h
-user/include/sys/endian.h
-user/include/sys/ioctl.h
-user/include/sys/null.h
-user/include/sys/reboot.h
-user/include/sys/stat.h
-user/include/sys/types.h
-user/include/sys/wait.h
-user/include/time.h
-user/include/types/size_t.h
-user/include/unistd.h
-user/lib/hostcompat/err.c
-user/lib/hostcompat/host-err.h
-user/lib/hostcompat/hostcompat.c
-user/lib/hostcompat/hostcompat.h
-user/lib/hostcompat/time.c
-user/lib/libc/stdio/__puts.c
-user/lib/libc/stdio/getchar.c
-user/lib/libc/stdio/printf.c
-user/lib/libc/stdio/putchar.c
-user/lib/libc/stdio/puts.c
-user/lib/libc/stdlib/abort.c
-user/lib/libc/stdlib/exit.c
-user/lib/libc/stdlib/malloc.c
-user/lib/libc/stdlib/random.c
-user/lib/libc/stdlib/system.c
-user/lib/libc/string/memcmp.c
-user/lib/libc/string/memset.c
-user/lib/libc/string/strerror.c
-user/lib/libc/string/strtok.c
-user/lib/libc/time/time.c
-user/lib/libc/unix/__assert.c
-user/lib/libc/unix/err.c
-user/lib/libc/unix/errno.c
-user/lib/libc/unix/getcwd.c
-user/my-testbin/example/example.c
-user/sbin/dumpsfs/dumpsfs.c
-user/sbin/halt/halt.c
-user/sbin/mksfs/disk.c
-user/sbin/mksfs/disk.h
-user/sbin/mksfs/mksfs.c
-user/sbin/mksfs/support.c
-user/sbin/mksfs/support.h
-user/sbin/poweroff/poweroff.c
-user/sbin/reboot/reboot.c
-user/sbin/sfsck/sfsck.c
-user/testbin/add/add.c
-user/testbin/argtest/argtest.c
-user/testbin/badcall/bad_chdir.c
-user/testbin/badcall/bad_close.c
-user/testbin/badcall/bad_dup2.c
-user/testbin/badcall/bad_execv.c
-user/testbin/badcall/bad_fsync.c
-user/testbin/badcall/bad_ftruncate.c
-user/testbin/badcall/bad_getcwd.c
-user/testbin/badcall/bad_getdirentry.c
-user/testbin/badcall/bad_ioctl.c
-user/testbin/badcall/bad_link.c
-user/testbin/badcall/bad_lseek.c
-user/testbin/badcall/bad_mkdir.c
-user/testbin/badcall/bad_open.c
-user/testbin/badcall/bad_pipe.c
-user/testbin/badcall/bad_read.c
-user/testbin/badcall/bad_readlink.c
-user/testbin/badcall/bad_reboot.c
-user/testbin/badcall/bad_remove.c
-user/testbin/badcall/bad_rename.c
-user/testbin/badcall/bad_rmdir.c
-user/testbin/badcall/bad_sbrk.c
-user/testbin/badcall/bad_stat.c
-user/testbin/badcall/bad_symlink.c
-user/testbin/badcall/bad_time.c
-user/testbin/badcall/bad_waitpid.c
-user/testbin/badcall/bad_write.c
-user/testbin/badcall/common_buf.c
-user/testbin/badcall/common_fds.c
-user/testbin/badcall/common_path.c
-user/testbin/badcall/config.h
-user/testbin/badcall/driver.c
-user/testbin/badcall/test.h
-user/testbin/bigfile/bigfile.c
-user/testbin/conman/conman.c
-user/testbin/crash/crash.c
-user/testbin/ctest/ctest.c
-user/testbin/dirconc/dirconc.c
-user/testbin/dirseek/dirseek.c
-user/testbin/dirtest/dirtest.c
-user/testbin/f_test/f_hdr.h
-user/testbin/f_test/f_read.c
-user/testbin/f_test/f_test.c
-user/testbin/f_test/f_write.c
-user/testbin/farm/farm.c
-user/testbin/faulter/faulter.c
-user/testbin/filetest/filetest.c
-user/testbin/forkbomb/forkbomb.c
-user/testbin/forktest/forktest.c
-user/testbin/guzzle/guzzle.c
-user/testbin/hash/hash.c
-user/testbin/hog/hog.c
-user/testbin/huge/huge.c
-user/testbin/kitchen/kitchen.c
-user/testbin/malloctest/malloctest.c
-user/testbin/matmult/matmult-orig.c
-user/testbin/matmult/matmult.c
-user/testbin/palin/palin.c
-user/testbin/parallelvm/parallelvm.c
-user/testbin/psort/psort.c
-user/testbin/randcall/calls.c
-user/testbin/randcall/extern.h
-user/testbin/randcall/main.c
-user/testbin/rmdirtest/rmdirtest.c
-user/testbin/rmtest/rmtest.c
-user/testbin/sink/sink.c
-user/testbin/sort/sort.c
-user/testbin/sty/sty.c
-user/testbin/tail/tail.c
-user/testbin/tictac/tictac.c
-user/testbin/triplehuge/triple.c
-user/testbin/triplehuge/triple.h
-user/testbin/triplehuge/triplehuge.c
-user/testbin/triplemat/triple.c
-user/testbin/triplemat/triple.h
-user/testbin/triplemat/triplemat.c
-user/testbin/triplesort/triple.c
-user/testbin/triplesort/triple.h
-user/testbin/triplesort/triplesort.c
-user/testbin/userthreads/userthreads.c
-user/testbin/zero/zero.c
-user/uw-testbin/argtest/argtest.c
-user/uw-testbin/argtesttest/argtesttest.c
-user/uw-testbin/conc-io/conc-io.c
-user/uw-testbin/files1/files1.c
-user/uw-testbin/files2/files2.c
-user/uw-testbin/hogparty/hogparty.c
-user/uw-testbin/lib/testutils.c
-user/uw-testbin/lib/testutils.h
-user/uw-testbin/onefork/onefork.c
-user/uw-testbin/pidcheck/pidcheck.c
-user/uw-testbin/romemwrite/romemwrite.c
-user/uw-testbin/segments/segments.c
-user/uw-testbin/sparse/sparse.c
-user/uw-testbin/syscall/syscall.c
-user/uw-testbin/tlbfaulter/tlbfaulter.c
-user/uw-testbin/vm-crash1/vm-crash1.c
-user/uw-testbin/vm-crash2/vm-crash2.c
-user/uw-testbin/vm-crash3/vm-crash3.c
-user/uw-testbin/vm-data1/vm-data1.c
-user/uw-testbin/vm-data2/vm-data2.c
-user/uw-testbin/vm-data3/vm-data3.c
-user/uw-testbin/vm-funcs/vm-funcs.c
-user/uw-testbin/vm-mix1-exec/vm-mix1-exec.c
-user/uw-testbin/vm-mix1-fork/vm-mix1-fork.c
-user/uw-testbin/vm-mix1/vm-mix1.c
-user/uw-testbin/vm-mix2/vm-mix2.c
-user/uw-testbin/vm-stack1/vm-stack1.c
-user/uw-testbin/vm-stack2/vm-stack2.c
-user/uw-testbin/widefork/widefork.c
-user/uw-testbin/writeread/writeread.c
-user/uw-testbin/xhog/xhog.c
-user/uw-testbin/yhog/yhog.c
-user/uw-testbin/zhog/zhog.c
+667
+23973
+os161-1.99/build/install/hostinclude/hostcompat.h
+os161-1.99/build/install/include/assert.h
+os161-1.99/build/install/include/err.h
+os161-1.99/build/install/include/errno.h
+os161-1.99/build/install/include/fcntl.h
+os161-1.99/build/install/include/kern/endian.h
+os161-1.99/build/install/include/kern/errmsg.h
+os161-1.99/build/install/include/kern/errno.h
+os161-1.99/build/install/include/kern/fcntl.h
+os161-1.99/build/install/include/kern/ioctl.h
+os161-1.99/build/install/include/kern/iovec.h
+os161-1.99/build/install/include/kern/limits.h
+os161-1.99/build/install/include/kern/mips/endian.h
+os161-1.99/build/install/include/kern/mips/regdefs.h
+os161-1.99/build/install/include/kern/mips/setjmp.h
+os161-1.99/build/install/include/kern/mips/signal.h
+os161-1.99/build/install/include/kern/mips/types.h
+os161-1.99/build/install/include/kern/reboot.h
+os161-1.99/build/install/include/kern/resource.h
+os161-1.99/build/install/include/kern/seek.h
+os161-1.99/build/install/include/kern/sfs.h
+os161-1.99/build/install/include/kern/signal.h
+os161-1.99/build/install/include/kern/socket.h
+os161-1.99/build/install/include/kern/stat.h
+os161-1.99/build/install/include/kern/stattypes.h
+os161-1.99/build/install/include/kern/syscall.h
+os161-1.99/build/install/include/kern/time.h
+os161-1.99/build/install/include/kern/types.h
+os161-1.99/build/install/include/kern/unistd.h
+os161-1.99/build/install/include/kern/wait.h
+os161-1.99/build/install/include/limits.h
+os161-1.99/build/install/include/setjmp.h
+os161-1.99/build/install/include/signal.h
+os161-1.99/build/install/include/stdarg.h
+os161-1.99/build/install/include/stdint.h
+os161-1.99/build/install/include/stdio.h
+os161-1.99/build/install/include/stdlib.h
+os161-1.99/build/install/include/string.h
+os161-1.99/build/install/include/sys/endian.h
+os161-1.99/build/install/include/sys/ioctl.h
+os161-1.99/build/install/include/sys/null.h
+os161-1.99/build/install/include/sys/reboot.h
+os161-1.99/build/install/include/sys/stat.h
+os161-1.99/build/install/include/sys/types.h
+os161-1.99/build/install/include/sys/wait.h
+os161-1.99/build/install/include/time.h
+os161-1.99/build/install/include/types/size_t.h
+os161-1.99/build/install/include/unistd.h
+os161-1.99/common/gcc-millicode/adddi3.c
+os161-1.99/common/gcc-millicode/anddi3.c
+os161-1.99/common/gcc-millicode/ashldi3.c
+os161-1.99/common/gcc-millicode/ashrdi3.c
+os161-1.99/common/gcc-millicode/cmpdi2.c
+os161-1.99/common/gcc-millicode/divdi3.c
+os161-1.99/common/gcc-millicode/iordi3.c
+os161-1.99/common/gcc-millicode/longlong.h
+os161-1.99/common/gcc-millicode/lshldi3.c
+os161-1.99/common/gcc-millicode/lshrdi3.c
+os161-1.99/common/gcc-millicode/moddi3.c
+os161-1.99/common/gcc-millicode/muldi3.c
+os161-1.99/common/gcc-millicode/negdi2.c
+os161-1.99/common/gcc-millicode/notdi2.c
+os161-1.99/common/gcc-millicode/qdivrem.c
+os161-1.99/common/gcc-millicode/subdi3.c
+os161-1.99/common/gcc-millicode/ucmpdi2.c
+os161-1.99/common/gcc-millicode/udivdi3.c
+os161-1.99/common/gcc-millicode/umoddi3.c
+os161-1.99/common/gcc-millicode/xordi3.c
+os161-1.99/common/libc/printf/__printf.c
+os161-1.99/common/libc/printf/snprintf.c
+os161-1.99/common/libc/stdlib/atoi.c
+os161-1.99/common/libc/string/bzero.c
+os161-1.99/common/libc/string/memcpy.c
+os161-1.99/common/libc/string/memmove.c
+os161-1.99/common/libc/string/strcat.c
+os161-1.99/common/libc/string/strchr.c
+os161-1.99/common/libc/string/strcmp.c
+os161-1.99/common/libc/string/strcpy.c
+os161-1.99/common/libc/string/strlen.c
+os161-1.99/common/libc/string/strrchr.c
+os161-1.99/common/libc/string/strtok_r.c
+os161-1.99/kern/arch/mips/include/current.h
+os161-1.99/kern/arch/mips/include/elf.h
+os161-1.99/kern/arch/mips/include/kern/endian.h
+os161-1.99/kern/arch/mips/include/kern/regdefs.h
+os161-1.99/kern/arch/mips/include/kern/setjmp.h
+os161-1.99/kern/arch/mips/include/kern/signal.h
+os161-1.99/kern/arch/mips/include/kern/types.h
+os161-1.99/kern/arch/mips/include/specialreg.h
+os161-1.99/kern/arch/mips/include/spinlock.h
+os161-1.99/kern/arch/mips/include/thread.h
+os161-1.99/kern/arch/mips/include/tlb.h
+os161-1.99/kern/arch/mips/include/trapframe.h
+os161-1.99/kern/arch/mips/include/types.h
+os161-1.99/kern/arch/mips/include/vm.h
+os161-1.99/kern/arch/mips/locore/trap.c
+os161-1.99/kern/arch/mips/syscall/syscall.c
+os161-1.99/kern/arch/mips/thread/cpu.c
+os161-1.99/kern/arch/mips/thread/switchframe.c
+os161-1.99/kern/arch/mips/thread/switchframe.h
+os161-1.99/kern/arch/mips/thread/thread_machdep.c
+os161-1.99/kern/arch/mips/vm/dumbvm.c
+os161-1.99/kern/arch/mips/vm/ram.c
+os161-1.99/kern/arch/sys161/dev/lamebus_machdep.c
+os161-1.99/kern/arch/sys161/include/bus.h
+os161-1.99/kern/arch/sys161/include/maxcpus.h
+os161-1.99/kern/compile/ASST0/autoconf.c
+os161-1.99/kern/compile/ASST0/autoconf.h
+os161-1.99/kern/compile/ASST0/opt-A0.h
+os161-1.99/kern/compile/ASST0/opt-A1.h
+os161-1.99/kern/compile/ASST0/opt-A2.h
+os161-1.99/kern/compile/ASST0/opt-A3.h
+os161-1.99/kern/compile/ASST0/opt-A4.h
+os161-1.99/kern/compile/ASST0/opt-A5.h
+os161-1.99/kern/compile/ASST0/opt-dumbvm.h
+os161-1.99/kern/compile/ASST0/opt-net.h
+os161-1.99/kern/compile/ASST0/opt-netfs.h
+os161-1.99/kern/compile/ASST0/opt-noasserts.h
+os161-1.99/kern/compile/ASST0/opt-sfs.h
+os161-1.99/kern/compile/ASST0/opt-synchprobs.h
+os161-1.99/kern/compile/ASST0/vers.c
+os161-1.99/kern/compile/ASST1/autoconf.c
+os161-1.99/kern/compile/ASST1/autoconf.h
+os161-1.99/kern/compile/ASST1/opt-A0.h
+os161-1.99/kern/compile/ASST1/opt-A1.h
+os161-1.99/kern/compile/ASST1/opt-A2.h
+os161-1.99/kern/compile/ASST1/opt-A3.h
+os161-1.99/kern/compile/ASST1/opt-A4.h
+os161-1.99/kern/compile/ASST1/opt-A5.h
+os161-1.99/kern/compile/ASST1/opt-dumbvm.h
+os161-1.99/kern/compile/ASST1/opt-net.h
+os161-1.99/kern/compile/ASST1/opt-netfs.h
+os161-1.99/kern/compile/ASST1/opt-noasserts.h
+os161-1.99/kern/compile/ASST1/opt-sfs.h
+os161-1.99/kern/compile/ASST1/opt-synchprobs.h
+os161-1.99/kern/compile/ASST1/vers.c
+os161-1.99/kern/compile/ASST2/autoconf.c
+os161-1.99/kern/compile/ASST2/autoconf.h
+os161-1.99/kern/compile/ASST2/opt-A0.h
+os161-1.99/kern/compile/ASST2/opt-A1.h
+os161-1.99/kern/compile/ASST2/opt-A2.h
+os161-1.99/kern/compile/ASST2/opt-A3.h
+os161-1.99/kern/compile/ASST2/opt-A4.h
+os161-1.99/kern/compile/ASST2/opt-A5.h
+os161-1.99/kern/compile/ASST2/opt-dumbvm.h
+os161-1.99/kern/compile/ASST2/opt-net.h
+os161-1.99/kern/compile/ASST2/opt-netfs.h
+os161-1.99/kern/compile/ASST2/opt-noasserts.h
+os161-1.99/kern/compile/ASST2/opt-sfs.h
+os161-1.99/kern/compile/ASST2/opt-synchprobs.h
+os161-1.99/kern/compile/ASST2/vers.c
+os161-1.99/kern/dev/generic/beep.c
+os161-1.99/kern/dev/generic/beep.h
+os161-1.99/kern/dev/generic/console.c
+os161-1.99/kern/dev/generic/console.h
+os161-1.99/kern/dev/generic/random.c
+os161-1.99/kern/dev/generic/random.h
+os161-1.99/kern/dev/generic/rtclock.c
+os161-1.99/kern/dev/generic/rtclock.h
+os161-1.99/kern/dev/lamebus/beep_ltimer.c
+os161-1.99/kern/dev/lamebus/con_lscreen.c
+os161-1.99/kern/dev/lamebus/con_lser.c
+os161-1.99/kern/dev/lamebus/emu.c
+os161-1.99/kern/dev/lamebus/emu.h
+os161-1.99/kern/dev/lamebus/emu_att.c
+os161-1.99/kern/dev/lamebus/lamebus.c
+os161-1.99/kern/dev/lamebus/lamebus.h
+os161-1.99/kern/dev/lamebus/lhd.c
+os161-1.99/kern/dev/lamebus/lhd.h
+os161-1.99/kern/dev/lamebus/lhd_att.c
+os161-1.99/kern/dev/lamebus/lnet.c
+os161-1.99/kern/dev/lamebus/lnet_att.c
+os161-1.99/kern/dev/lamebus/lrandom.c
+os161-1.99/kern/dev/lamebus/lrandom.h
+os161-1.99/kern/dev/lamebus/lrandom_att.c
+os161-1.99/kern/dev/lamebus/lscreen.c
+os161-1.99/kern/dev/lamebus/lscreen.h
+os161-1.99/kern/dev/lamebus/lscreen_att.c
+os161-1.99/kern/dev/lamebus/lser.c
+os161-1.99/kern/dev/lamebus/lser.h
+os161-1.99/kern/dev/lamebus/lser_att.c
+os161-1.99/kern/dev/lamebus/ltimer.c
+os161-1.99/kern/dev/lamebus/ltimer.h
+os161-1.99/kern/dev/lamebus/ltimer_att.c
+os161-1.99/kern/dev/lamebus/ltrace.c
+os161-1.99/kern/dev/lamebus/ltrace.h
+os161-1.99/kern/dev/lamebus/ltrace_att.c
+os161-1.99/kern/dev/lamebus/random_lrandom.c
+os161-1.99/kern/dev/lamebus/rtclock_ltimer.c
+os161-1.99/kern/fs/sfs/sfs_fs.c
+os161-1.99/kern/fs/sfs/sfs_io.c
+os161-1.99/kern/fs/sfs/sfs_vnode.c
+os161-1.99/kern/include/addrspace.h
+os161-1.99/kern/include/array.h
+os161-1.99/kern/include/bitmap.h
+os161-1.99/kern/include/cdefs.h
+os161-1.99/kern/include/clock.h
+os161-1.99/kern/include/copyinout.h
+os161-1.99/kern/include/cpu.h
+os161-1.99/kern/include/current.h
+os161-1.99/kern/include/device.h
+os161-1.99/kern/include/elf.h
+os161-1.99/kern/include/emufs.h
+os161-1.99/kern/include/endian.h
+os161-1.99/kern/include/fs.h
+os161-1.99/kern/include/kern/endian.h
+os161-1.99/kern/include/kern/errmsg.h
+os161-1.99/kern/include/kern/errno.h
+os161-1.99/kern/include/kern/fcntl.h
+os161-1.99/kern/include/kern/ioctl.h
+os161-1.99/kern/include/kern/iovec.h
+os161-1.99/kern/include/kern/limits.h
+os161-1.99/kern/include/kern/reboot.h
+os161-1.99/kern/include/kern/resource.h
+os161-1.99/kern/include/kern/seek.h
+os161-1.99/kern/include/kern/sfs.h
+os161-1.99/kern/include/kern/signal.h
+os161-1.99/kern/include/kern/socket.h
+os161-1.99/kern/include/kern/stat.h
+os161-1.99/kern/include/kern/stattypes.h
+os161-1.99/kern/include/kern/syscall.h
+os161-1.99/kern/include/kern/time.h
+os161-1.99/kern/include/kern/types.h
+os161-1.99/kern/include/kern/unistd.h
+os161-1.99/kern/include/kern/wait.h
+os161-1.99/kern/include/lib.h
+os161-1.99/kern/include/limits.h
+os161-1.99/kern/include/mainbus.h
+os161-1.99/kern/include/pid.h
+os161-1.99/kern/include/proc.h
+os161-1.99/kern/include/queue.h
+os161-1.99/kern/include/setjmp.h
+os161-1.99/kern/include/sfs.h
+os161-1.99/kern/include/signal.h
+os161-1.99/kern/include/spinlock.h
+os161-1.99/kern/include/spl.h
+os161-1.99/kern/include/stat.h
+os161-1.99/kern/include/stdarg.h
+os161-1.99/kern/include/synch.h
+os161-1.99/kern/include/synchprobs.h
+os161-1.99/kern/include/syscall.h
+os161-1.99/kern/include/test.h
+os161-1.99/kern/include/thread.h
+os161-1.99/kern/include/threadlist.h
+os161-1.99/kern/include/threadprivate.h
+os161-1.99/kern/include/types.h
+os161-1.99/kern/include/uio.h
+os161-1.99/kern/include/uw-vmstats.h
+os161-1.99/kern/include/version.h
+os161-1.99/kern/include/vfs.h
+os161-1.99/kern/include/vm.h
+os161-1.99/kern/include/vnode.h
+os161-1.99/kern/include/wchan.h
+os161-1.99/kern/lib/array.c
+os161-1.99/kern/lib/bitmap.c
+os161-1.99/kern/lib/bswap.c
+os161-1.99/kern/lib/kgets.c
+os161-1.99/kern/lib/kprintf.c
+os161-1.99/kern/lib/misc.c
+os161-1.99/kern/lib/queue.c
+os161-1.99/kern/lib/uio.c
+os161-1.99/kern/proc/pid.c
+os161-1.99/kern/proc/proc.c
+os161-1.99/kern/startup/._menu.c
+os161-1.99/kern/startup/main.c
+os161-1.99/kern/startup/menu.c
+os161-1.99/kern/synchprobs/catmouse.c
+os161-1.99/kern/synchprobs/catmouse_synch.c
+os161-1.99/kern/synchprobs/traffic.c
+os161-1.99/kern/synchprobs/traffic_synch.c
+os161-1.99/kern/synchprobs/whalemating.c
+os161-1.99/kern/syscall/file_syscalls.c
+os161-1.99/kern/syscall/loadelf.c
+os161-1.99/kern/syscall/proc_syscalls.c
+os161-1.99/kern/syscall/runprogram.c
+os161-1.99/kern/syscall/time_syscalls.c
+os161-1.99/kern/test/arraytest.c
+os161-1.99/kern/test/bitmaptest.c
+os161-1.99/kern/test/fstest.c
+os161-1.99/kern/test/malloctest.c
+os161-1.99/kern/test/nettest.c
+os161-1.99/kern/test/synchtest.c
+os161-1.99/kern/test/threadtest.c
+os161-1.99/kern/test/tt3.c
+os161-1.99/kern/test/uw-tests.c
+os161-1.99/kern/thread/clock.c
+os161-1.99/kern/thread/spinlock.c
+os161-1.99/kern/thread/spl.c
+os161-1.99/kern/thread/synch.c
+os161-1.99/kern/thread/thread.c
+os161-1.99/kern/thread/threadlist.c
+os161-1.99/kern/vfs/device.c
+os161-1.99/kern/vfs/devnull.c
+os161-1.99/kern/vfs/vfscwd.c
+os161-1.99/kern/vfs/vfslist.c
+os161-1.99/kern/vfs/vfslookup.c
+os161-1.99/kern/vfs/vfspath.c
+os161-1.99/kern/vfs/vnode.c
+os161-1.99/kern/vm/copyinout.c
+os161-1.99/kern/vm/kmalloc.c
+os161-1.99/kern/vm/uw-vmstats.c
+os161-1.99/user/bin/cat/cat.c
+os161-1.99/user/bin/cp/cp.c
+os161-1.99/user/bin/false/false.c
+os161-1.99/user/bin/ln/ln.c
+os161-1.99/user/bin/ls/ls.c
+os161-1.99/user/bin/mkdir/mkdir.c
+os161-1.99/user/bin/mv/mv.c
+os161-1.99/user/bin/pwd/pwd.c
+os161-1.99/user/bin/rm/rm.c
+os161-1.99/user/bin/rmdir/rmdir.c
+os161-1.99/user/bin/sh/sh.c
+os161-1.99/user/bin/sync/sync.c
+os161-1.99/user/bin/true/true.c
+os161-1.99/user/include/assert.h
+os161-1.99/user/include/err.h
+os161-1.99/user/include/errno.h
+os161-1.99/user/include/fcntl.h
+os161-1.99/user/include/limits.h
+os161-1.99/user/include/setjmp.h
+os161-1.99/user/include/signal.h
+os161-1.99/user/include/stdarg.h
+os161-1.99/user/include/stdint.h
+os161-1.99/user/include/stdio.h
+os161-1.99/user/include/stdlib.h
+os161-1.99/user/include/string.h
+os161-1.99/user/include/sys/endian.h
+os161-1.99/user/include/sys/ioctl.h
+os161-1.99/user/include/sys/null.h
+os161-1.99/user/include/sys/reboot.h
+os161-1.99/user/include/sys/stat.h
+os161-1.99/user/include/sys/types.h
+os161-1.99/user/include/sys/wait.h
+os161-1.99/user/include/time.h
+os161-1.99/user/include/types/size_t.h
+os161-1.99/user/include/unistd.h
+os161-1.99/user/lib/hostcompat/err.c
+os161-1.99/user/lib/hostcompat/host-err.h
+os161-1.99/user/lib/hostcompat/hostcompat.c
+os161-1.99/user/lib/hostcompat/hostcompat.h
+os161-1.99/user/lib/hostcompat/time.c
+os161-1.99/user/lib/libc/stdio/__puts.c
+os161-1.99/user/lib/libc/stdio/getchar.c
+os161-1.99/user/lib/libc/stdio/printf.c
+os161-1.99/user/lib/libc/stdio/putchar.c
+os161-1.99/user/lib/libc/stdio/puts.c
+os161-1.99/user/lib/libc/stdlib/abort.c
+os161-1.99/user/lib/libc/stdlib/exit.c
+os161-1.99/user/lib/libc/stdlib/malloc.c
+os161-1.99/user/lib/libc/stdlib/random.c
+os161-1.99/user/lib/libc/stdlib/system.c
+os161-1.99/user/lib/libc/string/memcmp.c
+os161-1.99/user/lib/libc/string/memset.c
+os161-1.99/user/lib/libc/string/strerror.c
+os161-1.99/user/lib/libc/string/strtok.c
+os161-1.99/user/lib/libc/time/time.c
+os161-1.99/user/lib/libc/unix/__assert.c
+os161-1.99/user/lib/libc/unix/err.c
+os161-1.99/user/lib/libc/unix/errno.c
+os161-1.99/user/lib/libc/unix/getcwd.c
+os161-1.99/user/my-testbin/example/example.c
+os161-1.99/user/sbin/dumpsfs/dumpsfs.c
+os161-1.99/user/sbin/halt/halt.c
+os161-1.99/user/sbin/mksfs/disk.c
+os161-1.99/user/sbin/mksfs/disk.h
+os161-1.99/user/sbin/mksfs/mksfs.c
+os161-1.99/user/sbin/mksfs/support.c
+os161-1.99/user/sbin/mksfs/support.h
+os161-1.99/user/sbin/poweroff/poweroff.c
+os161-1.99/user/sbin/reboot/reboot.c
+os161-1.99/user/sbin/sfsck/sfsck.c
+os161-1.99/user/testbin/add/add.c
+os161-1.99/user/testbin/argtest/argtest.c
+os161-1.99/user/testbin/badcall/bad_chdir.c
+os161-1.99/user/testbin/badcall/bad_close.c
+os161-1.99/user/testbin/badcall/bad_dup2.c
+os161-1.99/user/testbin/badcall/bad_execv.c
+os161-1.99/user/testbin/badcall/bad_fsync.c
+os161-1.99/user/testbin/badcall/bad_ftruncate.c
+os161-1.99/user/testbin/badcall/bad_getcwd.c
+os161-1.99/user/testbin/badcall/bad_getdirentry.c
+os161-1.99/user/testbin/badcall/bad_ioctl.c
+os161-1.99/user/testbin/badcall/bad_link.c
+os161-1.99/user/testbin/badcall/bad_lseek.c
+os161-1.99/user/testbin/badcall/bad_mkdir.c
+os161-1.99/user/testbin/badcall/bad_open.c
+os161-1.99/user/testbin/badcall/bad_pipe.c
+os161-1.99/user/testbin/badcall/bad_read.c
+os161-1.99/user/testbin/badcall/bad_readlink.c
+os161-1.99/user/testbin/badcall/bad_reboot.c
+os161-1.99/user/testbin/badcall/bad_remove.c
+os161-1.99/user/testbin/badcall/bad_rename.c
+os161-1.99/user/testbin/badcall/bad_rmdir.c
+os161-1.99/user/testbin/badcall/bad_sbrk.c
+os161-1.99/user/testbin/badcall/bad_stat.c
+os161-1.99/user/testbin/badcall/bad_symlink.c
+os161-1.99/user/testbin/badcall/bad_time.c
+os161-1.99/user/testbin/badcall/bad_waitpid.c
+os161-1.99/user/testbin/badcall/bad_write.c
+os161-1.99/user/testbin/badcall/common_buf.c
+os161-1.99/user/testbin/badcall/common_fds.c
+os161-1.99/user/testbin/badcall/common_path.c
+os161-1.99/user/testbin/badcall/config.h
+os161-1.99/user/testbin/badcall/driver.c
+os161-1.99/user/testbin/badcall/test.h
+os161-1.99/user/testbin/bigfile/bigfile.c
+os161-1.99/user/testbin/conman/conman.c
+os161-1.99/user/testbin/crash/crash.c
+os161-1.99/user/testbin/ctest/ctest.c
+os161-1.99/user/testbin/dirconc/dirconc.c
+os161-1.99/user/testbin/dirseek/dirseek.c
+os161-1.99/user/testbin/dirtest/dirtest.c
+os161-1.99/user/testbin/f_test/f_hdr.h
+os161-1.99/user/testbin/f_test/f_read.c
+os161-1.99/user/testbin/f_test/f_test.c
+os161-1.99/user/testbin/f_test/f_write.c
+os161-1.99/user/testbin/farm/farm.c
+os161-1.99/user/testbin/faulter/faulter.c
+os161-1.99/user/testbin/filetest/filetest.c
+os161-1.99/user/testbin/forkbomb/forkbomb.c
+os161-1.99/user/testbin/forktest/forktest.c
+os161-1.99/user/testbin/guzzle/guzzle.c
+os161-1.99/user/testbin/hash/hash.c
+os161-1.99/user/testbin/hog/hog.c
+os161-1.99/user/testbin/huge/huge.c
+os161-1.99/user/testbin/kitchen/kitchen.c
+os161-1.99/user/testbin/malloctest/malloctest.c
+os161-1.99/user/testbin/matmult/matmult-orig.c
+os161-1.99/user/testbin/matmult/matmult.c
+os161-1.99/user/testbin/palin/palin.c
+os161-1.99/user/testbin/parallelvm/parallelvm.c
+os161-1.99/user/testbin/psort/psort.c
+os161-1.99/user/testbin/randcall/calls.c
+os161-1.99/user/testbin/randcall/extern.h
+os161-1.99/user/testbin/randcall/main.c
+os161-1.99/user/testbin/rmdirtest/rmdirtest.c
+os161-1.99/user/testbin/rmtest/rmtest.c
+os161-1.99/user/testbin/sink/sink.c
+os161-1.99/user/testbin/sort/sort.c
+os161-1.99/user/testbin/sty/sty.c
+os161-1.99/user/testbin/tail/tail.c
+os161-1.99/user/testbin/tictac/tictac.c
+os161-1.99/user/testbin/triplehuge/triple.c
+os161-1.99/user/testbin/triplehuge/triple.h
+os161-1.99/user/testbin/triplehuge/triplehuge.c
+os161-1.99/user/testbin/triplemat/triple.c
+os161-1.99/user/testbin/triplemat/triple.h
+os161-1.99/user/testbin/triplemat/triplemat.c
+os161-1.99/user/testbin/triplesort/triple.c
+os161-1.99/user/testbin/triplesort/triple.h
+os161-1.99/user/testbin/triplesort/triplesort.c
+os161-1.99/user/testbin/userthreads/userthreads.c
+os161-1.99/user/testbin/zero/zero.c
+os161-1.99/user/uw-testbin/argtest/argtest.c
+os161-1.99/user/uw-testbin/argtesttest/argtesttest.c
+os161-1.99/user/uw-testbin/conc-io/conc-io.c
+os161-1.99/user/uw-testbin/files1/files1.c
+os161-1.99/user/uw-testbin/files2/files2.c
+os161-1.99/user/uw-testbin/hogparty/hogparty.c
+os161-1.99/user/uw-testbin/lib/testutils.c
+os161-1.99/user/uw-testbin/lib/testutils.h
+os161-1.99/user/uw-testbin/onefork/onefork.c
+os161-1.99/user/uw-testbin/pidcheck/pidcheck.c
+os161-1.99/user/uw-testbin/romemwrite/romemwrite.c
+os161-1.99/user/uw-testbin/segments/segments.c
+os161-1.99/user/uw-testbin/sparse/sparse.c
+os161-1.99/user/uw-testbin/syscall/syscall.c
+os161-1.99/user/uw-testbin/tlbfaulter/tlbfaulter.c
+os161-1.99/user/uw-testbin/vm-crash1/vm-crash1.c
+os161-1.99/user/uw-testbin/vm-crash2/vm-crash2.c
+os161-1.99/user/uw-testbin/vm-crash3/vm-crash3.c
+os161-1.99/user/uw-testbin/vm-data1/vm-data1.c
+os161-1.99/user/uw-testbin/vm-data2/vm-data2.c
+os161-1.99/user/uw-testbin/vm-data3/vm-data3.c
+os161-1.99/user/uw-testbin/vm-funcs/vm-funcs.c
+os161-1.99/user/uw-testbin/vm-mix1-exec/vm-mix1-exec.c
+os161-1.99/user/uw-testbin/vm-mix1-fork/vm-mix1-fork.c
+os161-1.99/user/uw-testbin/vm-mix1/vm-mix1.c
+os161-1.99/user/uw-testbin/vm-mix2/vm-mix2.c
+os161-1.99/user/uw-testbin/vm-stack1/vm-stack1.c
+os161-1.99/user/uw-testbin/vm-stack2/vm-stack2.c
+os161-1.99/user/uw-testbin/widefork/widefork.c
+os161-1.99/user/uw-testbin/writeread/writeread.c
+os161-1.99/user/uw-testbin/xhog/xhog.c
+os161-1.99/user/uw-testbin/yhog/yhog.c
+os161-1.99/user/uw-testbin/zhog/zhog.c
+root/hostinclude/hostcompat.h
+root/include/assert.h
+root/include/err.h
+root/include/errno.h
+root/include/fcntl.h
+root/include/kern/endian.h
+root/include/kern/errmsg.h
+root/include/kern/errno.h
+root/include/kern/fcntl.h
+root/include/kern/ioctl.h
+root/include/kern/iovec.h
+root/include/kern/limits.h
+root/include/kern/mips/endian.h
+root/include/kern/mips/regdefs.h
+root/include/kern/mips/setjmp.h
+root/include/kern/mips/signal.h
+root/include/kern/mips/types.h
+root/include/kern/reboot.h
+root/include/kern/resource.h
+root/include/kern/seek.h
+root/include/kern/sfs.h
+root/include/kern/signal.h
+root/include/kern/socket.h
+root/include/kern/stat.h
+root/include/kern/stattypes.h
+root/include/kern/syscall.h
+root/include/kern/time.h
+root/include/kern/types.h
+root/include/kern/unistd.h
+root/include/kern/wait.h
+root/include/limits.h
+root/include/setjmp.h
+root/include/signal.h
+root/include/stdarg.h
+root/include/stdint.h
+root/include/stdio.h
+root/include/stdlib.h
+root/include/string.h
+root/include/sys/endian.h
+root/include/sys/ioctl.h
+root/include/sys/null.h
+root/include/sys/reboot.h
+root/include/sys/stat.h
+root/include/sys/types.h
+root/include/sys/wait.h
+root/include/time.h
+root/include/types/size_t.h
+root/include/unistd.h
 /usr/include/arpa/inet.h
 /usr/include/assert.h
 /usr/include/elf.h
