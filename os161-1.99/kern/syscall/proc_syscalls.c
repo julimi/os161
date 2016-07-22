@@ -21,11 +21,29 @@
 #include <kern/fcntl.h>
 #endif /* OPT_A2 */
 
+#include "opt-A3.h"
+
   /* this implementation of sys__exit does not do anything with the exit code */
   /* this needs to be fixed to get exit() and waitpid() working properly */
+#if OPT_A3
+void
+sys__exit(int exitcode)
+{
+	helper_exit(_MKWAIT_EXIT(exitcode));
+}
 
+void
+new_sys__exit(int exitcode)
+{
+	helper_exit(_MKWAIT_SIG(exitcode));
+}
+#endif /* OPT_A3 */
+
+#if OPT_A3
+void helper_exit(int exitcode) {
+#else
 void sys__exit(int exitcode) {
-
+#endif /* OPT_A3 */
   struct addrspace *as;
   struct proc *p = curproc;
   /* for now, just include this to keep the compiler from complaining about

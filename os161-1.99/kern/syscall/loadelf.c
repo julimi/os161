@@ -60,6 +60,8 @@
 #include <vnode.h>
 #include <elf.h>
 
+#include "opt-A3.h"
+
 /*
  * Load a segment at virtual address VADDR. The segment in memory
  * extends from VADDR up to (but not including) VADDR+MEMSIZE. The
@@ -93,6 +95,50 @@ load_segment(struct addrspace *as, struct vnode *v,
 	DEBUG(DB_EXEC, "ELF: Loading %lu bytes to 0x%lx\n", 
 	      (unsigned long) filesize, (unsigned long) vaddr);
 
+#if OPT_A3
+	// avoid the fail of implementing the read-only text segments
+	paddr_t paddr;
+	vaddr_t vbase1, vtop1, vbase2, vtop2;
+    	
+	// same as the vm_fault assert
+	KASSERT(as->as_vbase1 != 0);
+    	KASSERT(as->as_pbase1 != 0);
+    	KASSERT(as->as_npages1 != 0);
+    	KASSERT(as->as_vbase2 != 0);
+    	KASSERT(as->as_pbase2 != 0);
+    	KASSERT(as->as_npages2 != 0);
+    	KASSERT(as->as_stackpbase != 0);
+    	KASSERT((as->as_vbase1 & PAGE_FRAME) == as->as_vbase1);
+    	KASSERT((as->as_pbase1 & PAGE_FRAME) == as->as_pbase1);
+    	KASSERT((as->as_vbase2 & PAGE_FRAME) == as->as_vbase2);
+    	KASSERT((as->as_pbase2 & PAGE_FRAME) == as->as_pbase2);
+    
+    	vbase1 = as->as_vbase1;
+    	vtop1 = vbase1 + as->as_npages1 * PAGE_SIZE;
+    	vbase2 = as->as_vbase2;
+    	vtop2 = vbase2 + as->as_npages2 * PAGE_SIZE;
+
+    	if (vaddr >= vbase1 && vaddr < vtop1) {
+        	paddr = (vaddr - vbase1) + as->as_pbase1;
+    	}
+    	else if (vaddr >= vbase2 && vaddr < vtop2) {
+        	paddr = (vaddr - vbase2) + as->as_pbase2;
+    	} else {
+        	panic("Fail: vaddr is not valid!");
+    	}
+
+    	iov.iov_kbase = (void *)PADDR_TO_KVADDR(paddr);
+	iov.iov_len = memsize;		 // length of the memory space
+    	u.uio_iov = &iov;
+    	u.uio_iovcnt = 1;
+    	u.uio_resid = filesize;          // amount to read from the file
+    	u.uio_offset = offset;
+    	u.uio_rw = UIO_READ;
+    	u.uio_segflg = UIO_SYSSPACE;	 // kernel mode
+    	u.uio_space = NULL;
+	
+	(void)is_executable;
+#else
 	iov.iov_ubase = (userptr_t)vaddr;
 	iov.iov_len = memsize;		 // length of the memory space
 	u.uio_iov = &iov;
@@ -102,6 +148,7 @@ load_segment(struct addrspace *as, struct vnode *v,
 	u.uio_segflg = is_executable ? UIO_USERISPACE : UIO_USERSPACE;
 	u.uio_rw = UIO_READ;
 	u.uio_space = as;
+#endif /* OPT_A3 */
 
 	result = VOP_READ(v, &u);
 	if (result) {
@@ -302,6 +349,5 @@ load_elf(struct vnode *v, vaddr_t *entrypoint)
 	}
 
 	*entrypoint = eh.e_entry;
-
 	return 0;
 }
