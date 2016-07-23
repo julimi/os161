@@ -338,6 +338,8 @@ file      thread/threadlist.c
 
 file      vm/kmalloc.c
 file      vm/uw-vmstats.c
+# add by A3
+file	  vm/coremap.c
 # UW Mod - no longer used
 #defoption vm
 #optfile   vm   vm/vm.c

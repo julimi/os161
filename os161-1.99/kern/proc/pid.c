@@ -1,7 +1,6 @@
 
 #include <pid.h>
 
-#include "opt-A3.h"
 //#include <synch.h>
 
 struct semaphore *pid_sem;
@@ -173,11 +172,7 @@ pid_exit(struct proc *proc, int exitcode)
 			// its parent still processing
 			else {
 				// set the real exitcode
-#if OPT_A3
-				pidinfo->exitcode = exitcode;
-#else
 				pidinfo->exitcode = _MKWAIT_EXIT(exitcode);
-#endif /* OPT_A3 */
 				cv_broadcast(pid_cv, pid_lock);
 			}
 		}

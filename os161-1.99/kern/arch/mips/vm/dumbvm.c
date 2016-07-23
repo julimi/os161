@@ -39,6 +39,9 @@
 #include <vm.h>
 #include "opt-A3.h"
 
+#if OPT_A3
+#include <coremap.h>
+#endif /* OPT_A3 */
 /*
  * Dumb MIPS-only "VM system" that is intended to only be just barely
  * enough to struggle off the ground.
@@ -50,26 +53,35 @@
 /*
  * Wrap rma_stealmem in a spinlock.
  */
+#if OPT_A3
+//static bool vm_got = false;
+#else
 static struct spinlock stealmem_lock = SPINLOCK_INITIALIZER;
-
+#endif /* OPT_A3 */
 void
 vm_bootstrap(void)
 {
 	/* Do nothing. */
+#if OPT_A3
+	coremap_bootstrap();
+#endif /* OPT_A3 */
 }
 
 static
 paddr_t
 getppages(unsigned long npages)
 {
+#if OPT_A3
+	return coremap_getppages(npages);
+#else
 	paddr_t addr;
-
 	spinlock_acquire(&stealmem_lock);
 
 	addr = ram_stealmem(npages);
 	
 	spinlock_release(&stealmem_lock);
 	return addr;
+#endif
 }
 
 /* Allocate/free some kernel-space virtual pages */
@@ -77,7 +89,11 @@ vaddr_t
 alloc_kpages(int npages)
 {
 	paddr_t pa;
+#if OPT_A3
+	pa = coremap_getppages(npages);
+#else
 	pa = getppages(npages);
+#endif
 	if (pa==0) {
 		return 0;
 	}
@@ -88,8 +104,11 @@ void
 free_kpages(vaddr_t addr)
 {
 	/* nothing - leak the memory. */
-
+#if OPT_A3
+	coremap_free_kpages(addr);
+#else
 	(void)addr;
+#endif /* OPT_A3 */
 }
 
 void
